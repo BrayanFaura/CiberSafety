@@ -90,7 +90,12 @@ bg-image{
 
 .textoimg{
   text-decoration: none;
-  color: black;
+  color: white;
+}
+
+.imgcara{
+  width: 100%;
+  border-radius: 1000px;
 }
 
 .wrapper {
@@ -142,6 +147,7 @@ bg-image{
   font-family: 'Bebas Neue', cursive;
   font-weight:550;
   line-height:3vw;
+  padding-bottom: 2%;
 }
 
 .pad0{ 
