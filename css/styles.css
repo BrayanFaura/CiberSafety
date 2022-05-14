@@ -35,6 +35,8 @@ header {
 }
 
 .containernav{
+  padding-left:5%;
+  padding-right: 5% ;
   justify-content: center;
   vertical-align: middle;
   align-content: center;
@@ -73,6 +75,23 @@ bg-image{
 
 .bg-image:hover{
 
+}
+
+.txsobimg {
+  padding: 1%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 3vw;
+  font-family: 'Quicksand', sans-serif;
+  background-color: white;
+  border-radius: 100px;
+}
+
+.textoimg{
+  text-decoration: none;
+  color: black;
 }
 
 .wrapper {
