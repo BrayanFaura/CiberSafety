@@ -235,6 +235,7 @@ background-color: #025939;
   padding-left: 4%;
   border-style: solid;
   border-color: #0E65C4;
+  text-align: left;
 }
 
 .conver2{
@@ -251,6 +252,7 @@ background-color: #025939;
   padding-right: 4%;
   border-style: solid;
   border-color: #B20818;
+  text-align: right;
 }
 
 .conver3{
@@ -268,6 +270,7 @@ background-color: #025939;
   padding-right: 4%;
   border-style: solid;
   border-color: #F53D76;
+  text-align: center;
 }
 
 .Nosotros{
