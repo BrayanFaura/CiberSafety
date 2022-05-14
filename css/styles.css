@@ -28,7 +28,7 @@ body {
 }
 
 header {
-  background: rgba(0, 0, 0, 0.507);
+  background: rgba(0, 0, 0, 0.8);
   width: 100%;
   position: fixed;
   z-index: 100;
@@ -98,6 +98,16 @@ bg-image{
   border-radius: 1000px;
 }
 
+.letranosotros{
+  color: white;
+  text-decoration: none;
+  font-family: 'Dosis', sans-serif;
+  font-size: 2vw;
+}
+.letranosotros:hover{
+  color: white;
+}
+
 .wrapper {
   width: 33%;
   overflow:hidden;
@@ -106,15 +116,22 @@ bg-image{
 }
 
 .fondoOscuroA{
-  background-color: #0B1E2F;
+  background-color: #298EA3;
 }
 
 .fondoClaroA{
-  background-color: #090A20;
+  background-color: #2A8C82;
 }
 
 .fondoNegro{
   background-color: #262C32;
+}
+
+.fondoClaroV{
+background-color:#26994D;
+}
+.fondoOscuroV{
+background-color: #025939;
 }
 
 .centrado{
@@ -144,10 +161,19 @@ bg-image{
 .titulo{
   color: white;
   font-size:2.5vw;
-  font-family: 'Bebas Neue', cursive;
+  font-family: 'Quicksand', sans-serif;
   font-weight:550;
   line-height:3vw;
-  padding-bottom: 2%;
+  padding-bottom: 1%;
+  padding-top: 1%;
+}
+
+.Nosotros{
+  color: white;
+  font-size:2.5vw;
+  font-family: 'Quicksand', sans-serif;
+  font-weight:550;
+  line-height:3vw;
 }
 
 .pad0{ 
@@ -196,6 +222,13 @@ bg-image{
   padding-left: 0%;
   padding-right: 0%;
   padding-top: 33.5%;
+  padding-bottom: 0%;
+}
+
+.padcaras{
+  padding-left: 1%;
+  padding-right: 1%;
+  padding-top: 0%;
   padding-bottom: 0%;
 }
 
