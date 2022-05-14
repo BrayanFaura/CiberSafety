@@ -73,20 +73,19 @@ bg-image{
 
 }
 
-.bg-image:hover{
-
-}
-
 .txsobimg {
-  padding: 1%;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   font-size: 3vw;
   font-family: 'Quicksand', sans-serif;
-  background-color: white;
+  background-color: #29EF9E;
   border-radius: 100px;
+  padding-left: 3%;
+  padding-right: 3%;
+  padding-top: 1%;
+  padding-bottom: 1%;
 }
 
 .textoimg{
@@ -197,13 +196,6 @@ bg-image{
 #containerheader{
   position: relative;
   width: 100%;
-  filter: blur( px);
-  -webkit-filter: blur(1px);
-}
-
-#containerheader:hover{
-  filter: blur(0px);
-  -webkit-filter: blur(0px);
 }
 
 #videos{
