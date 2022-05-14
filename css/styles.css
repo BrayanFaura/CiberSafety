@@ -45,24 +45,23 @@ header {
 }
 .nav1 {
   float: left;
-  font-family: 'Bebas Neue', cursive;
-  font-size: normal;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 4vw;
 }
 .nav2{
   display: block; /* Convertimos los elementos a en elementos bloque para manipular el padding */
   padding: 1rem;
-  color: #fff;
+  color: #04D939;
   text-decoration: none;
 }
 
 .nav2:hover{
   text-decoration: none;
   color:#02EBDD;
-  background: #0D0D61;
 }
 
 #imgnavbar{
-  width: 100%;
+  width: 80%;
   height: auto;
 }
 
