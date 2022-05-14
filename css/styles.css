@@ -34,6 +34,12 @@ header {
   z-index: 100;
 }
 
+.containernav{
+  justify-content: center;
+  vertical-align: middle;
+  align-content: center;
+}
+
 .navo {
   list-style: none;
 }
@@ -53,6 +59,11 @@ header {
   text-decoration: none;
   color:#02EBDD;
   background: #0D0D61;
+}
+
+#imgnavbar{
+  width: 100%;
+  height: auto;
 }
 
 
@@ -4140,8 +4151,6 @@ textarea.form-control-lg {
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
 }
 .navbar > .container,
 .navbar > .container-fluid,
