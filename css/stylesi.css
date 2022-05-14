@@ -67,10 +67,18 @@ header {
   height: auto;
 }
 
+#videosconver{
+  width: 95%;
+  height: auto;
+  border-style: solid;
+  border-radius: 50px;
+  background-color: #0f0877;
+  border-width: 10px;
+}
+
 .iphonefake{
   width: 100%;
   height: auto;
-  background-color: red;
   transition: width 2s,height 2s,transform 2s;
 }
 .iphonefake:hover{
@@ -173,6 +181,18 @@ background-color: #025939;
   text-align: center;
 }
 
+.izquierda{
+  justify-content:left;
+  align-items: center;
+  text-align: left;
+}
+
+.derecha{
+  justify-content:right;
+  align-items: center;
+  text-align: right;
+}
+
 .normal{
   color: black;
   font-size:1.3vw;
@@ -199,6 +219,55 @@ background-color: #025939;
   line-height:3vw;
   padding-bottom: 1%;
   padding-top: 1%;
+}
+
+.conver1{
+  color: white;
+  font-size:1.5vw;
+  font-family: 'Quicksand', sans-serif;
+  font-weight:550;
+  line-height:3vw;
+  background-color:#2EC2EF;
+  border-width: 0.5vw;
+  border-radius: 50px;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  padding-left: 4%;
+  border-style: solid;
+  border-color: #0E65C4;
+}
+
+.conver2{
+  color: white;
+  font-size:1.5vw;
+  font-family: 'Quicksand', sans-serif;
+  font-weight:550;
+  line-height:3vw;
+  background-color:#F44040;
+  border-width: 0.5vw;
+  border-radius: 50px;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  padding-right: 4%;
+  border-style: solid;
+  border-color: #B20818;
+}
+
+.conver3{
+  color: white;
+  font-size:1.5vw;
+  font-family: 'Quicksand', sans-serif;
+  font-weight:550;
+  line-height:3vw;
+  background-color:#F567A0;
+  border-width: 0.5vw;
+  border-radius: 50px;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  padding-left: 4%;
+  padding-right: 4%;
+  border-style: solid;
+  border-color: #F53D76;
 }
 
 .Nosotros{
@@ -269,6 +338,13 @@ background-color: #025939;
   padding-right: 0%;
   padding-top: 0%;
   padding-bottom: 3%;
+}
+
+.padnavbar{
+  padding-left: 0%;
+  padding-right: 0%;
+  padding-top: 10%;
+  padding-bottom: 0%; 
 }
 
 .padcaras{
