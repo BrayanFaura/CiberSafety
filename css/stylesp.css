@@ -395,6 +395,15 @@ background-color: #025939;
   text-align: center;
 }
 
+.imgevaluacion{
+  background-color: black;
+  border-width: 100px;
+  border-style: solid;
+  border: black;
+  border-radius: 50px;
+
+}
+
 hr {
   margin: 1rem 0;
   color: inherit;
