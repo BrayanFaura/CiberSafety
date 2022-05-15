@@ -76,6 +76,10 @@ header {
   border-width: 10px;
 }
 
+#especialcentrado{
+  text-align: center;
+}
+
 .iphonefake{
   width: 100%;
   height: auto;

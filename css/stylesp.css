@@ -341,6 +341,11 @@ background-color: #025939;
   padding-right: 0%;
   padding-top: 0%;
   padding-bottom: 3%;
+}.pad6{
+  padding-left: 0%;
+  padding-right: 0%;
+  padding-top: 3%;
+  padding-bottom: 3%;
 }
 
 .padnavbar{
@@ -384,6 +389,10 @@ background-color: #025939;
 
 #Armasnames:hover{
   transform:scale(1.4);
+}
+
+#especialcentrado{
+  text-align: center;
 }
 
 hr {
