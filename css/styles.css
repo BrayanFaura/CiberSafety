@@ -167,6 +167,15 @@ header {
   transform: rotate(360deg);
 }
 
+/*Imagen de Fondo para Evaluacion 1*/
+.imagen-fondo{
+  background-image: url(../assets/img/Background-actividades.png);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 80em;
+}
+
 .titulointro{
   color: black;
   font-size:2.5vw;
