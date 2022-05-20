@@ -63,6 +63,31 @@ header {
   color:#02EBDD;
 }
 
+.letrabotones{
+  font-family: 'Quicksand', sans-serif;
+  font-size: 2vw;
+}
+
+.botones{
+  background-color: #ff0400;
+  border-radius: 8px;
+  width: auto;
+  height:auto;
+  border: none;
+  cursor: pointer;
+  padding-left: 3%;
+  padding-right: 3%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  color: white;
+  transition: width 2s,height 2s,transform 2s;
+}
+
+.botones:hover{
+  background-color: rgb(10, 159, 179);
+  transform:scale(1.4);
+}
+
 #imgnavbar{
   width: 92%;
   height: auto;
@@ -72,6 +97,12 @@ header {
 bg-image{
   transition: width 2s,height 2s,transform 2s;
 
+}
+
+.logonavbar{
+  padding-top: 10%;
+  width: 80%;
+  height: auto;
 }
 
 .txsobimg {
