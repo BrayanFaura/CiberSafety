@@ -5,3 +5,56 @@
 */
 // This file is intentionally blank
 // Use this file to add JavaScript to your project
+LottieInteractivity.create({
+    player:'#eleventhLottie',
+    mode:"cursor",
+    actions: [
+        {
+            type: "hover",
+            forceFlag: true
+        }
+    ]
+});
+
+LottieInteractivity.create({
+    player:'#eleventhLottie2',
+    mode:"cursor",
+    actions: [
+        {
+            type: "hover",
+            forceFlag: true
+        }
+    ]
+});
+
+LottieInteractivity.create({
+    mode: 'scroll',
+    player: '#firstLottie',
+    actions: [
+        {
+          visibility: [0,1],
+          type: 'seek',
+          frames: [0, 150],
+        },
+      ],
+  });
+
+  LottieInteractivity.create({
+    player: '#hoverPlayer',
+    mode: 'chain',
+    actions: [
+        {
+            state: 'hover',
+            forceFlag: true,
+            transition: 'hover',
+            path: 'https://assets7.lottiefiles.com/packages/lf20_iyqdtgxe.json',
+            count: 5
+        },
+        {
+            path: 'https://assets1.lottiefiles.com/packages/lf20_ISbOsd.json',
+            state: 'autoplay',
+            reset: true,
+            transition: 'onComplete'
+        }
+    ]
+});
