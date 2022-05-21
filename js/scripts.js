@@ -28,6 +28,17 @@ LottieInteractivity.create({
 });
 
 LottieInteractivity.create({
+    player:'#eleventhLottie3',
+    mode:"cursor",
+    actions: [
+        {
+            type: "hover",
+            forceFlag: true
+        }
+    ]
+});
+
+LottieInteractivity.create({
     mode: 'scroll',
     player: '#firstLottie',
     actions: [
@@ -40,7 +51,7 @@ LottieInteractivity.create({
   });
 
   LottieInteractivity.create({
-    player: '#hoverPlayer',
+    player: '#hoverPlayer1',
     mode: 'chain',
     actions: [
         {
