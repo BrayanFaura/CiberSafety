@@ -267,6 +267,17 @@ function reproducirsonidobi10(){
     })
 }
 
+//SONIDOS MATT INTRO
+
+function reproducirsonidomi1(){
+    let imagen = document.querySelector(".reproductormi1")
+    imagen.addEventListener("click", () => {
+    let etiquetaAudio = document.createElement("audio");
+    etiquetaAudio.setAttribute("src", "assets/sounds/IABEN/Benintro10.mp3");
+    etiquetaAudio.play();
+    })
+}
+
 //SONIDO MATT Y BEN EN CONJUNTO PARA LA INTRO
 
 function reproducirsonidobymi1(){
