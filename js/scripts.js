@@ -174,3 +174,21 @@ function showHide33(){
     oImageDiv=document.getElementById('33mal2')
     oImageDiv.style.display =(oImageDiv.style.display=='none')?'inline':'none'
 }
+
+function reproducirsonidobep1(){
+    let imagen = document.querySelector(".reproductorbep1")
+    imagen.addEventListener("click", () => {
+    let etiquetaAudio = document.createElement("audio");
+    etiquetaAudio.setAttribute("src", "assets/sounds/IABEN/Benevaluacionp1.mp3");
+    etiquetaAudio.play();
+    })
+}
+
+function reproducirsonidobep2(){
+    let imagen = document.querySelector(".reproductorbep2")
+    imagen.addEventListener("click", () => {
+    let etiquetaAudio = document.createElement("audio");
+    etiquetaAudio.setAttribute("src", "assets/sounds/IABEN/Benevaluacionp2.mp3");
+    etiquetaAudio.play();
+    })
+}
