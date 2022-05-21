@@ -273,7 +273,79 @@ function reproducirsonidomi1(){
     let imagen = document.querySelector(".reproductormi1")
     imagen.addEventListener("click", () => {
     let etiquetaAudio = document.createElement("audio");
-    etiquetaAudio.setAttribute("src", "assets/sounds/IABEN/Benintro10.mp3");
+    etiquetaAudio.setAttribute("src", "assets/sounds/IAMATT/Mattintro1.mp3");
+    etiquetaAudio.play();
+    })
+}
+
+function reproducirsonidomi2(){
+    let imagen = document.querySelector(".reproductormi2")
+    imagen.addEventListener("click", () => {
+    let etiquetaAudio = document.createElement("audio");
+    etiquetaAudio.setAttribute("src", "assets/sounds/IAMATT/Mattintro2.mp3");
+    etiquetaAudio.play();
+    })
+}
+
+function reproducirsonidomi3(){
+    let imagen = document.querySelector(".reproductormi3")
+    imagen.addEventListener("click", () => {
+    let etiquetaAudio = document.createElement("audio");
+    etiquetaAudio.setAttribute("src", "assets/sounds/IAMATT/Mattintro3.mp3");
+    etiquetaAudio.play();
+    })
+}
+
+function reproducirsonidomi4(){
+    let imagen = document.querySelector(".reproductormi4")
+    imagen.addEventListener("click", () => {
+    let etiquetaAudio = document.createElement("audio");
+    etiquetaAudio.setAttribute("src", "assets/sounds/IAMATT/Mattintro4.mp3");
+    etiquetaAudio.play();
+    })
+}
+
+function reproducirsonidomi5(){
+    let imagen = document.querySelector(".reproductormi5")
+    imagen.addEventListener("click", () => {
+    let etiquetaAudio = document.createElement("audio");
+    etiquetaAudio.setAttribute("src", "assets/sounds/IAMATT/Mattintro5.mp3");
+    etiquetaAudio.play();
+    })
+}
+
+function reproducirsonidomi6(){
+    let imagen = document.querySelector(".reproductormi6")
+    imagen.addEventListener("click", () => {
+    let etiquetaAudio = document.createElement("audio");
+    etiquetaAudio.setAttribute("src", "assets/sounds/IAMATT/Mattintro6.mp3");
+    etiquetaAudio.play();
+    })
+}
+
+function reproducirsonidomi7(){
+    let imagen = document.querySelector(".reproductormi7")
+    imagen.addEventListener("click", () => {
+    let etiquetaAudio = document.createElement("audio");
+    etiquetaAudio.setAttribute("src", "assets/sounds/IAMATT/Mattintro7.mp3");
+    etiquetaAudio.play();
+    })
+}
+
+function reproducirsonidomi8(){
+    let imagen = document.querySelector(".reproductormi8")
+    imagen.addEventListener("click", () => {
+    let etiquetaAudio = document.createElement("audio");
+    etiquetaAudio.setAttribute("src", "assets/sounds/IAMATT/Mattintro8.mp3");
+    etiquetaAudio.play();
+    })
+}
+
+function reproducirsonidomi9(){
+    let imagen = document.querySelector(".reproductormi9")
+    imagen.addEventListener("click", () => {
+    let etiquetaAudio = document.createElement("audio");
+    etiquetaAudio.setAttribute("src", "assets/sounds/IAMATT/Mattintro9.mp3");
     etiquetaAudio.play();
     })
 }
@@ -457,6 +529,319 @@ function reproducirsonidobp16(){
     etiquetaAudio.play();
     })
 }
+
+//SONIDOS MATT PHISHING
+
+function reproducirsonidomp1(){
+    let imagen = document.querySelector(".reproductormp1")
+    imagen.addEventListener("click", () => {
+    let etiquetaAudio = document.createElement("audio");
+    etiquetaAudio.setAttribute("src", "assets/sounds/IAMATT/Mattphishing1.mp3");
+    etiquetaAudio.play();
+    })
+}
+
+function reproducirsonidomp2(){
+    let imagen = document.querySelector(".reproductormp2")
+    imagen.addEventListener("click", () => {
+    let etiquetaAudio = document.createElement("audio");
+    etiquetaAudio.setAttribute("src", "assets/sounds/IAMATT/Mattphishing2.mp3");
+    etiquetaAudio.play();
+    })
+}
+
+function reproducirsonidomp3(){
+    let imagen = document.querySelector(".reproductormp3")
+    imagen.addEventListener("click", () => {
+    let etiquetaAudio = document.createElement("audio");
+    etiquetaAudio.setAttribute("src", "assets/sounds/IAMATT/Mattphishing3.mp3");
+    etiquetaAudio.play();
+    })
+}
+
+function reproducirsonidomp4(){
+    let imagen = document.querySelector(".reproductormp4")
+    imagen.addEventListener("click", () => {
+    let etiquetaAudio = document.createElement("audio");
+    etiquetaAudio.setAttribute("src", "assets/sounds/IAMATT/Mattphishing4.mp3");
+    etiquetaAudio.play();
+    })
+}
+
+function reproducirsonidomp5(){
+    let imagen = document.querySelector(".reproductormp5")
+    imagen.addEventListener("click", () => {
+    let etiquetaAudio = document.createElement("audio");
+    etiquetaAudio.setAttribute("src", "assets/sounds/IAMATT/Mattphishing5.mp3");
+    etiquetaAudio.play();
+    })
+}
+
+function reproducirsonidomp6(){
+    let imagen = document.querySelector(".reproductormp6")
+    imagen.addEventListener("click", () => {
+    let etiquetaAudio = document.createElement("audio");
+    etiquetaAudio.setAttribute("src", "assets/sounds/IAMATT/Mattphishing6.mp3");
+    etiquetaAudio.play();
+    })
+}
+
+function reproducirsonidomp7(){
+    let imagen = document.querySelector(".reproductormp7")
+    imagen.addEventListener("click", () => {
+    let etiquetaAudio = document.createElement("audio");
+    etiquetaAudio.setAttribute("src", "assets/sounds/IAMATT/Mattphishing7.mp3");
+    etiquetaAudio.play();
+    })
+}
+
+function reproducirsonidomp8(){
+    let imagen = document.querySelector(".reproductormp8")
+    imagen.addEventListener("click", () => {
+    let etiquetaAudio = document.createElement("audio");
+    etiquetaAudio.setAttribute("src", "assets/sounds/IAMATT/Mattphishing8.mp3");
+    etiquetaAudio.play();
+    })
+}
+
+function reproducirsonidomp9(){
+    let imagen = document.querySelector(".reproductormp9")
+    imagen.addEventListener("click", () => {
+    let etiquetaAudio = document.createElement("audio");
+    etiquetaAudio.setAttribute("src", "assets/sounds/IAMATT/Mattphishing9.mp3");
+    etiquetaAudio.play();
+    })
+}
+
+function reproducirsonidomp10(){
+    let imagen = document.querySelector(".reproductormp10")
+    imagen.addEventListener("click", () => {
+    let etiquetaAudio = document.createElement("audio");
+    etiquetaAudio.setAttribute("src", "assets/sounds/IAMATT/Mattphishing10.mp3");
+    etiquetaAudio.play();
+    })
+}
+
+function reproducirsonidomp11(){
+    let imagen = document.querySelector(".reproductormp11")
+    imagen.addEventListener("click", () => {
+    let etiquetaAudio = document.createElement("audio");
+    etiquetaAudio.setAttribute("src", "assets/sounds/IAMATT/Mattphishing11.mp3");
+    etiquetaAudio.play();
+    })
+}
+
+function reproducirsonidomp12(){
+    let imagen = document.querySelector(".reproductormp12")
+    imagen.addEventListener("click", () => {
+    let etiquetaAudio = document.createElement("audio");
+    etiquetaAudio.setAttribute("src", "assets/sounds/IAMATT/Mattphishing12.mp3");
+    etiquetaAudio.play();
+    })
+}
+
+function reproducirsonidomp13(){
+    let imagen = document.querySelector(".reproductormp13")
+    imagen.addEventListener("click", () => {
+    let etiquetaAudio = document.createElement("audio");
+    etiquetaAudio.setAttribute("src", "assets/sounds/IAMATT/Mattphishing13.mp3");
+    etiquetaAudio.play();
+    })
+}
+
+function reproducirsonidomp14(){
+    let imagen = document.querySelector(".reproductormp14")
+    imagen.addEventListener("click", () => {
+    let etiquetaAudio = document.createElement("audio");
+    etiquetaAudio.setAttribute("src", "assets/sounds/IAMATT/Mattphishing14.mp3");
+    etiquetaAudio.play();
+    })
+}
+
+function reproducirsonidomp15(){
+    let imagen = document.querySelector(".reproductormp15")
+    imagen.addEventListener("click", () => {
+    let etiquetaAudio = document.createElement("audio");
+    etiquetaAudio.setAttribute("src", "assets/sounds/IAMATT/Mattphishing15.mp3");
+    etiquetaAudio.play();
+    })
+}
+
+
+function reproducirsonidomp16(){
+    let imagen = document.querySelector(".reproductormp16")
+    imagen.addEventListener("click", () => {
+    let etiquetaAudio = document.createElement("audio");
+    etiquetaAudio.setAttribute("src", "assets/sounds/IAMATT/Mattphishing16.mp3");
+    etiquetaAudio.play();
+    })
+}
+
+function reproducirsonidomp17(){
+    let imagen = document.querySelector(".reproductormp17")
+    imagen.addEventListener("click", () => {
+    let etiquetaAudio = document.createElement("audio");
+    etiquetaAudio.setAttribute("src", "assets/sounds/IAMATT/Mattphishing17.mp3");
+    etiquetaAudio.play();
+    })
+}
+
+
+function reproducirsonidomp18(){
+    let imagen = document.querySelector(".reproductormp18")
+    imagen.addEventListener("click", () => {
+    let etiquetaAudio = document.createElement("audio");
+    etiquetaAudio.setAttribute("src", "assets/sounds/IAMATT/Mattphishing18.mp3");
+    etiquetaAudio.play();
+    })
+}
+
+
+function reproducirsonidomp19(){
+    let imagen = document.querySelector(".reproductormp14")
+    imagen.addEventListener("click", () => {
+    let etiquetaAudio = document.createElement("audio");
+    etiquetaAudio.setAttribute("src", "assets/sounds/IAMATT/Mattphishing19.mp3");
+    etiquetaAudio.play();
+    })
+}
+
+function reproducirsonidomp20(){
+    let imagen = document.querySelector(".reproductormp14")
+    imagen.addEventListener("click", () => {
+    let etiquetaAudio = document.createElement("audio");
+    etiquetaAudio.setAttribute("src", "assets/sounds/IAMATT/Mattphishing20.mp3");
+    etiquetaAudio.play();
+    })
+}
+
+function reproducirsonidomp21(){
+    let imagen = document.querySelector(".reproductormp21")
+    imagen.addEventListener("click", () => {
+    let etiquetaAudio = document.createElement("audio");
+    etiquetaAudio.setAttribute("src", "assets/sounds/IAMATT/Mattphishing21.mp3");
+    etiquetaAudio.play();
+    })
+}
+
+function reproducirsonidomp22(){
+    let imagen = document.querySelector(".reproductormp22")
+    imagen.addEventListener("click", () => {
+    let etiquetaAudio = document.createElement("audio");
+    etiquetaAudio.setAttribute("src", "assets/sounds/IAMATT/Mattphishing22.mp3");
+    etiquetaAudio.play();
+    })
+}
+
+function reproducirsonidomp23(){
+    let imagen = document.querySelector(".reproductormp23")
+    imagen.addEventListener("click", () => {
+    let etiquetaAudio = document.createElement("audio");
+    etiquetaAudio.setAttribute("src", "assets/sounds/IAMATT/Mattphishing23.mp3");
+    etiquetaAudio.play();
+    })
+}
+
+function reproducirsonidomp24(){
+    let imagen = document.querySelector(".reproductormp24")
+    imagen.addEventListener("click", () => {
+    let etiquetaAudio = document.createElement("audio");
+    etiquetaAudio.setAttribute("src", "assets/sounds/IAMATT/Mattphishing24.mp3");
+    etiquetaAudio.play();
+    })
+}
+
+function reproducirsonidomp25(){
+    let imagen = document.querySelector(".reproductormp25")
+    imagen.addEventListener("click", () => {
+    let etiquetaAudio = document.createElement("audio");
+    etiquetaAudio.setAttribute("src", "assets/sounds/IAMATT/Mattphishing25.mp3");
+    etiquetaAudio.play();
+    })
+}
+
+function reproducirsonidomp26(){
+    let imagen = document.querySelector(".reproductormp26")
+    imagen.addEventListener("click", () => {
+    let etiquetaAudio = document.createElement("audio");
+    etiquetaAudio.setAttribute("src", "assets/sounds/IAMATT/Mattphishing26.mp3");
+    etiquetaAudio.play();
+    })
+}
+
+function reproducirsonidomp27(){
+    let imagen = document.querySelector(".reproductormp27")
+    imagen.addEventListener("click", () => {
+    let etiquetaAudio = document.createElement("audio");
+    etiquetaAudio.setAttribute("src", "assets/sounds/IAMATT/Mattphishing27.mp3");
+    etiquetaAudio.play();
+    })
+}
+
+function reproducirsonidomp28(){
+    let imagen = document.querySelector(".reproductormp28")
+    imagen.addEventListener("click", () => {
+    let etiquetaAudio = document.createElement("audio");
+    etiquetaAudio.setAttribute("src", "assets/sounds/IAMATT/Mattphishing28.mp3");
+    etiquetaAudio.play();
+    })
+}
+
+function reproducirsonidomp29(){
+    let imagen = document.querySelector(".reproductormp29")
+    imagen.addEventListener("click", () => {
+    let etiquetaAudio = document.createElement("audio");
+    etiquetaAudio.setAttribute("src", "assets/sounds/IAMATT/Mattphishing29.mp3");
+    etiquetaAudio.play();
+    })
+}
+
+function reproducirsonidomp30(){
+    let imagen = document.querySelector(".reproductormp30")
+    imagen.addEventListener("click", () => {
+    let etiquetaAudio = document.createElement("audio");
+    etiquetaAudio.setAttribute("src", "assets/sounds/IAMATT/Mattphishing30.mp3");
+    etiquetaAudio.play();
+    })
+}
+
+function reproducirsonidomp31(){
+    let imagen = document.querySelector(".reproductormp31")
+    imagen.addEventListener("click", () => {
+    let etiquetaAudio = document.createElement("audio");
+    etiquetaAudio.setAttribute("src", "assets/sounds/IAMATT/Mattphishing31.mp3");
+    etiquetaAudio.play();
+    })
+}
+
+function reproducirsonidomp32(){
+    let imagen = document.querySelector(".reproductormp32")
+    imagen.addEventListener("click", () => {
+    let etiquetaAudio = document.createElement("audio");
+    etiquetaAudio.setAttribute("src", "assets/sounds/IAMATT/Mattphishing32.mp3");
+    etiquetaAudio.play();
+    })
+}
+
+function reproducirsonidomp33(){
+    let imagen = document.querySelector(".reproductormp33")
+    imagen.addEventListener("click", () => {
+    let etiquetaAudio = document.createElement("audio");
+    etiquetaAudio.setAttribute("src", "assets/sounds/IAMATT/Mattphishing33.mp3");
+    etiquetaAudio.play();
+    })
+}
+
+function reproducirsonidomp34(){
+    let imagen = document.querySelector(".reproductormp34")
+    imagen.addEventListener("click", () => {
+    let etiquetaAudio = document.createElement("audio");
+    etiquetaAudio.setAttribute("src", "assets/sounds/IAMATT/Mattphishing34.mp3");
+    etiquetaAudio.play();
+    })
+}
+
+
 
 // SONIDOS BEN EVALUACION PHISHING
 
