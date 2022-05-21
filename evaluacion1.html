@@ -119,25 +119,59 @@
                     <img class="imgevaluacion fondoClaroA nav2" src="assets/img/spotify falso.png">
                 </div>
             </div>
-            <div class="row centrado pad6">
-                <div class="col-8">
-                    <h2 class="titulo2" >Pregunta 1.¿El correo es una estafa? </h2>
-                </div>
-            </div>
-            <!-- AQUI INCLUIR LO QUE SERIAN LAS CASILLAS DE SELECCION PARA POSTERIOR EVALUACION CON LAS RESPUESTAS DE ABAJO-->
-            1) Si,claramente es una estafa.
-            2) No,este correo es real.
+
 
             <div class="row centrado pad6">
                 <div class="col-8">
-                    <h2 class="titulo2" >Pregunta 2. Seleccione cual de los siguientes elementos del correo es sospechoso </h2>
+                    <h2 class="titulointro" >Pregunta 1.¿El correo es una estafa? </h2>
+                </div>
+            </div>
+            <div class="row centrado">
+                <div class="col-2">
+                    <input type="radio" name="phi1"> <label for="phi1"><p class="normalintro">Si, claramente es una estafa.</p></label> <!--(correcta)-->
+                </div>
+                <div class="col-2">
+                    <input type="radio" name="phi1"> <label for="phi1"><p class="normalintro">No, este correo es real.</p></label>
+                </div>
+            </div>
+
+
+            <div class="row centrado pad6">
+                <div class="col-8">
+                    <h2 class="titulointro" >Pregunta 2. Seleccione cual de los siguientes elementos del correo es sospechoso </h2>
                 </div>      
             </div>
-             <!-- AQUI INCLUIR LO QUE SERIAN LAS CASILLAS DE SELECCION PARA POSTERIOR EVALUACION CON LAS RESPUESTAS DE ABAJO -->
-            1) El remitente (usuario que envió el correo) se ve sospechoso, no creo que ese sea el spotify real (correcta)
-            2) Ese logo de spotify se ve extraño
-            3) Me parece raro que las letras tengan tantos tamaños, grosores y colores.
-            4) Me parece que todo esta en orden, el correo se ve seguro
+            <div class="row padphi" style="align-items: center;">
+                <div class="col-8">
+                    <input type="radio" id="phi2.1" name="phi2"> <label for="phi2.1"><p class="normalintro">El remitente (usuario que envió el correo) se ve sospechoso, no creo que ese sea el spotify real.</p></label> <!--(correcta)-->
+                </div>
+                <div class="col-4">
+                    <lottie-player src="https://assets9.lottiefiles.com/private_files/lf30_pf700c09.json" background="transparent"  speed="1"  style="width: 100px; height: 100px;" autoplay loop></lottie-player>
+                </div>
+            </div>
+            <div class="row padphi">
+                <div class="col-8 izquierda">
+                    <input type="radio" id="phi2.2" name="phi2"> <label for="phi2.2"><p class="normalintro">Ese logo de spotify se ve extraño.</p></label>
+                </div>
+            </div>
+            <div class="row padphi">
+                <div class="col-8 izquierda">
+                    <input type="radio" id="phi2.3" name="phi2"> <label for="phi2.3"><p class="normalintro">Me parece raro que las letras tengan tantos tamaños, grosores y colores.</p></label>
+                </div>
+            </div>
+            <div class="row padphi">
+                <div class="col-8 izquierda">
+                    <input type="radio" id="phi2.4" name="phi2"> <label for="phi2.4"><p class="normalintro">Me parece que todo esta en orden, el correo se ve seguro.</p></label>
+                </div>
+            </div>
+
+            <div class="row centrado pad6">
+                <div class="col-4">
+                    <button class="botones" onclick="showHide()">Hazme click</button>
+                </div>
+            </div>
+
+
 
             <div class="row centrado pad6">
                 <div class="col-8">
