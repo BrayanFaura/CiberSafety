@@ -70,8 +70,29 @@ LottieInteractivity.create({
     ]
 });
 
-1
+
 function showHide(){
-oImageDiv=document.getElementById('myimageDiv')
+oImageDiv=document.getElementById('bien')
 oImageDiv.style.display =(oImageDiv.style.display=='none')?'inline':'none'
+oImageDiv=document.getElementById('mal')
+}
+function showHide2(){
+    oImageDiv=document.getElementById('2bien')
+    oImageDiv.style.display =(oImageDiv.style.display=='none')?'inline':'none'
+    oImageDiv=document.getElementById('2mal1')
+    oImageDiv.style.display =(oImageDiv.style.display=='none')?'inline':'none'
+    oImageDiv=document.getElementById('2mal2')
+    oImageDiv.style.display =(oImageDiv.style.display=='none')?'inline':'none'
+    oImageDiv=document.getElementById('2mal3')
+    oImageDiv.style.display =(oImageDiv.style.display=='none')?'inline':'none'
+    }
+function showHide3(){
+    oImageDiv=document.getElementById('3bien')
+    oImageDiv.style.display =(oImageDiv.style.display=='none')?'inline':'none'
+    oImageDiv=document.getElementById('3mal1')
+    oImageDiv.style.display =(oImageDiv.style.display=='none')?'inline':'none'
+    oImageDiv=document.getElementById('3mal2')
+    oImageDiv.style.display =(oImageDiv.style.display=='none')?'inline':'none'
+    oImageDiv=document.getElementById('3mal3')
+    oImageDiv.style.display =(oImageDiv.style.display=='none')?'inline':'none'
 }
