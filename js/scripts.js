@@ -71,40 +71,71 @@ LottieInteractivity.create({
 });
 
 
-function showHide(){
-oImageDiv=document.getElementById('bien')
+function showHide1(){
+oImageDiv=document.getElementById('1bien')
 oImageDiv.style.display =(oImageDiv.style.display=='none')?'inline':'none'
-oImageDiv=document.getElementById('mal')
+oImageDiv=document.getElementById('1mal')
 oImageDiv.style.display =(oImageDiv.style.display=='none')?'inline':'none'
 }
+function showHide21(){
+    oImageDiv=document.getElementById('21bien')
+    oImageDiv.style.display =(oImageDiv.style.display=='none')?'inline':'none'
+    oImageDiv=document.getElementById('21mal1')
+    oImageDiv.style.display =(oImageDiv.style.display=='none')?'inline':'none'
+    oImageDiv=document.getElementById('21mal2')
+    oImageDiv.style.display =(oImageDiv.style.display=='none')?'inline':'none'
+    oImageDiv=document.getElementById('21mal3')
+    oImageDiv.style.display =(oImageDiv.style.display=='none')?'inline':'none'
+    }
+function showHide31(){
+    oImageDiv=document.getElementById('31bien')
+    oImageDiv.style.display =(oImageDiv.style.display=='none')?'inline':'none'
+    oImageDiv=document.getElementById('31mal1')
+    oImageDiv.style.display =(oImageDiv.style.display=='none')?'inline':'none'
+    oImageDiv=document.getElementById('31mal2')
+    oImageDiv.style.display =(oImageDiv.style.display=='none')?'inline':'none'
+    oImageDiv=document.getElementById('31mal3')
+    oImageDiv.style.display =(oImageDiv.style.display=='none')?'inline':'none'
+}
+function showHide41(){
+    oImageDiv=document.getElementById('41bien')
+    oImageDiv.style.display =(oImageDiv.style.display=='none')?'inline':'none'
+    oImageDiv=document.getElementById('41mal1')
+    oImageDiv.style.display =(oImageDiv.style.display=='none')?'inline':'none'
+    oImageDiv=document.getElementById('41mal2')
+    oImageDiv.style.display =(oImageDiv.style.display=='none')?'inline':'none'
+    oImageDiv=document.getElementById('41mal3')
+    oImageDiv.style.display =(oImageDiv.style.display=='none')?'inline':'none'
+}
+
 function showHide2(){
     oImageDiv=document.getElementById('2bien')
     oImageDiv.style.display =(oImageDiv.style.display=='none')?'inline':'none'
-    oImageDiv=document.getElementById('2mal1')
-    oImageDiv.style.display =(oImageDiv.style.display=='none')?'inline':'none'
-    oImageDiv=document.getElementById('2mal2')
-    oImageDiv.style.display =(oImageDiv.style.display=='none')?'inline':'none'
-    oImageDiv=document.getElementById('2mal3')
+    oImageDiv=document.getElementById('2mal')
     oImageDiv.style.display =(oImageDiv.style.display=='none')?'inline':'none'
     }
-function showHide3(){
-    oImageDiv=document.getElementById('3bien')
-    oImageDiv.style.display =(oImageDiv.style.display=='none')?'inline':'none'
-    oImageDiv=document.getElementById('3mal1')
-    oImageDiv.style.display =(oImageDiv.style.display=='none')?'inline':'none'
-    oImageDiv=document.getElementById('3mal2')
-    oImageDiv.style.display =(oImageDiv.style.display=='none')?'inline':'none'
-    oImageDiv=document.getElementById('3mal3')
-    oImageDiv.style.display =(oImageDiv.style.display=='none')?'inline':'none'
-}
-function showHide4(){
-    oImageDiv=document.getElementById('4bien')
-    oImageDiv.style.display =(oImageDiv.style.display=='none')?'inline':'none'
-    oImageDiv=document.getElementById('4mal1')
-    oImageDiv.style.display =(oImageDiv.style.display=='none')?'inline':'none'
-    oImageDiv=document.getElementById('4mal2')
-    oImageDiv.style.display =(oImageDiv.style.display=='none')?'inline':'none'
-    oImageDiv=document.getElementById('4mal3')
-    oImageDiv.style.display =(oImageDiv.style.display=='none')?'inline':'none'
-}
+    function showHide22(){
+        oImageDiv=document.getElementById('22bien')
+        oImageDiv.style.display =(oImageDiv.style.display=='none')?'inline':'none'
+        oImageDiv=document.getElementById('22mal1')
+        oImageDiv.style.display =(oImageDiv.style.display=='none')?'inline':'none'
+        oImageDiv=document.getElementById('22mal2')
+        oImageDiv.style.display =(oImageDiv.style.display=='none')?'inline':'none'
+        }
+    function showHide32(){
+        oImageDiv=document.getElementById('32bien')
+        oImageDiv.style.display =(oImageDiv.style.display=='none')?'inline':'none'
+        oImageDiv=document.getElementById('32mal1')
+        oImageDiv.style.display =(oImageDiv.style.display=='none')?'inline':'none'
+        oImageDiv=document.getElementById('32mal2')
+        oImageDiv.style.display =(oImageDiv.style.display=='none')?'inline':'none'
+    }
+    function showHide42(){
+        oImageDiv=document.getElementById('42bien')
+        oImageDiv.style.display =(oImageDiv.style.display=='none')?'inline':'none'
+        oImageDiv=document.getElementById('42mal1')
+        oImageDiv.style.display =(oImageDiv.style.display=='none')?'inline':'none'
+        oImageDiv=document.getElementById('42mal2')
+        oImageDiv.style.display =(oImageDiv.style.display=='none')?'inline':'none'
+    }
 
