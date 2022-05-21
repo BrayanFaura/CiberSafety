@@ -25,7 +25,9 @@
 
 body {
   margin: 0;
-  background: white;
+  background-image: url('https://i.imgur.com/hu8mi5T.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 header {
