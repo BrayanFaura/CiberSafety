@@ -19,9 +19,10 @@
         <link href="css/styles.css" rel="stylesheet" />
         <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
         <script src="https://unpkg.com/@lottiefiles/lottie-interactivity@latest/dist/lottie-interactivity.min.js"></script>
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     </head>
     <body class="hidden">
-        <div class="centradopreloader" id="onload">
+        <!-- <div class="centradopreloader" id="onload">
             <div class="lds-default">
                 <div></div>
                 <div></div>
@@ -36,16 +37,7 @@
                 <div></div>
                 <div></div>
             </div>
-        </div>
-        <!-- Navigation-->
-
-        <!-- <nav class="navbar navbar-light bg-light static-top">
-            <div class="container">
-                <a class="navbar-brand" href="#!">Start Bootstrap</a>    Aqui va la navbar pero en el 
-                <a class="btn btn-primary" href="#signup">Sign Up</a>    illustrator no la puse, la comento por si acaso
-            </div>
-        </nav> -->
-
+        </div> -->
 
         <!--Header NAVBAR-->
         <header>
@@ -62,18 +54,18 @@
         </header>
         <!--BIENVENIDA CON COSO EN CENTRO-->
         <section>
-            <div class="row centrado padnavbar">
+            <div class="row centrado padnavbar" data-aos="zoom-in">
                 <h2 class="titulo2" id="Armasnames">LECCION #1: EL PHISHING</h2>
             </div>
-            <div class="row container-fluid izquierda">
+            <div class="row container-fluid izquierda" data-aos="fade-right" data-aos-delay="200">
                 <div class="col-2">
                     <img id="imgnavbar" class="nav2" src="assets/img/IA Buena/llamada.png">
                 </div>
-                <div class="col-1    izquierda">
+                <div class="col-1 izquierda">
                     <h3 id ="especialcentrado" class="conver1">¿Alo?.</h3>
                 </div>      
             </div>
-            <div class="row container-fluid derecha">
+            <div class="row container-fluid derecha" data-aos="fade-left" data-aos-delay="1000">
                 <div class="col-7 derecha">
                     <h3 class="conver2">Hola señor le vengos a decir que usted es heredero de una fortuna de 10.000 dolares,
                          para reclamarlo solo tiene que darme la informacion de su tarjeta bancaria.</h3>
@@ -82,7 +74,7 @@
                     <img id="imgnavbar" class="nav2" src="assets/img/IA Mala/phone.png">
                 </div>
             </div>
-            <div class="row container-fluid izquierda">
+            <div class="row container-fluid izquierda" data-aos="fade-right">
                 <div class="col-2">
                     <img id="imgnavbar" class="nav2" src="assets/img/IA Buena/llamada-sorpresa.png">
                 </div>
@@ -90,7 +82,7 @@
                     <h3 class="conver1">¡¿QUEE, en serio?!, no me lo puedo creer.</h3>
                 </div>      
             </div>
-            <div class="row container-fluid izquierda">
+            <div class="row container-fluid izquierda" data-aos="fade-right">
                 <div class="col-2">
                     <img id="imgnavbar" class="nav2" src="assets/img/IA Buena/llamada.png">
                 </div>
@@ -98,7 +90,7 @@
                     <h3 class="conver1">Si claro espereme un segundo voy por la tarjeta.</h3>
                 </div>      
             </div>
-            <div class="row container-fluid derecha">
+            <div class="row container-fluid derecha" data-aos="fade-left">
                 <div class="col-4 derecha">
                     <h3 class="conver2">Esta bien señor, no pasa nada yo espero.</h3>
                 </div>
@@ -106,7 +98,7 @@
                     <img id="imgnavbar" class="nav2" src="assets/img/IA Mala/phone.png">
                 </div>
             </div>
-            <div class="row container-fluid izquierda">
+            <div class="row container-fluid izquierda" data-aos="fade-right">
                 <div class="col-2">
                     <img id="imgnavbar" class="nav2" src="assets/img/iabuenaph.png">
                 </div>
@@ -114,7 +106,7 @@
                     <h3 class="conver1">Alo, señor ya tengo mi tarjeta aqui.</h3>
                 </div>      
             </div>
-            <div class="row container-fluid derecha">
+            <div class="row container-fluid derecha" data-aos="fade-left">
                 <div class="col-7 derecha">
                     <h3 class="conver2">Perfecto, necesito que me diga la siguiente informacion de la tarjeta: 
                         El numero  de la tarjeta (el largos con 16 numeros), la fecha de expiracion, el codigo de seguridad 
@@ -124,7 +116,7 @@
                     <img id="imgnavbar" class="nav2" src="assets/img/IA Mala/phone.png">
                 </div>
             </div>
-            <div class="row container-fluid izquierda">
+            <div class="row container-fluid izquierda" data-aos="fade-right">
                 <div class="col-2">
                     <img id="imgnavbar" class="nav2" src="assets/img/IA Buena/llamada.png">
                 </div>
@@ -133,7 +125,7 @@
                          ¿y como hago yo para reclamar esa plata?.</h3>
                 </div>      
             </div>
-            <div class="row container-fluid derecha">
+            <div class="row container-fluid derecha" data-aos="fade-left">
                 <div class="col-7 derecha">
                     <h3 class="conver2">Gracias señor, para reclamar la plata literalmente no puede porque esta es una estafa jajajaja.</h3>
                 </div>
@@ -141,7 +133,7 @@
                     <img id="imgnavbar" class="nav2" src="assets/img/iamalaph.png">
                 </div>
             </div>
-            <div class="row container-fluid derecha">
+            <div class="row container-fluid derecha" data-aos="fade-left">
                 <div class="col-3 derecha">
                     <h3 class="conver2"> Muchas gracias por el dinero.</h3>
                 </div>
@@ -149,7 +141,7 @@
                     <img id="imgnavbar" class="nav2" src="assets/img/iamalaph.png">
                 </div>
             </div>
-            <div class="row container-fluid izquierda">
+            <div class="row container-fluid izquierda" data-aos="fade-right">
                 <div class="col-2">
                     <img id="imgnavbar" class="nav2" src="assets/img/iabuenaph.png">
                 </div>
@@ -157,7 +149,7 @@
                     <h3 class="conver1">AHHHHH no puede ser, me estafaron.</h3>
                 </div>      
             </div>
-            <div class="row container-fluid izquierda">
+            <div class="row container-fluid izquierda" data-aos="fade-right">
                 <div class="col-2">
                     <img id="imgnavbar" class="nav2" src="assets/img/iabuenaph.png">
                 </div>
@@ -165,7 +157,7 @@
                     <h3 class="conver1">Y así, amigo mio es como te pueden estafar en una llamada telefónica, ¿qué miedo cierto?.</h3>
                 </div>      
             </div>
-            <div class="row container-fluid izquierda">
+            <div class="row container-fluid izquierda" data-aos="fade-right">
                 <div class="col-2">
                     <img id="imgnavbar" class="nav2" src="assets/img/IA Buena/normal.png">
                 </div>
@@ -175,7 +167,7 @@
                         para obtener dicha información.  </h3>
                 </div>      
             </div>
-            <div class="row container-fluid izquierda">
+            <div class="row container-fluid izquierda" data-aos="fade-right">
                 <div class="col-2">
                     <img id="imgnavbar" class="nav2" src="assets/img/IA Buena/normal.png">
                 </div>
@@ -185,12 +177,12 @@
                     </h3>
                 </div>      
             </div>
-            <div class="row centrado pad6">
+            <div class="row centrado pad6" data-aos="zoom-in">
                 <div class="col-6 centrado">
                     <h2 class="titulo2" id="Armasnames">PISHING POR LLAMADAS TELEFONICAS</h2>
                 </div>
             </div>
-            <div class="row container-fluid izquierda">
+            <div class="row container-fluid izquierda" data-aos="fade-right">
                 <div class="col-2">
                     <img id="imgnavbar" class="nav2" src="assets/img/IA Buena/sabio.png">
                 </div>
@@ -202,17 +194,17 @@
                     </h3>
                 </div>      
             </div>
-            <div class="row container-fluid centrado pade">
+            <div class="row container-fluid centrado pade" data-aos="flip-left">
                 <div class="col-8 pad5">
                     <video id="videosconver" class="nav2" controls src="assets/videos/ciberseguridad video.mp4">
                 </div>
             </div>
-            <div class="row centrado pad6">
+            <div class="row centrado pad6" data-aos="zoom-in">
                 <div class="col-6 centrado">
                     <h2 class="titulo2" id="Armasnames">PISHING POR CORREOS ELECTRONICOS</h2>
                 </div>
             </div>
-            <div class="row container-fluid izquierda">
+            <div class="row container-fluid izquierda" data-aos="fade-right">
                 <div class="col-2">
                     <img id="imgnavbar" class="nav2" src="assets/img/IA Buena/sabio.png">
                 </div>
@@ -225,7 +217,7 @@
                     </h3>
                 </div>      
             </div>
-            <div class="row container-fluid izquierda">
+            <div class="row container-fluid izquierda" data-aos="fade-right">
                 <div class="col-2">
                     <img id="imgnavbar" class="nav2" src="assets/img/IA Buena/normal.png">
                 </div>
@@ -235,15 +227,15 @@
                     </h3>
                 </div>      
             </div>
-            <div class="row container-fluid centrado pade">
+            <div class="row container-fluid centrado pade" data-aos="flip-left">
                 <div class="col-8 pad5">
                     <video id="videosconver" class="nav2" controls src="assets/videos/ciberseguridad video.mp4">
                 </div>
             </div>
-            <div class="row centrado pad6">
+            <div class="row centrado pad6" data-aos="zoom-in">
                 <h2 class="titulo2" id="Armasnames">PISHING MEDIANTE LINKS</h2>
             </div>
-            <div class="row container-fluid izquierda">
+            <div class="row container-fluid izquierda" data-aos="fade-right">
                 <div class="col-2">
                     <img id="imgnavbar" class="nav2" src="assets/img/IA Buena/sabio.png">
                 </div>
@@ -258,7 +250,7 @@
                     </h3>
                 </div>      
             </div>
-            <div class="row container-fluid izquierda">
+            <div class="row container-fluid izquierda" data-aos="fade-right">
                 <div class="col-2">
                     <img id="imgnavbar" class="nav2" src="assets/img/IA Buena/normal.png">
                 </div>
@@ -268,12 +260,12 @@
                     </h3>
                 </div>      
             </div>
-            <div class="row container-fluid centrado pade">
+            <div class="row container-fluid centrado pade" data-aos="flip-left">
                 <div class="col-8 pad5">
                     <video id="videosconver" class="nav2" controls src="assets/videos/ciberseguridad video.mp4">
                 </div>
             </div>
-            <div class="row container-fluid derecha">
+            <div class="row container-fluid derecha" data-aos="fade-left">
                 <div class="col-7 derecha">
                     <h3 class="conver2">  La verdad tu no me caes muy bien pero esos ciminales me caen aun peor. *recarga escopeta*</h3>
                 </div>
@@ -281,7 +273,7 @@
                     <img id="imgnavbar" class="nav2" src="assets/img/iamalaph.png">
                 </div>
             </div>
-            <div class="row container-fluid derecha">
+            <div class="row container-fluid derecha" data-aos="fade-left">
                 <div class="col-7 derecha">
                     <h3 class="conver2">  No nos vamos a dejar robar nuestra información o por lo menos no vamos a dejar que sea tan facil.</h3>
                 </div>
@@ -289,7 +281,7 @@
                     <img id="imgnavbar" class="nav2" src="assets/img/iamalaph.png">
                 </div>
             </div>
-            <div class="row container-fluid derecha">
+            <div class="row container-fluid derecha" data-aos="fade-left">
                 <div class="col-7 derecha">
                     <h3 class="conver2">  Toma nota humano porque estos consejos te salvaran de los peligros de la interweb.</h3>
                 </div>
@@ -297,12 +289,12 @@
                     <img id="imgnavbar" class="nav2" src="assets/img/iamalaph.png">
                 </div>
             </div>
-            <div class="row centrado pad6">
+            <div class="row centrado pad6" data-aos="zoom-in">
                 <div class="col-8 Centrado">
                     <h2 class="titulo2" id="Armasnames">CONTRAMEDIDAS PARA EL PISHING POR LLAMADAS TELEFONICAS</h2>
                 </div>
             </div>
-            <div class="row container-fluid derecha">
+            <div class="row container-fluid derecha" data-aos="fade-left">
                 <div class="col-6 derecha">
                     <h3 class="conver2">  Para este tipo de phishing debes tener en cuenta lo siguiente:</h3>
                 </div>
@@ -310,7 +302,7 @@
                     <img id="imgnavbar" class="nav2" src="assets/img/iamalaph.png">
                 </div>
             </div>
-            <div class="row container-fluid derecha">
+            <div class="row container-fluid derecha" data-aos="fade-left">
                 <div class="col-7 derecha">
                     <h3 class="conver2">  1) No te apresures, si te estan amenazando con algun familiar cercano,
                          asegurate de llamarlos o intentar hacer contacto con ellos antes de tomar una decision.</h3>
@@ -319,7 +311,7 @@
                     <img id="imgnavbar" class="nav2" src="assets/img/IA Mala/normal.png">
                 </div>
             </div>
-            <div class="row container-fluid derecha">
+            <div class="row container-fluid derecha" data-aos="fade-left">
                 <div class="col-7 derecha">
                     <h3 class="conver2">  2) A pesar de lo que te digan, contactar a la policía es una buena opción.</h3>
                 </div>
@@ -327,7 +319,7 @@
                     <img id="imgnavbar" class="nav2" src="assets/img/IA Mala/normal.png">
                 </div>
             </div>
-            <div class="row container-fluid derecha">
+            <div class="row container-fluid derecha" data-aos="fade-left">
                 <div class="col-7 derecha">
                     <h3 class="conver2">  3) NUNCA des tus datos por llamada, las entidades que necesiten algun tipo de 
                         validacion de tus datos no te pediran que se los digas completos solo los algunos numeros, por lo comun los ultimos 4.</h3>
@@ -336,7 +328,7 @@
                     <img id="imgnavbar" class="nav2" src="assets/img/IA Mala/normal.png">
                 </div>
             </div>
-            <div class="row container-fluid derecha">
+            <div class="row container-fluid derecha" data-aos="fade-left">
                 <div class="col-7 derecha">
                     <h3 class="conver2">  4) Si sospechas que la llamada es falsa y sientes que la situacion es grave comenta la situacion 
                         con la policia o las entidades correpondientes, para saber que hacer durante y despues de la llamada.</h3>
@@ -345,7 +337,7 @@
                     <img id="imgnavbar" class="nav2" src="assets/img/IA Mala/normal.png">
                 </div>
             </div>
-            <div class="row container-fluid derecha">
+            <div class="row container-fluid derecha" data-aos="fade-left">
                 <div class="col-4 derecha">
                     <h3 class="conver2">  5) Bloquea los numeros sospechosos.</h3>
                 </div>
@@ -353,7 +345,7 @@
                     <img id="imgnavbar" class="nav2" src="assets/img/IA Mala/normal.png">
                 </div>
             </div>
-            <div class="row container-fluid derecha">
+            <div class="row container-fluid derecha" data-aos="fade-left">
                 <div class="col-7 derecha">
                     <h3 class="conver2">  6) Intenta en lo posible no responder llamadas de numeros desconocidos.</h3>
                 </div>
@@ -361,7 +353,7 @@
                     <img id="imgnavbar" class="nav2" src="assets/img/IA Mala/normal.png">
                 </div>
             </div>
-            <div class="row container-fluid derecha">
+            <div class="row container-fluid derecha" data-aos="fade-left">
                 <div class="col-6 derecha">
                     <h3 class="conver2">   Ya sabemos que hacer cuando nos llamen esos criminales.</h3>
                 </div>
@@ -369,7 +361,7 @@
                     <img id="imgnavbar" class="nav2" src="assets/img/iamalaph.png">
                 </div>
             </div>
-            <div class="row container-fluid derecha">
+            <div class="row container-fluid derecha" data-aos="fade-left">
                 <div class="col-7 derecha">
                     <h3 class="conver2">  Ahora vamos a ver que hacer cuando nos envien un correo para robar nuestros datos:</h3>
                 </div>
@@ -377,12 +369,12 @@
                     <img id="imgnavbar" class="nav2" src="assets/img/iamalaph.png">
                 </div>
             </div>
-            <div class="row centrado pad6">
+            <div class="row centrado pad6" data-aos="zoom-in">
                 <div class="col-8 Centrado">
                     <h2 class="titulo2" id="Armasnames">CONTRAMEDIDAS PARA EL PISHING POR CORREOS ELECTRONICOS</h2>
                 </div>
             </div>
-            <div class="row container-fluid derecha">
+            <div class="row container-fluid derecha" data-aos="fade-left">
                 <div class="col-7 derecha">
                     <h3 class="conver2">  1) Revisa el tipo de letra, los colores del correo y la distribución del espacio,
                          las empresas reales no envian corres desorganizados ni poco profesionales.</h3>
@@ -391,7 +383,7 @@
                     <img id="imgnavbar" class="nav2" src="assets/img/IA Mala/normal.png">
                 </div>
             </div>
-            <div class="row container-fluid derecha">
+            <div class="row container-fluid derecha" data-aos="fade-left">
                 <div class="col-7 derecha">
                     <h3 class="conver2">  2) Revisa el remitente del correo, las empresas reales tienen sus correos personalizados
                          por ejemplo noreply@spotify.com, debes revisar que cada carácter tenga sentido ya que por ejemplo los ceros pueden parecer letras o.</h3>
@@ -400,7 +392,7 @@
                     <img id="imgnavbar" class="nav2" src="assets/img/IA Mala/normal.png">
                 </div>
             </div>
-            <div class="row container-fluid derecha">
+            <div class="row container-fluid derecha" data-aos="fade-left">
                 <div class="col-7 derecha">
                     <h3 class="conver2">  3) Revisa que la información de destinatario sea correcta,tu correo debe coincidir con el correo que se nombra dentro del mensaje.</h3>
                 </div>
@@ -408,7 +400,7 @@
                     <img id="imgnavbar" class="nav2" src="assets/img/IA Mala/normal.png">
                 </div>
             </div>
-            <div class="row container-fluid derecha">
+            <div class="row container-fluid derecha" data-aos="fade-left">
                 <div class="col-7 derecha">
                     <h3 class="conver2">  4) Si el correo contiene algun link que redirige al navegador debes revisar que dicha pagina web sea real, viendo que en su link sea
                          una pagina https, ademas de que coincida el nombre con la empresa que envio el correo.</h3>
@@ -417,7 +409,7 @@
                     <img id="imgnavbar" class="nav2" src="assets/img/IA Mala/normal.png">
                 </div>
             </div>
-            <div class="row container-fluid derecha">
+            <div class="row container-fluid derecha" data-aos="fade-left">
                 <div class="col-7 derecha">
                     <h3 class="conver2">  5) Ten cuidado al compartir tu correo electronico, ya sea en internet o la vida real, entre mas personas sepan tu correo mas
                          posibilidades de recibir correos falsos.</h3>
@@ -426,7 +418,7 @@
                     <img id="imgnavbar" class="nav2" src="assets/img/IA Mala/normal.png">
                 </div>
             </div>
-            <div class="row container-fluid derecha">
+            <div class="row container-fluid derecha" data-aos="fade-left">
                 <div class="col-7 derecha">
                     <h3 class="conver2">  6) Si no estas seguro de la veracidad del correo preguntale a alguna otra persona que pueda saber mas sobre el tema o busca en
                          internet si la empresa y demas datos son reales.</h3>
@@ -435,7 +427,7 @@
                     <img id="imgnavbar" class="nav2" src="assets/img/IA Mala/normal.png">
                 </div>
             </div>
-            <div class="row container-fluid derecha">
+            <div class="row container-fluid derecha" data-aos="fade-left">
                 <div class="col-7 derecha">
                     <h3 class="conver2">  7) No ingreses tu información personal o bancaria, si lo haces hazlo con cautela y seguridad.
                     </h3>
@@ -444,7 +436,7 @@
                     <img id="imgnavbar" class="nav2" src="assets/img/IA Mala/normal.png">
                 </div>
             </div>
-            <div class="row container-fluid derecha">
+            <div class="row container-fluid derecha" data-aos="fade-left">
                 <div class="col-7 derecha">
                     <h3 class="conver2">  8) No te van a regalar dinero o un iphone 13 max, la mayoria de correos que te dicen que ganaste algo son falsos.</h3>
                 </div>
@@ -452,7 +444,7 @@
                     <img id="imgnavbar" class="nav2" src="assets/img/IA Mala/normal.png">
                 </div>
             </div>
-            <div class="row container-fluid derecha">
+            <div class="row container-fluid derecha" data-aos="fade-left">
                 <div class="col-7 derecha">
                     <h3 class="conver2">  Si sigues esos consejos te aseguro que tu correo estara libre de peligro humano.</h3>
                 </div>
@@ -460,7 +452,7 @@
                     <img id="imgnavbar" class="nav2" src="assets/img/iamalaph.png">
                 </div>
             </div>
-            <div class="row container-fluid derecha">
+            <div class="row container-fluid derecha" data-aos="fade-left">
                 <div class="col-6 derecha">
                     <h3 class="conver2"> Finalmente vamos a defendernos del phishing con links:</h3>
                 </div>
@@ -468,12 +460,12 @@
                     <img id="imgnavbar" class="nav2" src="assets/img/iamalaph.png">
                 </div>
             </div>
-            <div class="row centrado pad6">
+            <div class="row centrado pad6" data-aos="zoom-in">
                 <div class="col-8 Centrado">
                     <h2 class="titulo2" id="Armasnames">CONTRAMEDIDAS PARA EL PISHING POR LINKS</h2>
                 </div>
             </div>
-            <div class="row container-fluid derecha">
+            <div class="row container-fluid derecha" data-aos="fade-left">
                 <div class="col-6 derecha">
                     <h3 class="conver2">  1) No descargues cosas sin pensar, debes asegurarte que la pagina y archivos que
                          estas descargando sean de una fuente confiable.</h3>
@@ -482,7 +474,7 @@
                     <img id="imgnavbar" class="nav2" src="assets/img/IA Mala/normal.png">
                 </div>
             </div>
-            <div class="row container-fluid derecha">
+            <div class="row container-fluid derecha" data-aos="fade-left">
                 <div class="col-6 derecha">
                     <h3 class="conver2">  2)  Al navegar en internet no confíes en paginas que se vean mal hechas,una
                          empresa seria tendrá paginas seria pulidas y bien hechas, tener colores y tipos de letra al azar no es buena señal.</h3>
@@ -491,7 +483,7 @@
                     <img id="imgnavbar" class="nav2" src="assets/img/IA Mala/normal.png">
                 </div>
             </div>
-            <div class="row container-fluid derecha">
+            <div class="row container-fluid derecha" data-aos="fade-left">
                 <div class="col-6 derecha">
                     <h3 class="conver2">  3)  Los links de las paginas que estas navegando deben coincidir con el nombre e informacion que muestra
                          la pagina, si estas en una pagina de netflix el link deberia decir netflix</h3>
@@ -500,7 +492,7 @@
                     <img id="imgnavbar" class="nav2" src="assets/img/IA Mala/normal.png">
                 </div>
             </div>
-            <div class="row container-fluid derecha">
+            <div class="row container-fluid derecha" data-aos="fade-left">
                 <div class="col-6 derecha">
                     <h3 class="conver2">  4) Cuidado con los links que descargan cosas automaticas a tu computador, si ves que al pulsar un boton
                          o link inicia una descarga inesperada cancelala o borra el archivo lo mas rápido posible de tu computador.</h3>
@@ -509,7 +501,7 @@
                     <img id="imgnavbar" class="nav2" src="assets/img/IA Mala/normal.png">
                 </div>
             </div>
-            <div class="row container-fluid derecha">
+            <div class="row container-fluid derecha" data-aos="fade-left">
                 <div class="col-6 derecha">
                     <h3 class="conver2">  5) Debes estar pendiente cuando algun niño o persona que no conozca mucho del tema navegue en internet,
                          ya que pueden hacer click en links maliciosos sin saber.</h3>
@@ -518,7 +510,7 @@
                     <img id="imgnavbar" class="nav2" src="assets/img/IA Mala/normal.png">
                 </div>
             </div>
-            <div class="row container-fluid derecha">
+            <div class="row container-fluid derecha" data-aos="fade-left">
                 <div class="col-6 derecha">
                     <h3 class="conver2">  6) De igual manera si no sabes mucho sobre el internet y no sabes si pulsar un link o boton puede ser algo
                          malo preguntale a alguien que tenga mas experiencia en el tema.</h3>
@@ -527,7 +519,7 @@
                     <img id="imgnavbar" class="nav2" src="assets/img/IA Mala/normal.png">
                 </div>
             </div>
-            <div class="row container-fluid izquierda">
+            <div class="row container-fluid izquierda" data-aos="fade-right">
                 <div class="col-2">
                     <img id="imgnavbar" class="nav2" src="assets/img/IA Buena/sabio.png">
                 </div>
@@ -535,7 +527,7 @@
                     <h3 class="conver1">¡Eso seria todo!</h3>
                 </div>      
             </div>
-            <div class="row container-fluid izquierda">
+            <div class="row container-fluid izquierda" data-aos="fade-right">
                 <div class="col-2">
                     <img id="imgnavbar" class="nav2" src="assets/img/IA Buena/normal.png">
                 </div>
@@ -544,7 +536,7 @@
                     </h3>
                 </div>      
             </div>
-            <div class="row container-fluid derecha">
+            <div class="row container-fluid derecha" data-aos="fade-left">
                 <div class="col-5 derecha">
                     <h3 class="conver2">  Ahora solo queda ver si de verdad aprendiste  .</h3>
                 </div>
@@ -552,7 +544,7 @@
                     <img id="imgnavbar" class="nav2" src="assets/img/iamalaph.png">
                 </div>
             </div>
-            <div class="row container-fluid centrado">
+            <div class="row container-fluid centrado pad6" data-aos="zoom-out">
                 <div class="col-2 centrado">
                     <a href="evaluacion1.html"><lottie-player class="lottiec" id="eleventhLottie3" src="https://assets10.lottiefiles.com/packages/lf20_iyqdtgxe.json"></lottie-player></lottie-player></a>  
                 </div>
@@ -577,5 +569,13 @@
         <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
         <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
         <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+            AOS.init({
+                duration: 800,
+                easing: 'ease',
+                delay: 50
+            });
+        </script>
     </body>
 </html>
