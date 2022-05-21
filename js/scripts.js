@@ -175,7 +175,15 @@ function showHide33(){
     oImageDiv.style.display =(oImageDiv.style.display=='none')?'inline':'none'
 }
 
+function pausaTodo(){
+	var inputs = document.getElementsByTagName('img');
+  for(var i = 0; i < inputs.length; i++) {
+      inputs[i].pause();
+  }
+}
+
 function reproducirsonidobep1(){
+    pausaTodo();
     let imagen = document.querySelector(".reproductorbep1")
     imagen.addEventListener("click", () => {
     let etiquetaAudio = document.createElement("audio");

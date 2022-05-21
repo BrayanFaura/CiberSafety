@@ -264,12 +264,12 @@ header {
   text-align: center;
 }
 
-#imgnavbar{
+.imgnavbar{
   width: 92%;
   height: auto;
 }
 
-#imgnavbar:hover{
+.imgnavbar:hover{
   cursor: pointer;
 }
 
