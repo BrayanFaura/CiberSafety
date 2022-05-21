@@ -140,6 +140,16 @@ header {
   text-align: center;
 }
 
+.logosintro{
+  width: 40%;
+  height: auto;
+}
+
+.lottiec{
+  width: 250%;
+  height: auto;
+}
+
 #videosconver{
   width: 95%;
   height: auto;

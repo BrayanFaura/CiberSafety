@@ -28,6 +28,17 @@ LottieInteractivity.create({
 });
 
 LottieInteractivity.create({
+    player:'#eleventhLottie3',
+    mode:"cursor",
+    actions: [
+        {
+            type: "hover",
+            forceFlag: true
+        }
+    ]
+});
+
+LottieInteractivity.create({
     mode: 'scroll',
     player: '#firstLottie',
     actions: [
@@ -40,7 +51,7 @@ LottieInteractivity.create({
   });
 
   LottieInteractivity.create({
-    player: '#hoverPlayer',
+    player: '#hoverPlayer1',
     mode: 'chain',
     actions: [
         {
@@ -52,6 +63,25 @@ LottieInteractivity.create({
         },
         {
             path: 'https://assets1.lottiefiles.com/packages/lf20_ISbOsd.json',
+            state: 'autoplay',
+            reset: true,
+            transition: 'onComplete'
+        }
+    ]
+});
+LottieInteractivity.create({
+    player:'#clickPlayer',
+    mode:"chain",
+    actions: [
+        {
+            state: 'click',
+            forceFlag: true,
+            transition: 'click',
+            count: 5
+        },
+        {
+            path: 'https://assets1.lottiefiles.com/packages/lf20_ISbOsd.json',
+            frames: 'confetti',
             state: 'autoplay',
             reset: true,
             transition: 'onComplete'
