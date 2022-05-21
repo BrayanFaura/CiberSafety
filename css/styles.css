@@ -269,6 +269,10 @@ header {
   height: auto;
 }
 
+#imgnavbar:hover{
+  cursor: pointer;
+}
+
 .iphonefake{
   width: 100%;
   height: auto;

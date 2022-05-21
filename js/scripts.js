@@ -77,11 +77,12 @@ LottieInteractivity.create({
 
 
 function showHide1(){
-oImageDiv=document.getElementById('1bien')
-oImageDiv.style.display =(oImageDiv.style.display=='none')?'inline':'none'
-oImageDiv=document.getElementById('1mal')
-oImageDiv.style.display =(oImageDiv.style.display=='none')?'inline':'none'
+    oImageDiv=document.getElementById('1bien')
+    oImageDiv.style.display =(oImageDiv.style.display=='none')?'inline':'none'
+    oImageDiv=document.getElementById('1mal')
+    oImageDiv.style.display =(oImageDiv.style.display=='none')?'inline':'none'
 }
+
 function showHide21(){
     oImageDiv=document.getElementById('21bien')
     oImageDiv.style.display =(oImageDiv.style.display=='none')?'inline':'none'
@@ -91,7 +92,8 @@ function showHide21(){
     oImageDiv.style.display =(oImageDiv.style.display=='none')?'inline':'none'
     oImageDiv=document.getElementById('21mal3')
     oImageDiv.style.display =(oImageDiv.style.display=='none')?'inline':'none'
-    }
+}
+
 function showHide31(){
     oImageDiv=document.getElementById('31bien')
     oImageDiv.style.display =(oImageDiv.style.display=='none')?'inline':'none'
@@ -102,6 +104,7 @@ function showHide31(){
     oImageDiv=document.getElementById('31mal3')
     oImageDiv.style.display =(oImageDiv.style.display=='none')?'inline':'none'
 }
+
 function showHide41(){
     oImageDiv=document.getElementById('41bien')
     oImageDiv.style.display =(oImageDiv.style.display=='none')?'inline':'none'
@@ -118,53 +121,56 @@ function showHide2(){
     oImageDiv.style.display =(oImageDiv.style.display=='none')?'inline':'none'
     oImageDiv=document.getElementById('2mal')
     oImageDiv.style.display =(oImageDiv.style.display=='none')?'inline':'none'
-    }
-    function showHide22(){
-        oImageDiv=document.getElementById('22bien')
-        oImageDiv.style.display =(oImageDiv.style.display=='none')?'inline':'none'
-        oImageDiv=document.getElementById('22mal1')
-        oImageDiv.style.display =(oImageDiv.style.display=='none')?'inline':'none'
-        oImageDiv=document.getElementById('22mal2')
-        oImageDiv.style.display =(oImageDiv.style.display=='none')?'inline':'none'
-        }
-    function showHide32(){
-        oImageDiv=document.getElementById('32bien')
-        oImageDiv.style.display =(oImageDiv.style.display=='none')?'inline':'none'
-        oImageDiv=document.getElementById('32mal1')
-        oImageDiv.style.display =(oImageDiv.style.display=='none')?'inline':'none'
-        oImageDiv=document.getElementById('32mal2')
-        oImageDiv.style.display =(oImageDiv.style.display=='none')?'inline':'none'
-    }
-    function showHide42(){
-        oImageDiv=document.getElementById('42bien')
-        oImageDiv.style.display =(oImageDiv.style.display=='none')?'inline':'none'
-        oImageDiv=document.getElementById('42mal1')
-        oImageDiv.style.display =(oImageDiv.style.display=='none')?'inline':'none'
-        oImageDiv=document.getElementById('42mal2')
-        oImageDiv.style.display =(oImageDiv.style.display=='none')?'inline':'none'
-    }
+}
 
-    function showHide3(){
-        oImageDiv=document.getElementById('3bien')
-        oImageDiv.style.display =(oImageDiv.style.display=='none')?'inline':'none'
-        oImageDiv=document.getElementById('3mal')
-        oImageDiv.style.display =(oImageDiv.style.display=='none')?'inline':'none'
-        }
-        function showHide23(){
-            oImageDiv=document.getElementById('23bien')
-            oImageDiv.style.display =(oImageDiv.style.display=='none')?'inline':'none'
-            oImageDiv=document.getElementById('23mal1')
-            oImageDiv.style.display =(oImageDiv.style.display=='none')?'inline':'none'
-            oImageDiv=document.getElementById('23mal2')
-            oImageDiv.style.display =(oImageDiv.style.display=='none')?'inline':'none'
-            }
-        function showHide33(){
-            oImageDiv=document.getElementById('33bien')
-            oImageDiv.style.display =(oImageDiv.style.display=='none')?'inline':'none'
-            oImageDiv=document.getElementById('33mal1')
-            oImageDiv.style.display =(oImageDiv.style.display=='none')?'inline':'none'
-            oImageDiv=document.getElementById('33mal2')
-            oImageDiv.style.display =(oImageDiv.style.display=='none')?'inline':'none'
-        }
+function showHide22(){
+    oImageDiv=document.getElementById('22bien')
+    oImageDiv.style.display =(oImageDiv.style.display=='none')?'inline':'none'
+    oImageDiv=document.getElementById('22mal1')
+    oImageDiv.style.display =(oImageDiv.style.display=='none')?'inline':'none'
+    oImageDiv=document.getElementById('22mal2')
+    oImageDiv.style.display =(oImageDiv.style.display=='none')?'inline':'none'
+}
 
+function showHide32(){
+    oImageDiv=document.getElementById('32bien')
+    oImageDiv.style.display =(oImageDiv.style.display=='none')?'inline':'none'
+    oImageDiv=document.getElementById('32mal1')
+    oImageDiv.style.display =(oImageDiv.style.display=='none')?'inline':'none'
+    oImageDiv=document.getElementById('32mal2')
+    oImageDiv.style.display =(oImageDiv.style.display=='none')?'inline':'none'
+}
+    
+function showHide42(){
+    oImageDiv=document.getElementById('42bien')
+    oImageDiv.style.display =(oImageDiv.style.display=='none')?'inline':'none'
+    oImageDiv=document.getElementById('42mal1')
+    oImageDiv.style.display =(oImageDiv.style.display=='none')?'inline':'none'
+    oImageDiv=document.getElementById('42mal2')
+    oImageDiv.style.display =(oImageDiv.style.display=='none')?'inline':'none'
+}
 
+function showHide3(){
+    oImageDiv=document.getElementById('3bien')
+    oImageDiv.style.display =(oImageDiv.style.display=='none')?'inline':'none'
+    oImageDiv=document.getElementById('3mal')
+    oImageDiv.style.display =(oImageDiv.style.display=='none')?'inline':'none'
+}
+    
+function showHide23(){
+    oImageDiv=document.getElementById('23bien')
+    oImageDiv.style.display =(oImageDiv.style.display=='none')?'inline':'none'
+    oImageDiv=document.getElementById('23mal1')
+    oImageDiv.style.display =(oImageDiv.style.display=='none')?'inline':'none'
+    oImageDiv=document.getElementById('23mal2')
+    oImageDiv.style.display =(oImageDiv.style.display=='none')?'inline':'none'
+}
+
+function showHide33(){
+    oImageDiv=document.getElementById('33bien')
+    oImageDiv.style.display =(oImageDiv.style.display=='none')?'inline':'none'
+    oImageDiv=document.getElementById('33mal1')
+    oImageDiv.style.display =(oImageDiv.style.display=='none')?'inline':'none'
+    oImageDiv=document.getElementById('33mal2')
+    oImageDiv.style.display =(oImageDiv.style.display=='none')?'inline':'none'
+}
