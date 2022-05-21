@@ -62,5 +62,5 @@ LottieInteractivity.create({
 1
 function showHide(){
 oImageDiv=document.getElementById('myimageDiv')
-oImageDiv.style.display=(oImageDiv.style.display=='none')?'inline':'none'
+oImageDiv.style.display =(oImageDiv.style.display=='none')?'inline':'none'
 }
