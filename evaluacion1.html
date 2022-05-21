@@ -19,9 +19,10 @@
         <link href="css/styles.css" rel="stylesheet" />
         <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
         <script src="https://unpkg.com/@lottiefiles/lottie-interactivity@latest/dist/lottie-interactivity.min.js"></script>
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     </head>
     <body class="hidden">
-        <div class="centradopreloader" id="onload">
+        <!-- <div class="centradopreloader" id="onload">
             <div class="lds-default">
                 <div></div>
                 <div></div>
@@ -36,16 +37,7 @@
                 <div></div>
                 <div></div>
             </div>
-        </div>
-        <!-- Navigation-->
-
-        <!-- <nav class="navbar navbar-light bg-light static-top">
-            <div class="container">
-                <a class="navbar-brand" href="#!">Start Bootstrap</a>    Aqui va la navbar pero en el 
-                <a class="btn btn-primary" href="#signup">Sign Up</a>    illustrator no la puse, la comento por si acaso
-            </div>
-        </nav> -->
-
+        </div> -->
 
         <!--Header NAVBAR-->
         <header>
@@ -67,18 +59,18 @@
 
                 </div>
             -->
-            <div class="row centrado padnavbar">
+            <div class="row centrado padnavbar" data-aos="zoom-in">
                 <h2 class="titulo2" id="Armasnames">EVALUACION ACERCA DEL PHISHING</h2>
             </div>
-            <div class="row container-fluid izquierda">
+            <div class="row container-fluid izquierda" data-aos="fade-right" data-aos-delay="300">
                 <div class="col-2">
                     <img id="imgnavbar" class="nav2" src="assets/img/IA Buena/euforia.png">
                 </div>
                 <div class="col-6 izquierda">
-                    <h3 class="conver1">  Bienvenido al ejercicio de evaluacion de la lección numero 1</h3>
+                    <h3 class="conver1" >  Bienvenido al ejercicio de evaluacion de la lección numero 1</h3>
                 </div>      
             </div>
-            <div class="row container-fluid izquierda">
+            <div class="row container-fluid izquierda" data-aos="fade-right" data-aos-delay="1800">
                 <div class="col-2">
                     <img id="imgnavbar" class="nav2" src="assets/img/IA Buena/normal.png">
                 </div>
@@ -86,7 +78,7 @@
                     <h3 class="conver1">  En esta actividad deberas superar minimo 2 de 3 retos relacionados al phishing.</h3>
                 </div>      
             </div>
-            <div class="row container-fluid derecha">
+            <div class="row container-fluid derecha" data-aos="fade-left">
                 <div class="col-7 derecha">
                     <h3 class="conver2"> Deberas observar la imagen que se presenta y en base a esta escoger la respuesta correcta a las preguntas planteadas.</h3>
                 </div>
@@ -94,7 +86,7 @@
                     <img id="imgnavbar" class="nav2" src="assets/img/IA Mala/normal.png">
                 </div>
             </div>
-            <div class="row container-fluid derecha">
+            <div class="row container-fluid derecha" data-aos="fade-left">
                 <div class="col-7 derecha">
                     <h3 class="conver2">  Te mostraremos 3 imagenes, 2 de ellas de correos electronicos y uno de ellos de un link.</h3>
                 </div>
@@ -102,7 +94,7 @@
                     <img id="imgnavbar" class="nav2" src="assets/img/IA Mala/normal.png">
                 </div>
             </div>
-            <div class="row container-fluid izquierda">
+            <div class="row container-fluid izquierda" data-aos="fade-right">
                 <div class="col-2">
                     <img id="imgnavbar" class="nav2" src="assets/img/IA Buena/exited.png">
                 </div>
@@ -110,7 +102,9 @@
                     <h3 class="conver1">  Buena suerte. </h3>
                 </div>      
             </div>
-            <div class="row container-fluid derecha">
+
+
+            <div class="row container-fluid derecha" data-aos="fade-left">
                 <div class="col-4 derecha">
                     <h3 class="conver2"> No me hagas quedar mal humano.</h3>
                 </div>
@@ -121,6 +115,7 @@
             <div class="row centrado">
                 <h2 class="titulo2" id="Armasnames">EJERCICIO #1</h2>
             </div>
+
             <div class="row container-fluid izquierda">
                 <div class="col-2">
                     <img id="imgnavbar" class="nav2" src="assets/img/IA Buena/normal.png">
@@ -666,5 +661,13 @@
         <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
         <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
         <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+            AOS.init({
+                duration: 800,
+                easing: 'ease',
+                delay: 50
+            });
+        </script>
     </body>
 </html>
