@@ -69,22 +69,9 @@ LottieInteractivity.create({
         }
     ]
 });
-LottieInteractivity.create({
-    player:'#clickPlayer',
-    mode:"chain",
-    actions: [
-        {
-            state: 'click',
-            forceFlag: true,
-            transition: 'click',
-            count: 5
-        },
-        {
-            path: 'https://assets1.lottiefiles.com/packages/lf20_ISbOsd.json',
-            frames: 'confetti',
-            state: 'autoplay',
-            reset: true,
-            transition: 'onComplete'
-        }
-    ]
-});
+
+1
+function showHide(){
+oImageDiv=document.getElementById('myimageDiv')
+oImageDiv.style.display=(oImageDiv.style.display=='none')?'inline':'none'
+}
