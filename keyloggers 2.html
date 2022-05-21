@@ -20,7 +20,23 @@
         <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
         <script src="https://unpkg.com/@lottiefiles/lottie-interactivity@latest/dist/lottie-interactivity.min.js"></script>
     </head>
-    <body>
+    <body class="hidden">
+        <div class="centradopreloader" id="onload">
+            <div class="lds-default">
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+        </div>
         <!-- Navigation-->
 
         <!-- <nav class="navbar navbar-light bg-light static-top">
@@ -49,10 +65,47 @@
             <div class="row centrado padnavbar">
                 <h2 class="titulo2" id="Armasnames">LECCION #2: LOS KEYLOGGERS</h2>
             </div>
+
             <!--Contenedor dialogo Ben-->
             <div class="row container-fluid izquierda">
                 <div class="col-2">
-                    <img id="imgnavbar" class="nav2" src="assets/img/iabuenaph.png"><!--Imagen IA buena-->
+                    <img class="nav2 imgnavbar" src="assets/img/iabuenaph.png"><!--Imagen IA buena-->
+                </div>
+                <div class="col-4 izquierda"><!--Tamaño contenedor guion-->
+                    <h3 class="conver1"> Hora de enseñarte defensa propia.</h3><!--Dialogo IA buena-->
+                </div>      
+            </div>
+
+            <!--Contenedor dialogo Matt-->
+            <div class="row container-fluid derecha">
+                <div class="col-4 derecha"><!--Tamaño contenedor guion-->
+                    <h3 class="conver2"> Pero que no se suban los animos, porque no es boxeo lo que te vamos a enseñar.</h3><!--Dialogo IA mala-->
+                </div>
+                <div class="col-2">
+                    <img class="nav2 imgnavbar" src="assets/img/iamalaph.png"><!--Imagen IA mala-->
+                </div>
+            </div>
+            <!--Contenedor dialogo Matt-->
+            <div class="row container-fluid derecha">
+                <div class="col-4 derecha"><!--Tamaño contenedor guion-->
+                    <h3 class="conver2"> Vas aprender a defenderte y evitar ataques con los keyloggers.</h3><!--Dialogo IA mala-->
+                </div>
+                <div class="col-2">
+                    <img class="nav2 imgnavbar" src="assets/img/iamalaph.png"><!--Imagen IA mala-->
+                </div>
+            </div>
+
+            <!--Contenedor titulo2s centrales-->
+            <div class="row centrado pad6">
+                <div class="col-6 centrado">
+                    <h2 class="titulo2" id="Armasnames"> KEYLOGGER POR HARDWARE: CONTRAMEDIDAS</h2>
+                </div>
+            </div>
+
+            <!--Contenedor dialogo Ben-->
+            <div class="row container-fluid izquierda">
+                <div class="col-2">
+                    <img class="nav2 imgnavbar" src="assets/img/iabuenaph.png"><!--Imagen IA buena-->
                 </div>
                 <div class="col-4 izquierda"><!--Tamaño contenedor guion-->
                     <h3 class="conver1"> </h3><!--Dialogo IA buena-->
@@ -65,7 +118,7 @@
                     <h3 class="conver2"> </h3><!--Dialogo IA mala-->
                 </div>
                 <div class="col-2">
-                    <img id="imgnavbar" class="nav2" src="assets/img/iamalaph.png"><!--Imagen IA mala-->
+                    <img class="nav2 imgnavbar" src="assets/img/iamalaph.png"><!--Imagen IA mala-->
                 </div>
             </div>
 
@@ -75,7 +128,7 @@
 
             <!--Boton para avanzar-->
             <div class="row container-fluid centrado">
-                <div class="col-1 centrado">
+                <div class="col-2 centrado">
                     <a href="evaluacion2.html"><lottie-player src="https://assets10.lottiefiles.com/packages/lf20_iyqdtgxe.json" background="transparent"  speed="1"  style="width: 300px; height: 100px;" loop autoplay></lottie-player></a>  
                 </div>
             </div>
@@ -98,5 +151,6 @@
         <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
         <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
         <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     </body>
 </html>

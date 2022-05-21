@@ -20,7 +20,25 @@
         <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
         <script src="https://unpkg.com/@lottiefiles/lottie-interactivity@latest/dist/lottie-interactivity.min.js"></script>
     </head>
-    <body>
+    
+    <div class="fondoblanco">
+    <body class="hidden">
+        <div class="centradopreloader" id="onload">
+            <div class="lds-default">
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+        </div>
         <!-- Navigation-->
 
         <!-- <nav class="navbar navbar-light bg-light static-top">
@@ -46,7 +64,7 @@
         </header>
         <!--BIENVENIDA CON COSO EN CENTRO-->
         <section>
-            <div class="row container-fluid centrado">
+            <div class="row container-fluid centrado fondoblanco">
                 <div class="col-3 align-items-center centrado padiphone">
                     <img class="iphonefake" src="assets/img/telefonoestafa.png">
                 </div>
@@ -61,16 +79,11 @@
                     <div class="row centrado pad5">
                         <div class="col-12">
                             <form action="intro2.html">
-                            <a class="letrabotones"><button class="botones negrilla" type="submit">RECLAMAR AHORA</button></a>
+                            <a class="letrabotones"><button class="botones" type="submit">RECLAMAR AHORA</button></a>
                         </form>
                         </div>
                     </div>
-                </div>
-                <audio src="assets/img/hades final expense.mp3"autoplay loop id="myaudio"></audio>
-                <script>
-                    var audio = document.getElementById("myaudio");
-                    audio.volume = 0.07;
-                </script>         
+                </div>    
             </div>
         </section>
         <!--Footer-->
@@ -86,5 +99,9 @@
         <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
         <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
         <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     </body>
+            
+</div>
+
 </html>

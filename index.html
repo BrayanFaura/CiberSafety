@@ -20,7 +20,23 @@
         <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
         <script src="https://unpkg.com/@lottiefiles/lottie-interactivity@latest/dist/lottie-interactivity.min.js"></script>
     </head>
-    <body>
+    <body class="hidden">
+        <div class="centradopreloader" id="onload">
+            <div class="lds-default">
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+        </div>
         <!-- Navigation-->
 
         <!-- <nav class="navbar navbar-light bg-light static-top">
@@ -45,20 +61,20 @@
         </header>
         <!--BIENVENIDA CON COSO EN CENTRO-->
         <section>
-            <div class="container-fuid fondoClaroA" id="containerheader">
+            <div class="container-fuid" id="containerheader">
                 <img src="assets/img/Background-1.png" alt="hades background" style="width:100%;">
                 <div class="txsobimg">
-                  <a href="intro.html"><lottie-player src="https://assets10.lottiefiles.com/packages/lf20_kgwg0wrb.json" background="transparent"  speed="1"  style="width: 300px; height: 250px;"loop autoplay></lottie-player></a>
+                  <a href="intro.html"><lottie-player src="https://assets10.lottiefiles.com/packages/lf20_kgwg0wrb.json" background="transparent"  speed="1"  style="width: 300px; height: 250px;" loop autoplay></lottie-player></a>
                 </div>
             </div>
         </section>
         <!--QUE ES LA OVA -->
         <section>
             <div class="container-fluid">
-                <div class="row centrado fondoClaroA pad0">
+                <div class="row centrado pad0">
                     <h2 class="titulo" id="Armasnames">¿Que es la OVA "CiberSafety"?</h2>
                 </div>
-                <div class="row centrado fondoClaroA">
+                <div class="row centrado">
                     <div class="col-7 pad2">
                         <p class="cursiva">"El producto que te presentamos es un objeto virtual de aprendizaje centrado en el tema de Ciberseguridad,especificamente las estafas por internet (Pishing, Malware de tipo Keyloggers y el manejo de software de Antivirus, con sus respectivas actualizaciones)"
                         </p>
@@ -69,19 +85,19 @@
                         <video src="assets/img/espada.mp4" id="videos" controls></video>
                     </div>
                 </div>
-                <div class="row centrado fondoOscuroA pad0">
+                <div class="row centrado pad0">
                     <h2 class="titulo" id="Armasnames">"¿Quienes son los creadores de "CiberSafety"?</h2>
                 </div>
-                <div class="row centrado fondoOscuroA">
+                <div class="row centrado">
                     <div class="col-10 pad3">
                         <p class="normal">Somos un grupo de 4 estudiantes de la Universidad Militar Nueva Granada de la carrera Ingenieria Multimedia, quienes realizamos este proyecto para la asignatura de multimedia educativa con el fin de poner a prueba nuestros conocimientos y brindar un producto educativo efectivo y funcional, el proyeco lo realizamos con ayuda del docente Jorge Augusto Jaramillo.
                         </p>
                     </div>
                 </div>
-                <div class="row centrado fondoOscuroA">
+                <div class="row centrado">
                     <h2 class="Nosotros" id="Armasnames">Nosotros</h2>
                 </div>
-                <div class="row centrado pad0 fondoOscuroA">
+                <div class="row centrado pad0 ">
                     <div class="col-2 padcaras">
                         <img class="imgcara" src="assets/img/carabrayan.jpg">
                         <a class="letranosotros">Brayan Faura</a>
@@ -99,17 +115,17 @@
                         <a class="letranosotros">Juan Fajardo</a>
                     </div>
                 </div>
-                <div class="row centrado fondoOscuroA">
+                <div class="row centrado">
                     <h2 class="Nosotros" id="Armasnames">Nuestro Guia</h2>
                 </div>
-                <div class="row centrado pad0 fondoOscuroA">
+                <div class="row centrado pad0">
                     <div class="col-2">
                         <img class="imgcara" src="assets/img/caraprofe.jpg">
                         <a class="letranosotros">Jorge Jaramillo</a>
                     </div>
                 </div>
                 
-                <audio src="assets/img/hades final expense.mp3"autoplay loop id="myaudio"></audio>
+                <audio src="assets/sounds/Musica 1.mp3"autoplay loop id="myaudio"></audio>
                 <script>
                     var audio = document.getElementById("myaudio");
                     audio.volume = 0.07;
@@ -120,20 +136,26 @@
         <!--Footer-->
         <footer>
             <div class="container-fluid fondoNegro" >
-                <div class="row pad0">
-                    <div class="col-6 normal">
+                <div class="row centrado pad0">
+                    <div class="col-4">
+                        <img class="logosintro" src="assets/img/logo-unmg.png">
+                    </div>
+                    <div class="col-2 normal">
                         <p class="centrado titulo">E-mail:</p>
                         <p class="centrado">brayan.faura@gmail.com</p>
                         <p class="centrado">est.luis.velasco@unimilitar.edu.co</p>
                         <p class="centrado">est.nicolas.suarez@unimilitar.edu.co</p>
                         <p class="centrado">est.juand.fajardo@unimilitar.edu.co</p>
                     </div>
-                    <div class="col-6 normal">
+                    <div class="col-2 normal">
                         <p class="centrado titulo">Cellphone:</p>
                         <p class="centrado">+57 313 421 2735</p>
                         <p class="centrado">+57 315 679 9934</p>
                         <p class="centrado">+57 311 217 1120</p>
                         <p class="centrado">+57 315 515 6669</p>
+                    </div>
+                    <div class="col-4">
+                        <img class="logosintro" src="assets/img/logo-inmg-mul.png">
                     </div>
                 </div>
                 <div class="row">
@@ -156,5 +178,6 @@
         <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
     </body>
     <script src="js/lottie.js"></script>
-    <script src="js/script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
 </html>

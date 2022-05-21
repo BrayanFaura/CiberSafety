@@ -19,17 +19,26 @@
         <link href="css/styles.css" rel="stylesheet" />
         <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
         <script src="https://unpkg.com/@lottiefiles/lottie-interactivity@latest/dist/lottie-interactivity.min.js"></script>
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
     </head>
-    <body>
-        <!-- Navigation-->
-
-        <!-- <nav class="navbar navbar-light bg-light static-top">
-            <div class="container">
-                <a class="navbar-brand" href="#!">Start Bootstrap</a>    Aqui va la navbar pero en el 
-                <a class="btn btn-primary" href="#signup">Sign Up</a>    illustrator no la puse, la comento por si acaso
+    <body class="hidden">
+        <!-- <div class="centradopreloader" id="onload">
+            <div class="lds-default">
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
             </div>
-        </nav> -->
-
+        </div> -->
 
         <!--Header NAVBAR-->
         <header>
@@ -51,216 +60,596 @@
 
                 </div>
             -->
-            <div class="row centrado padnavbar">
+            <div class="row centrado padnavbar" data-aos="zoom-in">
                 <h2 class="titulo2" id="Armasnames">EVALUACION ACERCA DEL PHISHING</h2>
             </div>
-            <div class="row container-fluid izquierda">
+            <div class="row container-fluid izquierda" data-aos="fade-right" data-aos-delay="300">
                 <div class="col-2">
-                    <img id="imgnavbar" class="nav2" src="assets/img/IA Buena/euforia.png">
+                    <a><img id="Bep1" class="nav2 reproductorbep1 imgnavbar" src="assets/img/IA Buena/euforia.png" onclick="reproducirsonidobep1()"></a>
                 </div>
                 <div class="col-6 izquierda">
-                    <h3 class="conver1">  Bienvenido al ejercicio de evaluacion de la lección numero 1</h3>
+                    <h3 class="conver1" >  Bienvenido al ejercicio de evaluacion de la lección numero 1</h3>
                 </div>      
             </div>
-            <div class="row container-fluid izquierda">
+            <div class="row container-fluid izquierda" data-aos="fade-right" data-aos-delay="1800">
                 <div class="col-2">
-                    <img id="imgnavbar" class="nav2" src="assets/img/IA Buena/normal.png">
+                    <a><img class="nav2 reproductorbep2 imgnavbar" src="assets/img/IA Buena/normal.png" onclick="reproducirsonidobep2()"></a>
                 </div>
                 <div class="col-7 izquierda">
                     <h3 class="conver1">  En esta actividad deberas superar minimo 2 de 3 retos relacionados al phishing.</h3>
                 </div>      
             </div>
-            <div class="row container-fluid derecha">
+            <div class="row container-fluid derecha" data-aos="fade-left">
                 <div class="col-7 derecha">
                     <h3 class="conver2"> Deberas observar la imagen que se presenta y en base a esta escoger la respuesta correcta a las preguntas planteadas.</h3>
                 </div>
                 <div class="col-2">
-                    <img id="imgnavbar" class="nav2" src="assets/img/IA Mala/normal.png">
+                    <img class="nav2 imgnavbar" src="assets/img/IA Mala/normal.png">
                 </div>
             </div>
-            <div class="row container-fluid derecha">
+            <div class="row container-fluid derecha" data-aos="fade-left">
                 <div class="col-7 derecha">
                     <h3 class="conver2">  Te mostraremos 3 imagenes, 2 de ellas de correos electronicos y uno de ellos de un link.</h3>
                 </div>
                 <div class="col-2">
-                    <img id="imgnavbar" class="nav2" src="assets/img/IA Mala/normal.png">
+                    <img class="nav2 imgnavbar" src="assets/img/IA Mala/normal.png">
                 </div>
             </div>
-            <div class="row container-fluid izquierda">
+            <div class="row container-fluid izquierda" data-aos="fade-right">
                 <div class="col-2">
-                    <img id="imgnavbar" class="nav2" src="assets/img/IA Buena/exited.png">
+                    <a><img class="nav2 imgnavbar reproductorbep3" src="assets/img/IA Buena/exited.png" onclick="reproducirsonidobep3()"></a>
                 </div>
                 <div class="col-2 izquierda">
                     <h3 class="conver1">  Buena suerte. </h3>
                 </div>      
             </div>
-            <div class="row container-fluid derecha">
+
+
+            <div class="row container-fluid derecha" data-aos="fade-left">
                 <div class="col-4 derecha">
                     <h3 class="conver2"> No me hagas quedar mal humano.</h3>
                 </div>
                 <div class="col-2">
-                    <img id="imgnavbar" class="nav2" src="assets/img/iamalaph.png">
+                    <img class="nav2 imgnavbar" src="assets/img/iamalaph.png">
                 </div>
             </div>
-            <div class="row centrado">
+            <div class="row centrado" data-aos="zoom-in">
                 <h2 class="titulo2" id="Armasnames">EJERCICIO #1</h2>
             </div>
-            <div class="row container-fluid izquierda">
+
+            <div class="row container-fluid izquierda" data-aos="fade-left">
                 <div class="col-2">
-                    <img id="imgnavbar" class="nav2" src="assets/img/IA Buena/normal.png">
+                    <a><img class="nav2 imgnavbar reproductorbep4" src="assets/img/IA Buena/normal.png" onclick="reproducirsonidobep4()"></a>
                 </div>
                 <div class="col-7 izquierda">
                     <h3 class="conver1"> Muy bien, aqui esta el primer correo electronico, revisalo detenidamente y responde las preguntas abajo 
-                        haciendo click en la opción que eligas. </h3>
+                        haciendo click en la opción que elijas. </h3>
                 </div>      
             </div>
-            <div class="row container-fluid centrado ">
-                <div class="col-3 centrado">
+            <div class="row container-fluid centrado" data-aos="flip-left">
+                <div class="col-4 centrado">
                     <img class="imgevaluacion fondoClaroA nav2" src="assets/img/spotify falso.png">
                 </div>
             </div>
-            <div class="row centrado pad6">
+
+
+            <div class="row centrado pad6" data-aos="fade-right">
                 <div class="col-8">
                     <h2 class="titulo2" >Pregunta 1.¿El correo es una estafa? </h2>
+                </div>      
+            </div>
+            <div class="row" style="align-items: center; padding-left: 35%;" data-aos="fade-left">
+                <div class="col-5">
+                    <input type="radio" id="phi1.11" name="phi11"> <label for="phi1.11"><p class="normal2">Si, claramente es una estafa.</p></label> <!--(correcta)-->
+                </div>
+                <div class="col-4" style="width: 5.5vw; height: 5.5vw;">
+                    <lottie-player src="https://assets9.lottiefiles.com/private_files/lf30_pf700c09.json" id="1bien" background="transparent"  speed="1.3"  style="display:none;" autoplay loop></lottie-player>
                 </div>
             </div>
-            <!-- AQUI INCLUIR LO QUE SERIAN LAS CASILLAS DE SELECCION PARA POSTERIOR EVALUACION CON LAS RESPUESTAS DE ABAJO-->
-            1) Si,claramente es una estafa.
-            2) No,este correo es real.
+            <div class="row" style="align-items: center; padding-left: 35%;" data-aos="fade-left">
+                <div class="col-5">
+                    <input type="radio" id="phi1.21" name="phi11"> <label for="phi1.21"><p class="normal2">No, este correo es real.</p></label>
+                </div>
+                <div class="col-4" style="width: 5.5vw; height: 5.5vw;">
+                    <lottie-player src="https://assets9.lottiefiles.com/private_files/lf30_w0hvnn0l.json" id="1mal" background="transparent"  speed="1.4"  style="display:none;" autoplay loop></lottie-player>
+                </div>
+            </div>
 
-            <div class="row centrado pad6">
+            <div class="row centrado pad6" data-aos="zoom-out">
+                <div class="col-9">
+                    <button class="botones letrabotones" onclick="showHide1()">RESPONDER</button>
+                </div>
+            </div>
+
+
+            <div class="row centrado pad6" data-aos="fade-right">
                 <div class="col-8">
                     <h2 class="titulo2" >Pregunta 2. Seleccione cual de los siguientes elementos del correo es sospechoso </h2>
                 </div>      
             </div>
-             <!-- AQUI INCLUIR LO QUE SERIAN LAS CASILLAS DE SELECCION PARA POSTERIOR EVALUACION CON LAS RESPUESTAS DE ABAJO -->
-            1) El remitente (usuario que envió el correo) se ve sospechoso, no creo que ese sea el spotify real (correcta)
-            2) Ese logo de spotify se ve extraño
-            3) Me parece raro que las letras tengan tantos tamaños, grosores y colores.
-            4) Me parece que todo esta en orden, el correo se ve seguro
-
-            <div class="row centrado pad6">
+            <div class="row padphi" style="align-items: center;" data-aos="fade-left">
                 <div class="col-8">
-                    <h2 class="titulo2" >Pregunta 3. ¿Qué otros elementos parecen sospechosos en el correo? </h2>
-                </div>           
+                    <input type="radio" id="phi2.11" name="phi21"> <label for="phi2.11"><p class="normal2">El remitente (usuario que envió el correo) se ve sospechoso, no creo que ese sea el spotify real.</p></label> <!--(correcta)-->
+                </div>
+                <div class="col-4" style="width: 5.5vw; height: 5.5vw;">
+                    <lottie-player src="https://assets9.lottiefiles.com/private_files/lf30_pf700c09.json" id="21bien" background="transparent"  speed="1.3"  style="display:none;" autoplay loop></lottie-player>
+                </div>
             </div>
-            <!-- AQUI INCLUIR LO QUE SERIAN LAS CASILLAS DE SELECCION PARA POSTERIOR EVALUACION CON LAS RESPUESTAS DE ABAJO -->
-            1. Ese link no me causa confianza
-            2. Ese logo de spotify se ve extraño
-            3. El destinatario (quien recibe el correo) no coiuncide con el destinatario que dice en la informacion del correo. (correcta)
-            <div class="row centrado pad6">
-                <div class="col-8" >
-                    <h2 class="titulo2" >Pregunta 4. Supongamos que usted no inicio sesion en su cuenta de spotify recientemente y recibe este correo, ¿Qué haria? </h2>
-                </div>           
+            <div class="row padphi" style="align-items: center;" data-aos="fade-left">
+                <div class="col-8">
+                    <input type="radio" id="phi2.21" name="phi21"> <label for="phi2.21"><p class="normal2">Ese logo de spotify se ve extraño.</p></label>
+                </div>
+                <div class="col-4" style="width: 5.5vw; height: 5.5vw;">
+                    <lottie-player src="https://assets9.lottiefiles.com/private_files/lf30_w0hvnn0l.json" id="21mal1" background="transparent"  speed="1.4"  style="display:none;" autoplay loop></lottie-player>
+                </div>
             </div>
-            <!-- AQUI INCLUIR LO QUE SERIAN LAS CASILLAS DE SELECCION PARA POSTERIOR EVALUACION CON LAS RESPUESTAS DE ABAJO -->
-            1. Fácil, le doy click a proteger mi cuenta para evitar que me roben la cuenta.
-            2. Yo creo que borraría el correo y bloquearía a ese usuario, no me da confianza ese correo. (correcta) 
-            3. Le envio un correo a ese usuario preguntándole como cambio mi cotraseña de spotify.
-            4. Cancelo mi cuenta de spotify y desinstalo la aplicación de mi celular.
-            <div class="row container-fluid derecha">
+            <div class="row padphi" style="align-items: center;" data-aos="fade-left">
+                <div class="col-8">
+                    <input type="radio" id="phi2.31" name="phi21"> <label for="phi2.31"><p class="normal2">Me parece raro que las letras tengan tantos tamaños, grosores y colores.</p></label>
+                </div>
+                <div class="col-4" style="width: 5.5vw; height: 5.5vw;">
+                    <lottie-player src="https://assets9.lottiefiles.com/private_files/lf30_w0hvnn0l.json" id="21mal2" background="transparent"  speed="1.4"  style="display:none;" autoplay loop></lottie-player>
+                </div>
+            </div>
+            <div class="row padphi" style="align-items: center;" data-aos="fade-left">
+                <div class="col-8">
+                    <input type="radio" id="phi2.41" name="phi21"> <label for="phi2.41"><p class="normal2">Me parece que todo esta en orden, el correo se ve seguro.</p></label>
+                </div>
+                <div class="col-4" style="width: 5.5vw; height: 5.5vw;">
+                    <lottie-player src="https://assets9.lottiefiles.com/private_files/lf30_w0hvnn0l.json" id="21mal3" background="transparent"  speed="1.4"  style="display:none;" autoplay loop></lottie-player>
+                </div>
+            </div>
+
+            <div class="row centrado pad6" data-aos="zoom-out">
+                <div class="col-9">
+                    <button class="botones letrabotones" onclick="showHide21()">RESPONDER</button>
+                </div>
+            </div>
+
+
+
+            <div class="row centrado pad6" data-aos="fade-right">
+                <div class="col-8">
+                    <h2 class="titulo2">Pregunta 3. ¿Qué otros elementos parecen sospechosos en el correo? </h2>
+                </div>      
+            </div>
+            <div class="row padphi" style="align-items: center;" data-aos="fade-left">
+                <div class="col-9">
+                    <input type="radio" id="phi3.11" name="phi31"> <label for="phi3.11"><p class="normal2">Ese link no me causa confianza.</p></label>
+                </div>
+                <div class="col-4" style="width: 5.5vw; height: 5.5vw;">
+                    <lottie-player src="https://assets9.lottiefiles.com/private_files/lf30_w0hvnn0l.json" id="31mal1" background="transparent"  speed="1.3"  style="display:none;" autoplay loop></lottie-player>
+                </div>
+            </div>
+            <div class="row padphi" style="align-items: center;" data-aos="fade-left">
+                <div class="col-9">
+                    <input type="radio" id="phi3.21" name="phi31"> <label for="phi3.21"><p class="normal2">¿Qué es Regeringsgatan?.</p></label> 
+                </div>
+                <div class="col-4" style="width: 5.5vw; height: 5.5vw;">
+                    <lottie-player src="https://assets9.lottiefiles.com/private_files/lf30_w0hvnn0l.json" id="31mal2" background="transparent"  speed="1.4"  style="display:none;" autoplay loop></lottie-player>
+                </div>
+            </div>
+            <div class="row padphi" style="align-items: center;" data-aos="fade-left">
+                <div class="col-9">
+                    <input type="radio" id="phi3.31" name="phi31"> <label for="phi3.31"><p class="normal2">El destinatario (quien recibe el correo) no coiuncide con el destinatario que dice en la informacion del correo.</p></label> <!--(correcta)-->
+                </div>
+                <div class="col-4" style="width: 5.5vw; height: 5.5vw;">
+                    <lottie-player src="https://assets9.lottiefiles.com/private_files/lf30_pf700c09.json" id="31bien" background="transparent"  speed="1.4"  style="display:none;" autoplay loop></lottie-player>
+                </div>
+            </div>
+            <div class="row padphi" style="align-items: center;" data-aos="fade-left">
+                <div class="col-9">
+                    <input type="radio" id="phi3.41" name="phi31"> <label for="phi3.41"><p class="normal2">Como dije el correo es real, no entiendo por que insisten tanto.</p></label>
+                </div>
+                <div class="col-4" style="width: 5.5vw; height: 5.5vw;">
+                    <lottie-player src="https://assets9.lottiefiles.com/private_files/lf30_w0hvnn0l.json" id="31mal3" background="transparent"  speed="1.4"  style="display:none;" autoplay loop></lottie-player>
+                </div>
+            </div>
+
+            <div class="row centrado pad6" data-aos="zoom-out">
+                <div class="col-9">
+                    <button class="botones letrabotones" onclick="showHide31()">RESPONDER</button>
+                </div>
+            </div>
+
+
+
+            <div class="row centrado pad6" data-aos="fade-right">
+                <div class="col-8">
+                    <h2 class="titulo2">Pregunta 4. Supongamos que usted no inicio sesion en su cuenta de spotify recientemente y recibe este correo, ¿Qué haria?</h2>
+                </div>      
+            </div>
+            <div class="row padphi" style="align-items: center;" data-aos="fade-left">
+                <div class="col-8">
+                    <input type="radio" id="phi4.11" name="phi41"> <label for="phi4.11"><p class="normal2">Fácil, le doy click a proteger mi cuenta para evitar que me roben la cuenta.</p></label>
+                </div>
+                <div class="col-4" style="width: 5.5vw; height: 5.5vw;">
+                    <lottie-player src="https://assets9.lottiefiles.com/private_files/lf30_w0hvnn0l.json" id="41mal1" background="transparent"  speed="1.3"  style="display:none;" autoplay loop></lottie-player>
+                </div>
+            </div>
+            <div class="row padphi" style="align-items: center;" data-aos="fade-left">
+                <div class="col-8">
+                    <input type="radio" id="phi4.21" name="phi41"> <label for="phi4.21"><p class="normal2">Yo creo que borraría el correo y bloquearía a ese usuario, no me da confianza ese correo.</p></label> <!--(correcta)-->
+                </div>
+                <div class="col-4" style="width: 5.5vw; height: 5.5vw;">
+                    <lottie-player src="https://assets9.lottiefiles.com/private_files/lf30_pf700c09.json" id="41bien" background="transparent"  speed="1.4"  style="display:none;" autoplay loop></lottie-player>
+                </div>
+            </div>
+            <div class="row padphi" style="align-items: center;" data-aos="fade-left">
+                <div class="col-8">
+                    <input type="radio" id="phi4.31" name="phi41"> <label for="phi4.31"><p class="normal2">Le envio un correo a ese usuario preguntándole como cambio mi cotraseña de spotify.</p></label> 
+                </div>
+                <div class="col-4" style="width: 5.5vw; height: 5.5vw;">
+                    <lottie-player src="https://assets9.lottiefiles.com/private_files/lf30_w0hvnn0l.json" id="41mal2" background="transparent"  speed="1.4"  style="display:none;" autoplay loop></lottie-player>
+                </div>
+            </div>
+            <div class="row padphi" style="align-items: center;" data-aos="fade-left">
+                <div class="col-8">
+                    <input type="radio" id="phi4.41" name="phi41"> <label for="phi4.41"><p class="normal2">Cancelo mi cuenta de spotify y desinstalo la aplicación de mi celular.</p></label>
+                </div>
+                <div class="col-4" style="width: 5.5vw; height: 5.5vw;">
+                    <lottie-player src="https://assets9.lottiefiles.com/private_files/lf30_w0hvnn0l.json" id="41mal3" background="transparent"  speed="1.4"  style="display:none;" autoplay loop></lottie-player>
+                </div>
+            </div>
+
+            <div class="row centrado pad6" data-aos="zoom-out">
+                <div class="col-9">
+                    <button class="botones letrabotones" onclick="showHide41()">RESPONDER</button>
+                </div>
+            </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <div class="row container-fluid derecha" data-aos="fade-left">
                 <div class="col-7 derecha">
                     <h3 class="conver2">Okay, segundo correo, las reglas son las mismas que el anterior.</h3>
                 </div>
                 <div class="col-2">
-                    <img id="imgnavbar" class="nav2" src="assets/img/IA Mala/normal.png">
+                    <img class="nav2 imgnavbar" src="assets/img/IA Mala/normal.png">
                 </div>
             </div>
-            <div class="row container-fluid centrado ">
-                <div class="col-3 centrado">
+
+            <div class="row container-fluid centrado" data-aos="flip-left">
+                <div class="col-4 centrado">
                     <img class="imgevaluacion fondoClaroA nav2" src="assets/img/spotify falso.png">
                 </div>
             </div>
-            <div class="row centrado pad6">
+
+            <div class="row centrado pad6" data-aos="fade-right">
                 <div class="col-8">
                     <h2 class="titulo2" >Pregunta 1.¿El correo es una estafa? </h2>
-                </div>
-            </div>
-            <!-- AQUI INCLUIR LO QUE SERIAN LAS CASILLAS DE SELECCION PARA POSTERIOR EVALUACION CON LAS RESPUESTAS DE ABAJO-->
-            1) Si,claramente es una estafa.
-            2) No,este correo es real(CORRECTA).
-
-            <div class="row centrado pad6">
-                <div class="col-8">
-                    <h2 class="titulo2" >Pregunta 2. Seleccione cual de los siguientes elementos del correo indican que es o no un correo real: </h2>
                 </div>      
             </div>
-             <!-- AQUI INCLUIR LO QUE SERIAN LAS CASILLAS DE SELECCION PARA POSTERIOR EVALUACION CON LAS RESPUESTAS DE ABAJO -->
-             1) El remitente (usuario que envió el correo) es correcto, parece un correo profesiona y no me pide información personal, me parece un correo real (correcta). 
-             2) El remitente (usuario que envió el correo) es steam pero en el correo dice steam powered, el correo es falso. 
-             3) Tiene muchos colores y tipos de letra, parece un correo falso.
+            <div class="row" style="align-items: center; padding-left: 35%;" data-aos="fade-left">
+                <div class="col-5">
+                    <input type="radio" id="phi1.12" name="phi2"> <label for="phi1.12"><p class="normal2">Si, claramente es una estafa.</p></label> 
+                </div>
+                <div class="col-4" style="width: 5.5vw; height: 5.5vw;">
+                    <lottie-player src="https://assets9.lottiefiles.com/private_files/lf30_w0hvnn0l.json" id="2bien" background="transparent"  speed="1.3"  style="display:none;" autoplay loop></lottie-player>
+                </div>
+            </div>
+            <div class="row" style="align-items: center; padding-left: 35%;" data-aos="fade-left">
+                <div class="col-5">
+                    <input type="radio" id="phi1.22" name="phi2"> <label for="phi1.22"><p class="normal2">No, este correo es real.</p></label>
+                </div>
+                <div class="col-4" style="width: 5.5vw; height: 5.5vw;">
+                    <lottie-player src="https://assets9.lottiefiles.com/private_files/lf30_pf700c09.json" id="2mal" background="transparent"  speed="1.4"  style="display:none;" autoplay loop></lottie-player> <!--(correcta)-->
+                </div>
+            </div>
 
-            <div class="row centrado pad6">
+            <div class="row centrado pad6" data-aos="zoom-out">
+                <div class="col-9">
+                    <button class="botones letrabotones" onclick="showHide2()">RESPONDER</button>
+                </div>
+            </div>
+
+
+
+
+            <div class="row centrado pad6" data-aos="fade-right">
                 <div class="col-8">
-                    <h2 class="titulo2" >Pregunta 3. ¿Qué otros elementos destacan en el correo? </h2>
-                </div>           
+                    <h2 class="titulo2" >Pregunta 2. Seleccione cual de los siguientes elementos del correo indican que es o no un correo real </h2>
+                </div>      
             </div>
-            <!-- AQUI INCLUIR LO QUE SERIAN LAS CASILLAS DE SELECCION PARA POSTERIOR EVALUACION CON LAS RESPUESTAS DE ABAJO -->
-            1) El destinatario (quien recibe el correo) soy yo, eso me da confianza. (correcta)
-            2) Yo no compre ningun juego
-            3) El correo tiene muchos links puede ser una estafa.
-            <div class="row centrado pad6">
-                <div class="col-8" >
-                    <h2 class="titulo2" >Pregunta 4. Supongamos que usted compro este juego en steam y recibe este correo, ¿Qué haría?</h2>
-                </div>           
+            <div class="row" style="align-items: center; padding-left: 10%;" data-aos="fade-left">
+                <div class="col-10">
+                    <input type="radio" id="phi2.12" name="phi22"> <label for="phi2.12"><p class="normal2">El remitente (usuario que envió el correo) es correcto, parece un correo profesional y no me pide información personal, me parece un correo real</p></label> <!--(correcta)-->
+                </div>
+                <div class="col-4" style="width: 5.5vw; height: 5.5vw;">
+                    <lottie-player src="https://assets9.lottiefiles.com/private_files/lf30_pf700c09.json" id="22bien" background="transparent"  speed="1.3"  style="display:none;" autoplay loop></lottie-player>
+                </div>
             </div>
-            <!-- AQUI INCLUIR LO QUE SERIAN LAS CASILLAS DE SELECCION PARA POSTERIOR EVALUACION CON LAS RESPUESTAS DE ABAJO -->
-            1. Guardo el correo porque es mi recibo y ya. (correcta) 
-            2. Borro el correo y reviso mi cuenta bancaria para asegurarme que todo este en orden. 
-            3. Envio un correo al soporte de steam preguntando si el correo es falso. 
+            <div class="row padphi" style="align-items: center; padding-left: 10%;" data-aos="fade-left">
+                <div class="col-10">
+                    <input type="radio" id="phi2.22" name="phi22"> <label for="phi2.22"><p class="normal2">El remitente (usuario que envió el correo) es steam pero en el correo dice steam powered, el correo es falso. </p></label>
+                </div>
+                <div class="col-4" style="width: 5.5vw; height: 5.5vw;">
+                    <lottie-player src="https://assets9.lottiefiles.com/private_files/lf30_w0hvnn0l.json" id="22mal1" background="transparent"  speed="1.4"  style="display:none;" autoplay loop></lottie-player>
+                </div>
+            </div>
+            <div class="row padphi" style="align-items: center; padding-left: 10%;" data-aos="fade-left">
+                <div class="col-10">
+                    <input type="radio" id="phi2.32" name="phi22"> <label for="phi2.32"><p class="normal2">Tiene muchos colores y tipos de letra, parece un correo falso.</p></label>
+                </div>
+                <div class="col-4" style="width: 5.5vw; height: 5.5vw;">
+                    <lottie-player src="https://assets9.lottiefiles.com/private_files/lf30_w0hvnn0l.json" id="22mal2" background="transparent"  speed="1.4"  style="display:none;" autoplay loop></lottie-player>
+                </div>
+            </div>
 
-            <div class="row container-fluid derecha">
+            <div class="row centrado pad6" data-aos="zoom-out">
+                <div class="col-9">
+                    <button class="botones letrabotones" onclick="showHide22()">RESPONDER</button>
+                </div>
+            </div>
+
+
+             
+            <div class="row centrado pad6" data-aos="fade-right">
+                <div class="col-8">
+                    <h2 class="titulo2">Pregunta 3. ¿Qué otros elementos destacan en el correo? </h2>
+                </div>      
+            </div>
+            <div class="row padphi" style="align-items: center;" data-aos="fade-left">
+                <div class="col-7">
+                    <input type="radio" id="phi3.12" name="phi32"> <label for="phi3.12"><p class="normal2">El destinatario (quien recibe el correo) soy yo, eso me da confianza.</p></label><!--(correcta)-->
+                </div>
+                <div class="col-4" style="width: 5.5vw; height: 5.5vw;">
+                    <lottie-player src="https://assets9.lottiefiles.com/private_files/lf30_pf700c09.json" id="32bien" background="transparent"  speed="1.3"  style="display:none;" autoplay loop></lottie-player>
+                </div>
+            </div>
+            <div class="row padphi" style="align-items: center;" data-aos="fade-left">
+                <div class="col-7">
+                    <input type="radio" id="phi3.22" name="phi32"> <label for="phi3.22"><p class="normal2">Yo no compre ningun juego.</p></label> 
+                </div>
+                <div class="col-4" style="width: 5.5vw; height: 5.5vw;">
+                    <lottie-player src="https://assets9.lottiefiles.com/private_files/lf30_w0hvnn0l.json" id="32mal1" background="transparent"  speed="1.4"  style="display:none;" autoplay loop></lottie-player>
+                </div>
+            </div>
+            <div class="row padphi" style="align-items: center;" data-aos="fade-left">
+                <div class="col-7">
+                    <input type="radio" id="phi3.32" name="phi32"> <label for="phi3.32"><p class="normal2">El correo tiene muchos links puede ser una estafa.</p></label> 
+                </div>
+                <div class="col-4" style="width: 5.5vw; height: 5.5vw;">
+                    <lottie-player src="https://assets9.lottiefiles.com/private_files/lf30_w0hvnn0l.json" id="32mal2" background="transparent"  speed="1.4"  style="display:none;" autoplay loop></lottie-player>
+                </div>
+            </div>
+        
+
+            <div class="row centrado pad6" data-aos="zoom-out">
+                <div class="col-9">
+                    <button class="botones letrabotones" onclick="showHide32()">RESPONDER</button>
+                </div>
+            </div>
+
+
+
+            <div class="row centrado pad6" data-aos="fade-right">
+                <div class="col-8">
+                    <h2 class="titulo2">Pregunta 4. Supongamos que usted compro este juego en steam y recibe este correo, ¿Qué haría?</h2>
+                </div>      
+            </div>
+            <div class="row padphi" style="align-items: center;" data-aos="fade-left">
+                <div class="col-8">
+                    <input type="radio" id="phi4.12" name="phi42"> <label for="phi4.12"><p class="normal2">Borro el correo y reviso mi cuenta bancaria para asegurarme que todo este en orden.</p></label>
+                </div>
+                <div class="col-4" style="width: 5.5vw; height: 5.5vw;">
+                    <lottie-player src="https://assets9.lottiefiles.com/private_files/lf30_w0hvnn0l.json" id="42mal1" background="transparent"  speed="1.3"  style="display:none;" autoplay loop></lottie-player>
+                </div>
+            </div>
+            <div class="row padphi" style="align-items: center;" data-aos="fade-left">
+                <div class="col-8">
+                    <input type="radio" id="phi4.22" name="phi42"> <label for="phi4.22"><p class="normal2">Guardo el correo porque es mi recibo y ya.</p></label> <!--(correcta)-->
+                </div>
+                <div class="col-4" style="width: 5.5vw; height: 5.5vw;">
+                    <lottie-player src="https://assets9.lottiefiles.com/private_files/lf30_pf700c09.json" id="42bien" background="transparent"  speed="1.4"  style="display:none;" autoplay loop></lottie-player>
+                </div>
+            </div>
+            <div class="row padphi" style="align-items: center;" data-aos="fade-left">
+                <div class="col-8">
+                    <input type="radio" id="phi4.32" name="phi42"> <label for="phi4.32"><p class="normal2">Envio un correo al soporte de steam preguntando si el correo es falso. </p></label> 
+                </div>
+                <div class="col-4" style="width: 5.5vw; height: 5.5vw;">
+                    <lottie-player src="https://assets9.lottiefiles.com/private_files/lf30_w0hvnn0l.json" id="42mal2" background="transparent"  speed="1.4"  style="display:none;" autoplay loop></lottie-player>
+                </div>
+            </div>
+
+
+            <div class="row centrado pad6" data-aos="zoom-out">
+                <div class="col-9">
+                    <button class="botones letrabotones" onclick="showHide42()">RESPONDER</button>
+                </div>
+            </div>
+
+   
+
+
+
+            
+
+            
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+             
+
+            <div class="row container-fluid derecha" data-aos="fade-left">
                 <div class="col-7 derecha">
                     <h3 class="conver2"> El ultimo ejercicio, ¡tu puedes!, las reglas son las mismas pero ahora es una link en vez de un correo ten cuidado.</h3>
                 </div>
                 <div class="col-2">
-                    <img id="imgnavbar" class="nav2" src="assets/img/IA Mala/euforia.png">
+                    <img class="nav2 imgnavbar" src="assets/img/IA Mala/euforia.png">
                 </div>
             </div>
-            <div class="row container-fluid centrado ">
-                <div class="col-3 centrado">
+            <div class="row container-fluid centrado" data-aos="flip-left">
+                <div class="col-4 centrado">
                     <img class="imgevaluacion fondoClaroA nav2" src="assets/img/spotify falso.png">
                 </div>
             </div>
-            <div class="row centrado pad6">
+
+            <div class="row centrado pad6" data-aos="fade-right">
                 <div class="col-8">
                     <h2 class="titulo2" >Pregunta 1. ¿El link mostrado es peligroso? </h2>
+                </div>      
+            </div>
+            <div class="row" style="align-items: center; padding-left: 35%;" data-aos="fade-left">
+                <div class="col-5">
+                    <input type="radio" id="phi1.13" name="phi3"> <label for="phi1.13"><p class="normal">Si,claramente es un caso de phishing.</p></label> 
+                </div>
+                <div class="col-4" style="width: 5.5vw; height: 5.5vw;">
+                    <lottie-player src="https://assets9.lottiefiles.com/private_files/lf30_pf700c09.json" id="3bien" background="transparent"  speed="1.3"  style="display:none;" autoplay loop></lottie-player><!--(correcta)-->
                 </div>
             </div>
-            <!-- AQUI INCLUIR LO QUE SERIAN LAS CASILLAS DE SELECCION PARA POSTERIOR EVALUACION CON LAS RESPUESTAS DE ABAJO-->
-            1) Si,claramente es un caso de phishing.(CORRECTA)
-            2) No,este link es normla.
+            <div class="row" style="align-items: center; padding-left: 35%;" data-aos="fade-left">
+                <div class="col-5">
+                    <input type="radio" id="phi1.23" name="phi3"> <label for="phi1.23"><p class="normal">No,este link es normal.</p></label>
+                </div>
+                <div class="col-4" style="width: 5.5vw; height: 5.5vw;">
+                    <lottie-player src="https://assets9.lottiefiles.com/private_files/lf30_w0hvnn0l.json" id="3mal" background="transparent"  speed="1.4"  style="display:none;" autoplay loop></lottie-player> 
+                </div>
+            </div>
 
-            <div class="row centrado pad6">
+            <div class="row centrado pad6" data-aos="zoom-out">
+                <div class="col-9">
+                    <button class="botones letrabotones" onclick="showHide3()">RESPONDER</button>
+                </div>
+            </div>
+
+
+            <div class="row centrado pad6" data-aos="fade-right">
                 <div class="col-8">
                     <h2 class="titulo2" >Pregunta 2. Seleccione que elementos le llaman la atención: </h2>
                 </div>      
             </div>
-             <!-- AQUI INCLUIR LO QUE SERIAN LAS CASILLAS DE SELECCION PARA POSTERIOR EVALUACION CON LAS RESPUESTAS DE ABAJO -->
-            1. La pagina no se ve profesional, desorganizada y con letras y colores raros (correcta). 
-            2. La pagina se ve normal. 
-            3. El link parece seguro.
-
-            <div class="row centrado pad6">
-                <div class="col-8">
-                    <h2 class="titulo2" >Pregunta 3. ¿Usted haría click en ese link? </h2>
-                </div>           
-            </div>
-            <!-- AQUI INCLUIR LO QUE SERIAN LAS CASILLAS DE SELECCION PARA POSTERIOR EVALUACION CON LAS RESPUESTAS DE ABAJO -->
-            1. Claro, yo confio en esta pagina. 
-            2. NOOO que peligro de pagina yo mejor la cierro. (correcta) 
-            3. Si, a la pagina le falta un poco de trabajo pero no importa. 
-
-            <div class="row container-fluid centrado">
-                <div class="col-1 centrado">
-                    <a href="keyloggers 1.html"><lottie-player src="https://assets10.lottiefiles.com/packages/lf20_iyqdtgxe.json" background="transparent"  speed="1"  style="width: 300px; height: 100px;" loop autoplay></lottie-player></a>  
+            <div class="row padphi" style="align-items: center; padding-left: 25%;" data-aos="fade-left" >
+                <div class="col-6">
+                    <input type="radio" id="phi2.13" name="phi23"> <label for="phi2.13"><p class="normal">El link parece seguro.</p></label> 
+                </div>
+                <div class="col-4" style="width: 5.5vw; height: 5.5vw;">
+                    <lottie-player src="https://assets9.lottiefiles.com/private_files/lf30_w0hvnn0l.json" id="23mal1" background="transparent"  speed="1.3"  style="display:none;" autoplay loop></lottie-player>
                 </div>
             </div>
-            <audio src="assets/img/hades final expense.mp3"autoplay loop id="myaudio"></audio>
+            <div class="row padphi" style="align-items: center; padding-left: 25%;"data-aos="fade-left">
+                <div class="col-6">
+                    <input type="radio" id="phi2.23" name="phi23"> <label for="phi2.23"><p class="normal">La pagina se ve normal.</p></label>
+                </div>
+                <div class="col-4" style="width: 5.5vw; height: 5.5vw;">
+                    <lottie-player src="https://assets9.lottiefiles.com/private_files/lf30_w0hvnn0l.json" id="23mal2" background="transparent"  speed="1.4"  style="display:none;" autoplay loop></lottie-player>
+                </div>
+            </div>
+            <div class="row padphi" style="align-items: center; padding-left: 25%;" data-aos="fade-left">
+                <div class="col-6">
+                    <input type="radio" id="phi2.33" name="phi23"> <label for="phi2.33"><p class="normal">La pagina no se ve profesional, desorganizada y con letras y colores raros.</p></label><!--(correcta)-->
+                </div>
+                <div class="col-4" style="width: 5.5vw; height: 5.5vw;">
+                    <lottie-player src="https://assets9.lottiefiles.com/private_files/lf30_pf700c09.json" id="23bien" background="transparent"  speed="1.4"  style="display:none;" autoplay loop></lottie-player>
+                </div>
+            </div>
+
+            <div class="row centrado pad6" data-aos="zoom-out">
+                <div class="col-9">
+                    <button class="botones letrabotones" onclick="showHide23()">RESPONDER</button>
+                </div>
+            </div>
+
+
+            <div class="row centrado pad6" data-aos="fade-right">
+                <div class="col-8">
+                    <h2 class="titulo2">Pregunta 3. ¿Usted haría click en ese link? </h2>
+                </div>      
+            </div>
+            <div class="row padphi" style="align-items: center;padding-left: 30%;" data-aos="fade-left">
+                <div class="col-5">
+                    <input type="radio" id="phi3.13" name="phi33"> <label for="phi3.13"><p class="normal">Claro, yo confio en esta pagina.</p></label>
+                </div>
+                <div class="col-4" style="width: 5.5vw; height: 5.5vw;">
+                    <lottie-player src="https://assets9.lottiefiles.com/private_files/lf30_w0hvnn0l.json" id="33mal1" background="transparent"  speed="1.3"  style="display:none;" autoplay loop></lottie-player>
+                </div>
+            </div>
+            <div class="row padphi" style="align-items: center;padding-left: 30%;" data-aos="fade-left">
+                <div class="col-5">
+                    <input type="radio" id="phi3.23" name="phi33"> <label for="phi3.23"><p class="normal">NOOO que peligro de pagina yo mejor la cierro.</p></label> <!--(correcta)-->
+                </div>
+                <div class="col-4" style="width: 5.5vw; height: 5.5vw;">
+                    <lottie-player src="https://assets9.lottiefiles.com/private_files/lf30_pf700c09.json" id="33bien" background="transparent"  speed="1.4"  style="display:none;" autoplay loop></lottie-player>
+                </div>
+            </div>
+            <div class="row padphi" style="align-items: center;padding-left: 30%;" data-aos="fade-left">
+                <div class="col-5">
+                    <input type="radio" id="phi3.33" name="phi33"> <label for="phi3.33"><p class="normal">Si, a la pagina le falta un poco de trabajo pero no importa.</p></label> 
+                </div>
+                <div class="col-4" style="width: 5.5vw; height: 5.5vw;">
+                    <lottie-player src="https://assets9.lottiefiles.com/private_files/lf30_w0hvnn0l.json" id="33mal2" background="transparent"  speed="1.4"  style="display:none;" autoplay loop></lottie-player>
+                </div>
+            </div>
+
+            <div class="row centrado pad6" data-aos="zoom-out">
+                <div class="col-9">
+                    <button class="botones letrabotones" onclick="showHide33()">RESPONDER</button>
+                </div>
+            </div>
+
+
+
+            <div class="row container-fluid centrado" data-aos="zoom-out">
+                <div class="col-2 centrado pad6">
+                    <a href="keyloggers 1.html"><lottie-player class="lottiec" id="eleventhLottie3" src="https://assets10.lottiefiles.com/packages/lf20_iyqdtgxe.json"></lottie-player></a>  
+                </div>
+            </div>
+            <!-- <audio src="assets/sounds/Musica 2.mp3"autoplay loop id="myaudio"></audio>
             <script>
                 var audio = document.getElementById("myaudio");
-                audio.volume = 0.005;
-            </script> 
+                audio.volume = 0.04;
+            </script>  -->
         </section>
         <!--Footer-->
         <footer>
@@ -275,5 +664,14 @@
         <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
         <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
         <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+            AOS.init({
+                duration: 800,
+                easing: 'ease',
+                delay: 50
+            });
+        </script>
     </body>
 </html>

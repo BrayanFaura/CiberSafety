@@ -16,11 +16,27 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Dosis&family=Quicksand:wght@600&display=swap" rel="stylesheet">
         <!-- Core theme CSS (includes Bootstrap)-->
-        <link href="css/stylesp.css" rel="stylesheet" />
+        <link href="css/styles.css" rel="stylesheet" />
         <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
         <script src="https://unpkg.com/@lottiefiles/lottie-interactivity@latest/dist/lottie-interactivity.min.js"></script>
     </head>
-    <body>
+    <body class="hidden">
+        <div class="centradopreloader" id="onload">
+            <div class="lds-default">
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+        </div>
         <!-- Navigation-->
 
         <!-- <nav class="navbar navbar-light bg-light static-top">
@@ -51,7 +67,7 @@
             </div>
             <div class="row container-fluid izquierda">
                 <div class="col-2">
-                    <img id="imgnavbar" class="nav2" src="assets/img/iabuenaph.png">
+                    <img class="nav2 imgnavbar" src="assets/img/iabuenaph.png">
                 </div>
                 <div class="col-6 izquierda">
                     <h3 class="conver1">  Bienvenido al ejercicio de evaluacion de la lección número 2.</h3>
@@ -59,203 +75,34 @@
             </div>
             <div class="row container-fluid izquierda">
                 <div class="col-2">
-                    <img id="imgnavbar" class="nav2" src="assets/img/iabuenaph.png">
+                    <img class="nav2 imgnavbar" src="assets/img/iabuenaph.png">
                 </div>
                 <div class="col-7 izquierda">
                     <h3 class="conver1">  En esta actividad deberas superar minimo 2 de 3 retos relacionados a los keylogger.</h3>
                 </div>      
             </div>
-            <div class="row container-fluid derecha">
-                <div class="col-7 derecha">
-                    <h3 class="conver2"> Deberás observar la imagen que se presenta y en base a esta escoger la respuesta correcta a las preguntas planteadas.</h3>
-                </div>
-                <div class="col-2">
-                    <img id="imgnavbar" class="nav2" src="assets/img/iamalaph.png">
-                </div>
-            </div>
-            <div class="row container-fluid derecha">
-                <div class="col-7 derecha">
-                    <h3 class="conver2">  Te mostraremos 3 imagenes. </h3>
-                </div>
-                <div class="col-2">
-                    <img id="imgnavbar" class="nav2" src="assets/img/iamalaph.png">
-                </div>
-            </div>
-            <div class="row container-fluid izquierda">
-                <div class="col-2">
-                    <img id="imgnavbar" class="nav2" src="assets/img/iabuenaph.png">
-                </div>
-                <div class="col-2 izquierda">
-                    <h3 class="conver1">  Buena suerte. </h3>
-                </div>      
-            </div>
-            <div class="row container-fluid derecha">
-                <div class="col-4 derecha">
-                    <h3 class="conver2"> No me hagas quedar mal humano. </h3>
-                </div>
-                <div class="col-2">
-                    <img id="imgnavbar" class="nav2" src="assets/img/iamalaph.png">
-                </div>
-            </div>
+            
+            
+            
+            
             <div class="row centrado">
                 <h2 class="titulo" id="Armasnames">EJERCICIO #1</h2>
             </div>
-            <div class="row container-fluid izquierda">
-                <div class="col-2">
-                    <img id="imgnavbar" class="nav2" src="assets/img/iabuenaph.png">
-                </div>
-                <div class="col-7 izquierda">
-                    <h3 class="conver1"> </h3>
-                </div>      
-            </div>
-            <div class="row container-fluid centrado ">
-                <div class="col-3 centrado">
-                    <img class="imgevaluacion fondoClaroA nav2" src="assets/img/spotify falso.png">
-                </div>
-            </div>
-            <div class="row centrado pad6">
-                <div class="col-8">
-                    <h2 class="titulo" >Pregunta 1. </h2>
-                </div>
-            </div>
-            <!-- AQUI INCLUIR LO QUE SERIAN LAS CASILLAS DE SELECCION PARA POSTERIOR EVALUACION CON LAS RESPUESTAS DE ABAJO-->
-            1) 
-            2) 
-
-            <div class="row centrado pad6">
-                <div class="col-8">
-                    <h2 class="titulo" >Pregunta 2. </h2>
-                </div>      
-            </div>
-             <!-- AQUI INCLUIR LO QUE SERIAN LAS CASILLAS DE SELECCION PARA POSTERIOR EVALUACION CON LAS RESPUESTAS DE ABAJO -->
-            1) 
-            2) 
-            3) 
-            4) 
-
-            <div class="row centrado pad6">
-                <div class="col-8">
-                    <h2 class="titulo" >Pregunta 3. </h2>
-                </div>           
-            </div>
-            <!-- AQUI INCLUIR LO QUE SERIAN LAS CASILLAS DE SELECCION PARA POSTERIOR EVALUACION CON LAS RESPUESTAS DE ABAJO -->
-            1. 
-            2. 
-            3. 
-            <div class="row centrado pad6">
-                <div class="col-8" >
-                    <h2 class="titulo" >Pregunta 4. </h2>
-                </div>           
-            </div>
-            <!-- AQUI INCLUIR LO QUE SERIAN LAS CASILLAS DE SELECCION PARA POSTERIOR EVALUACION CON LAS RESPUESTAS DE ABAJO -->
-            1. 
-            2. 
-            3. 
-            4. 
-            <div class="row container-fluid derecha">
-                <div class="col-7 derecha">
-                    <h3 class="conver2">Okay, segundo correo, las reglas son las mismas que el anterior.</h3>
-                </div>
-                <div class="col-2">
-                    <img id="imgnavbar" class="nav2" src="assets/img/iamalaph.png">
-                </div>
-            </div>
-            <div class="row container-fluid centrado ">
-                <div class="col-3 centrado">
-                    <img class="imgevaluacion fondoClaroA nav2" src="assets/img/spotify falso.png">
-                </div>
-            </div>
-            <div class="row centrado pad6">
-                <div class="col-8">
-                    <h2 class="titulo" >Pregunta 1.</h2>
-                </div>
-            </div>
-            <!-- AQUI INCLUIR LO QUE SERIAN LAS CASILLAS DE SELECCION PARA POSTERIOR EVALUACION CON LAS RESPUESTAS DE ABAJO-->
-            1) 
-            2) 
-
-            <div class="row centrado pad6">
-                <div class="col-8">
-                    <h2 class="titulo" >Pregunta 2. Seleccione cual de los siguientes elementos del correo indican que es o no un correo real: </h2>
-                </div>      
-            </div>
-             <!-- AQUI INCLUIR LO QUE SERIAN LAS CASILLAS DE SELECCION PARA POSTERIOR EVALUACION CON LAS RESPUESTAS DE ABAJO -->
-             1)  
-             2)  
-             3) 
-
-            <div class="row centrado pad6">
-                <div class="col-8">
-                    <h2 class="titulo" >Pregunta 3. </h2>
-                </div>           
-            </div>
-            <!-- AQUI INCLUIR LO QUE SERIAN LAS CASILLAS DE SELECCION PARA POSTERIOR EVALUACION CON LAS RESPUESTAS DE ABAJO -->
-            1) 
-            2) 
-            3) 
-            <div class="row centrado pad6">
-                <div class="col-8" >
-                    <h2 class="titulo" >Pregunta 4. </h2>
-                </div>           
-            </div>
-            <!-- AQUI INCLUIR LO QUE SERIAN LAS CASILLAS DE SELECCION PARA POSTERIOR EVALUACION CON LAS RESPUESTAS DE ABAJO -->
-            1.  
-            2.  
-            3.  
-
-            <div class="row container-fluid derecha">
-                <div class="col-7 derecha">
-                    <h3 class="conver2"> El ultimo ejercicio, ¡tu puedes!, las reglas son las mismas pero ahora es una link en vez de un correo ten cuidado.</h3>
-                </div>
-                <div class="col-2">
-                    <img id="imgnavbar" class="nav2" src="assets/img/iamalaph.png">
-                </div>
-            </div>
-            <div class="row container-fluid centrado ">
-                <div class="col-3 centrado">
-                    <img class="imgevaluacion fondoClaroA nav2" src="assets/img/spotify falso.png">
-                </div>
-            </div>
-            <div class="row centrado pad6">
-                <div class="col-8">
-                    <h2 class="titulo" >Pregunta 1. </h2>
-                </div>
-            </div>
-            <!-- AQUI INCLUIR LO QUE SERIAN LAS CASILLAS DE SELECCION PARA POSTERIOR EVALUACION CON LAS RESPUESTAS DE ABAJO-->
-            1) 
-            2) 
-
-            <div class="row centrado pad6">
-                <div class="col-8">
-                    <h2 class="titulo" >Pregunta 2. </h2>
-                </div>      
-            </div>
-             <!-- AQUI INCLUIR LO QUE SERIAN LAS CASILLAS DE SELECCION PARA POSTERIOR EVALUACION CON LAS RESPUESTAS DE ABAJO -->
-            1.  
-            2.  
-            3. 
-
-            <div class="row centrado pad6">
-                <div class="col-8">
-                    <h2 class="titulo" >Pregunta 3. </h2>
-                </div>           
-            </div>
-            <!-- AQUI INCLUIR LO QUE SERIAN LAS CASILLAS DE SELECCION PARA POSTERIOR EVALUACION CON LAS RESPUESTAS DE ABAJO -->
-            1.  
-            2.  
-            3.  
+            
+            
+           
 
             <!--Botono para avanzar-->
 
             <div class="row container-fluid centrado">
-                <div class="col-1 centrado">
+                <div class="col-2 centrado">
                     <a href="index.html"><lottie-player src="https://assets10.lottiefiles.com/packages/lf20_iyqdtgxe.json" background="transparent"  speed="1"  style="width: 300px; height: 100px;" loop autoplay></lottie-player></a>  
                 </div>
             </div>
-            <audio src="assets/img/hades final expense.mp3"autoplay loop id="myaudio"></audio>
+            <audio src="assets/sounds/Musica 2.mp3"autoplay loop id="myaudio"></audio>
             <script>
                 var audio = document.getElementById("myaudio");
-                audio.volume = 0.005;
+                audio.volume = 0.01;
             </script> 
         </section>
         <!--Footer-->
@@ -271,5 +118,6 @@
         <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
         <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
         <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     </body>
 </html>
