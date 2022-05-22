@@ -42,6 +42,11 @@ body {
   overflow: hidden;
 }
 
+.nothidden{
+  overflow-x:hidden;
+}
+
+
 .lds-default {
   display: inline-block;
   position: relative;
