@@ -8,6 +8,7 @@
 window.onload=function(){
     $('#onload').fadeOut();
     $('body').removeClass('hidden');
+    $('body').addClass('nothidden');
 }
 
 LottieInteractivity.create({
