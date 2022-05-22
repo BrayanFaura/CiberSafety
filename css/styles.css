@@ -316,6 +316,18 @@ header {
   padding-top: 1%;
 }
 
+.titulo3{
+  color: white;
+  font-size:3vw;
+  font-family: 'Quicksand', sans-serif;
+  font-weight:550;
+  line-height:3vw;
+  padding-bottom: 1%;
+  padding-top: 1%;
+}
+
+
+
 .normalintro{
   color: black;
   font-size:1.3vw;
