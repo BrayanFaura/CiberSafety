@@ -241,6 +241,24 @@ header {
   text-align: center;
 }
 
+.conver4{
+  color: white;
+  font-size:1.5vw;
+  font-family: 'Quicksand', sans-serif;
+  font-weight:550;
+  line-height:3vw;
+  background-color:#83e612;
+  border-width: 0.5vw;
+  border-radius: 50px;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  padding-left: 4%;
+  padding-right: 4%;
+  border-style: solid;
+  border-color: #49800b;
+  text-align: center;
+}
+
 .logosintro{
   width: 40%;
   height: auto;
