@@ -883,6 +883,37 @@ function reproducirsonidobep4(){
     })
 }
 
+//SONIDOS BEN KEYLOGGERS
+
+function reproducirsonidobk1(){
+    let imagen = document.querySelector(".reproductorbk1")
+    imagen.addEventListener("click", () => {
+    let etiquetaAudio = document.createElement("audio");
+    etiquetaAudio.setAttribute("src", "assets/sounds/IABEN/Benkeyloggers1.mp3");
+    etiquetaAudio.play();
+    })
+}
+
+function reproducirsonidobk2(){
+    let imagen = document.querySelector(".reproductorbk2")
+    imagen.addEventListener("click", () => {
+    let etiquetaAudio = document.createElement("audio");
+    etiquetaAudio.setAttribute("src", "assets/sounds/IABEN/Benkeyloggers2.mp3");
+    etiquetaAudio.play();
+    })
+}
+
+function reproducirsonidobk3(){
+    let imagen = document.querySelector(".reproductorbk3")
+    imagen.addEventListener("click", () => {
+    let etiquetaAudio = document.createElement("audio");
+    etiquetaAudio.setAttribute("src", "assets/sounds/IABEN/Benkeyloggers3.mp3");
+    etiquetaAudio.play();
+    })
+}
+
+
+
 //SONIDO BEN ANTIVIRUS
 
 function reproducirsonidoba1(){
