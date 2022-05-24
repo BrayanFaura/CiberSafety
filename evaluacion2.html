@@ -19,9 +19,10 @@
         <link href="css/styles.css" rel="stylesheet" />
         <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
         <script src="https://unpkg.com/@lottiefiles/lottie-interactivity@latest/dist/lottie-interactivity.min.js"></script>
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     </head>
     <body class="hidden">
-        <div class="centradopreloader" id="onload">
+        <!--<div class="centradopreloader" id="onload">
             <div class="lds-default">
                 <div></div>
                 <div></div>
@@ -36,15 +37,7 @@
                 <div></div>
                 <div></div>
             </div>
-        </div>
-        <!-- Navigation-->
-
-        <!-- <nav class="navbar navbar-light bg-light static-top">
-            <div class="container">
-                <a class="navbar-brand" href="#!">Start Bootstrap</a>    Aqui va la navbar pero en el 
-                <a class="btn btn-primary" href="#signup">Sign Up</a>    illustrator no la puse, la comento por si acaso
-            </div>
-        </nav> -->
+        </div>-->
 
 
         <!--Header NAVBAR-->
@@ -62,35 +55,9 @@
         </header>
         <!--BIENVENIDA CON COSO EN CENTRO-->
         <section>
-            <div class="row centrado padnavbar">
-                <h2 class="titulo" id="Armasnames">EVALUACIÓN ACERCA DE LOS KEYLOGGER</h2>
+            <div class="row centrado padnavbar" data-aos="zoom-in">
+                <h2 class="titulo2" id="Armasnames">EVALUACIÓN SOBRE KEYLOGGERS</h2>
             </div>
-            <div class="row container-fluid izquierda">
-                <div class="col-2">
-                    <img class="nav2 imgnavbar" src="assets/img/iabuenaph.png">
-                </div>
-                <div class="col-6 izquierda">
-                    <h3 class="conver1">  Bienvenido al ejercicio de evaluacion de la lección número 2.</h3>
-                </div>      
-            </div>
-            <div class="row container-fluid izquierda">
-                <div class="col-2">
-                    <img class="nav2 imgnavbar" src="assets/img/iabuenaph.png">
-                </div>
-                <div class="col-7 izquierda">
-                    <h3 class="conver1">  En esta actividad deberas superar minimo 2 de 3 retos relacionados a los keylogger.</h3>
-                </div>      
-            </div>
-            
-            
-            
-            
-            <div class="row centrado">
-                <h2 class="titulo" id="Armasnames">EJERCICIO #1</h2>
-            </div>
-            
-            
-           
 
             <!--Botono para avanzar-->
 
@@ -119,5 +86,13 @@
         <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
         <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
         <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+            AOS.init({
+                duration: 800,
+                easing: 'ease',
+                delay: 50
+            });
+        </script>
     </body>
 </html>
