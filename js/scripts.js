@@ -882,3 +882,113 @@ function reproducirsonidobep4(){
     etiquetaAudio.play();
     })
 }
+
+//SONIDO BEN ANTIVIRUS
+
+function reproducirsonidoba1(){
+    let imagen = document.querySelector(".reproductorba1")
+    imagen.addEventListener("click", () => {
+    let etiquetaAudio = document.createElement("audio");
+    etiquetaAudio.setAttribute("src", "assets/sounds/IABEN/Benantivirus1.mp3");
+    etiquetaAudio.play();
+    })
+}
+
+function reproducirsonidoba2(){
+    let imagen = document.querySelector(".reproductorba2")
+    imagen.addEventListener("click", () => {
+    let etiquetaAudio = document.createElement("audio");
+    etiquetaAudio.setAttribute("src", "assets/sounds/IABEN/Benantivirus2.mp3");
+    etiquetaAudio.play();
+    })
+}
+
+function reproducirsonidoba3(){
+    let imagen = document.querySelector(".reproductorba3")
+    imagen.addEventListener("click", () => {
+    let etiquetaAudio = document.createElement("audio");
+    etiquetaAudio.setAttribute("src", "assets/sounds/IABEN/Benantivirus3.mp3");
+    etiquetaAudio.play();
+    })
+}
+
+function reproducirsonidoba4(){
+    let imagen = document.querySelector(".reproductorba4")
+    imagen.addEventListener("click", () => {
+    let etiquetaAudio = document.createElement("audio");
+    etiquetaAudio.setAttribute("src", "assets/sounds/IABEN/Benantivirus4.mp3");
+    etiquetaAudio.play();
+    })
+}
+
+function reproducirsonidoba5(){
+    let imagen = document.querySelector(".reproductorba5")
+    imagen.addEventListener("click", () => {
+    let etiquetaAudio = document.createElement("audio");
+    etiquetaAudio.setAttribute("src", "assets/sounds/IABEN/Benantivirus5.mp3");
+    etiquetaAudio.play();
+    })
+}
+
+function reproducirsonidoba6(){
+    let imagen = document.querySelector(".reproductorba6")
+    imagen.addEventListener("click", () => {
+    let etiquetaAudio = document.createElement("audio");
+    etiquetaAudio.setAttribute("src", "assets/sounds/IABEN/Benantivirus6.mp3");
+    etiquetaAudio.play();
+    })
+}
+
+function reproducirsonidoba7(){
+    let imagen = document.querySelector(".reproductorba7")
+    imagen.addEventListener("click", () => {
+    let etiquetaAudio = document.createElement("audio");
+    etiquetaAudio.setAttribute("src", "assets/sounds/IABEN/Benantivirus7.mp3");
+    etiquetaAudio.play();
+    })
+}
+
+function reproducirsonidoba8(){
+    let imagen = document.querySelector(".reproductorba8")
+    imagen.addEventListener("click", () => {
+    let etiquetaAudio = document.createElement("audio");
+    etiquetaAudio.setAttribute("src", "assets/sounds/IABEN/Benantivirus8.mp3");
+    etiquetaAudio.play();
+    })
+}
+
+function reproducirsonidoba9(){
+    let imagen = document.querySelector(".reproductorba9")
+    imagen.addEventListener("click", () => {
+    let etiquetaAudio = document.createElement("audio");
+    etiquetaAudio.setAttribute("src", "assets/sounds/IABEN/Benantivirus9.mp3");
+    etiquetaAudio.play();
+    })
+}
+
+function reproducirsonidoba10(){
+    let imagen = document.querySelector(".reproductorba10")
+    imagen.addEventListener("click", () => {
+    let etiquetaAudio = document.createElement("audio");
+    etiquetaAudio.setAttribute("src", "assets/sounds/IABEN/Benantivirus10.mp3");
+    etiquetaAudio.play();
+    })
+}
+
+function reproducirsonidoba11(){
+    let imagen = document.querySelector(".reproductorba11")
+    imagen.addEventListener("click", () => {
+    let etiquetaAudio = document.createElement("audio");
+    etiquetaAudio.setAttribute("src", "assets/sounds/IABEN/Benantivirus11.mp3");
+    etiquetaAudio.play();
+    })
+}
+
+function reproducirsonidoba12(){
+    let imagen = document.querySelector(".reproductorba12")
+    imagen.addEventListener("click", () => {
+    let etiquetaAudio = document.createElement("audio");
+    etiquetaAudio.setAttribute("src", "assets/sounds/IABEN/Benantivirus12.mp3");
+    etiquetaAudio.play();
+    })
+}
