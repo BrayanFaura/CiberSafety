@@ -282,6 +282,58 @@ header {
   text-align: center;
 }
 
+.conver6{
+  color: black;
+  font-size:1.5vw;
+  font-family: 'Quicksand', sans-serif;
+  font-weight:550;
+  line-height:3vw;
+  background-color:#ffffff;
+  border-width: 0.5vw;
+  border-radius: 50px;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  padding-left: 4%;
+  padding-right: 4%;
+  border-style: solid;
+  border-color: #b3b3b3;
+  text-align: left;
+}
+
+.linkse1{
+  color: white;
+  text-decoration: none;
+  font-size:1.2vw;
+  font-family: 'Quicksand', sans-serif;
+  
+}
+
+.linkse1:hover{
+  color: white;
+}
+
+.linkse2{
+  color: rgb(0, 132, 255);
+  font-size:1.5vw;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.linkse2:hover{
+  color: rgb(0, 98, 190);
+}
+
+.linkse3{
+  color: white;
+  text-align: left;
+  text-decoration: none;
+  font-size:1vw;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.linkse3:hover{
+  color: white;
+}
+
 .logosintro{
   width: 40%;
   height: auto;
@@ -449,6 +501,9 @@ bg-image{
 
 .fondoNegro{
   background-color: #000000;
+}
+.fondonegro2{
+  background-color: rgb(24, 24, 24);
 }
 
 .fondoClaroV{
