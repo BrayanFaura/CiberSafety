@@ -181,6 +181,32 @@ header {
   color:#bd1515;
 }
 
+.neon {
+	text-shadow:
+		0 0 5px rgba(0,178,255,1),
+		0 0 10px rgba(0,178,255,1),
+		0 0 20px rgba(0,178,255,1),
+		0 0 40px rgba(38,104,127,1),
+		0 0 80px rgba(38,104,127,1),
+		0 0 90px rgba(38,104,127,1),
+		0 0 100px rgba(38,104,127,1),
+		0 0 140px rgba(38,104,127,1),
+		0 0 180px rgba(38,104,127,1);
+}
+
+.neon:hover{
+  text-shadow:
+    0 0 5px rgba(178,0,100,1),
+    0 0 10px rgba(178,0,100,1),
+    0 0 20px rgba(178,0,100,1),
+    0 0 40px rgba(104,38,50,1),
+    0 0 80px rgba(104,38,50,1),
+    0 0 90px rgba(104,38,50,1),
+    0 0 100px rgba(104,38,50,1),
+    0 0 140px rgba(104,38,50,1),
+    0 0 180px rgba(104,38,50,1);
+}
+
 .letrabotones{
   font-family: 'Quicksand', sans-serif;
   font-size: 2vw;
