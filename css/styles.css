@@ -189,6 +189,30 @@ header {
   transition: width 2s,height 2s,transform 2s;
 }
 
+.botonback{
+  background-color: #34EFA3;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  width: 2.7vw;
+  height:2.8vw;
+  border: none;
+  cursor: pointer;
+  padding-left: 1%;
+  padding-right: 2%;
+  color: white;
+  transition: width 2s,height 2s,transform 2s;
+  position: sticky;
+  top: 93%;
+  left: 1%;
+  z-index: 100;
+}
+
+.botonback:hover{
+  background-color: #F567A0;
+  transform:scale(1.1);
+}
+
 .botones:hover{
   background-color: rgb(10, 159, 179);
   transform:scale(1.4);
