@@ -141,6 +141,10 @@ body {
 .fondoblanco{
   background-color: white;
 }
+.fondoblanco2{
+  background-color: white;
+  border-radius: 10px;
+}
 
 header {
   background: rgba(0, 0, 0, 0.8);
@@ -415,6 +419,15 @@ header {
   border-radius: 100px;
 }
 
+.cuadradito2{
+  border-style: solid;
+  border-color: rgb(197, 2, 2);
+  list-style: none; 
+  border-radius: 10px;
+  border-width: 4px;
+  padding-bottom: 20%;
+}
+
 .nostyle{
   list-style: none;
 }
@@ -548,6 +561,50 @@ header {
   padding-top: 1%;
 }
 
+.letraexplorador{
+  color: white;
+  font-size:1.5vw;
+  font-family: 'Montserrat', sans-serif;
+  font-weight:550;
+  line-height:3vw;
+  align-items:center;
+  text-decoration: none;
+}
+.letraexplorador:hover{
+  color: white;
+}
+
+.letraexplorador2{
+  color: white;
+  font-size:1vw;
+  font-family: 'Montserrat', sans-serif;
+  font-weight:550;
+  line-height:3vw;
+  align-items:center;
+  text-decoration: none;
+}
+.letraexplorador2:hover{
+  color: white;
+}
+
+.letraexplorador3{
+  color: white;
+  font-size:1vw;
+  font-family: 'Montserrat', sans-serif;
+  font-weight:550;
+  line-height:3vw;
+  text-decoration: none;
+}
+.letraexplorador3:hover{
+  color: white;
+}
+
+.itemexplorador{
+}
+.itemexplorador:hover{
+  background-color: grey;
+}
+
 
 
 .normalintro{
@@ -574,6 +631,21 @@ bg-image{
 .logonavbar{
   padding-top: 10%;
   width: 80%;
+  height: auto;
+}
+
+.logoexplorador{
+  width: 60%;
+  height: auto;
+}
+
+.logobarraizquierda{
+  width: 90%;
+  height: auto;
+}
+
+.logozonacentral{
+  width: 100%;
   height: auto;
 }
 
@@ -656,6 +728,11 @@ background-color: #025939;
 .izquierda{
   justify-content:left;
   align-items: center;
+  text-align: left;
+}
+.izquierda2{
+  justify-content:left;
+  align-items: top;
   text-align: left;
 }
 
@@ -784,6 +861,13 @@ background-color: #025939;
   padding-bottom: 0%;
 }
 
+.padcuadradito2{
+  padding-left: 0%;
+  padding-right: 0%;
+  padding-top: 12%;
+  padding-bottom: 10000%;
+}
+
 .padcaras{
   padding-left: 1%;
   padding-right: 1%;
@@ -825,6 +909,13 @@ background-color: #025939;
   padding-right: 0%;
   padding-top:2%;
   padding-bottom: 10000%;
+}
+
+.pad7{
+  padding-left: 0%;
+  padding-right: 0%;
+  padding-top:4%;
+  padding-bottom: 0%;
 }
 
 
