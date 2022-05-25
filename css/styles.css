@@ -670,6 +670,17 @@ bg-image{
 
 }
 
+.imgevaluacion2{
+  background-color: black;
+  border-width: 100px;
+  border-style: solid;
+  border: black;
+  border-radius: 50px;
+  width: 50%;
+  height: auto;
+
+}
+
 .textoimg{
   text-decoration: none;
   color: white;
