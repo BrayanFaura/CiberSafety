@@ -1317,7 +1317,7 @@ function reproducirsonidobek1(){
     let imagen = document.querySelector(".reproductorbek1")
     imagen.addEventListener("click", () => {
     let etiquetaAudio = document.createElement("audio");
-    etiquetaAudio.setAttribute("src", "assets/sounds/IAMATT/Benevaluacionk1.mp3");
+    etiquetaAudio.setAttribute("src", "assets/sounds/IABEN/Benevaluacionk1.mp3");
     etiquetaAudio.play();
     })
 }
@@ -1326,7 +1326,7 @@ function reproducirsonidobek2(){
     let imagen = document.querySelector(".reproductorbek2")
     imagen.addEventListener("click", () => {
     let etiquetaAudio = document.createElement("audio");
-    etiquetaAudio.setAttribute("src", "assets/sounds/IAMATT/Benevaluacionk2.mp3");
+    etiquetaAudio.setAttribute("src", "assets/sounds/IABEN/Benevaluacionk2.mp3");
     etiquetaAudio.play();
     })
 }
@@ -1345,7 +1345,7 @@ function reproducirsonidomek2(){
     let imagen = document.querySelector(".reproductormek2")
     imagen.addEventListener("click", () => {
     let etiquetaAudio = document.createElement("audio");
-    etiquetaAudio.setAttribute("src", "assets/sounds/IAMATT/Mattevaluacionk1.mp3");
+    etiquetaAudio.setAttribute("src", "assets/sounds/IAMATT/Mattevaluacionk2.mp3");
     etiquetaAudio.play();
     })
 }
@@ -1354,7 +1354,7 @@ function reproducirsonidomek3(){
     let imagen = document.querySelector(".reproductormek3")
     imagen.addEventListener("click", () => {
     let etiquetaAudio = document.createElement("audio");
-    etiquetaAudio.setAttribute("src", "assets/sounds/IAMATT/Mattevaluacionk1.mp3");
+    etiquetaAudio.setAttribute("src", "assets/sounds/IAMATT/Mattevaluacionk3.mp3");
     etiquetaAudio.play();
     })
 }
