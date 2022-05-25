@@ -1468,3 +1468,95 @@ function reproducirsonidoba12(){
     etiquetaAudio.play();
     })
 }
+
+//SONIDOS MATT ANTIVIRUS
+
+function reproducirsonidoma1(){
+    let imagen = document.querySelector(".reproductorma1")
+    imagen.addEventListener("click", () => {
+    let etiquetaAudio = document.createElement("audio");
+    etiquetaAudio.setAttribute("src", "assets/sounds/IAMATT/Mattantivirus1.mp3");
+    etiquetaAudio.play();
+    })
+}
+
+function reproducirsonidoma2(){
+    let imagen = document.querySelector(".reproductorma2")
+    imagen.addEventListener("click", () => {
+    let etiquetaAudio = document.createElement("audio");
+    etiquetaAudio.setAttribute("src", "assets/sounds/IAMATT/Mattantivirus2.mp3");
+    etiquetaAudio.play();
+    })
+}
+
+function reproducirsonidoma3(){
+    let imagen = document.querySelector(".reproductorma3")
+    imagen.addEventListener("click", () => {
+    let etiquetaAudio = document.createElement("audio");
+    etiquetaAudio.setAttribute("src", "assets/sounds/IAMATT/Mattantivirus3.mp3");
+    etiquetaAudio.play();
+    })
+}
+
+function reproducirsonidoma4(){
+    let imagen = document.querySelector(".reproductorma4")
+    imagen.addEventListener("click", () => {
+    let etiquetaAudio = document.createElement("audio");
+    etiquetaAudio.setAttribute("src", "assets/sounds/IAMATT/Mattantivirus4.mp3");
+    etiquetaAudio.play();
+    })
+}
+
+function reproducirsonidoma5(){
+    let imagen = document.querySelector(".reproductorma5")
+    imagen.addEventListener("click", () => {
+    let etiquetaAudio = document.createElement("audio");
+    etiquetaAudio.setAttribute("src", "assets/sounds/IAMATT/Mattantivirus5.mp3");
+    etiquetaAudio.play();
+    })
+}
+
+function reproducirsonidoma6(){
+    let imagen = document.querySelector(".reproductorma6")
+    imagen.addEventListener("click", () => {
+    let etiquetaAudio = document.createElement("audio");
+    etiquetaAudio.setAttribute("src", "assets/sounds/IAMATT/Mattantivirus6.mp3");
+    etiquetaAudio.play();
+    })
+}
+
+function reproducirsonidoma7(){
+    let imagen = document.querySelector(".reproductorma7")
+    imagen.addEventListener("click", () => {
+    let etiquetaAudio = document.createElement("audio");
+    etiquetaAudio.setAttribute("src", "assets/sounds/IAMATT/Mattantivirus7.mp3");
+    etiquetaAudio.play();
+    })
+}
+
+function reproducirsonidoma8(){
+    let imagen = document.querySelector(".reproductorma8")
+    imagen.addEventListener("click", () => {
+    let etiquetaAudio = document.createElement("audio");
+    etiquetaAudio.setAttribute("src", "assets/sounds/IAMATT/Mattantivirus8.mp3");
+    etiquetaAudio.play();
+    })
+}
+
+function reproducirsonidoma9(){
+    let imagen = document.querySelector(".reproductorma9")
+    imagen.addEventListener("click", () => {
+    let etiquetaAudio = document.createElement("audio");
+    etiquetaAudio.setAttribute("src", "assets/sounds/IAMATT/Mattantivirus9.mp3");
+    etiquetaAudio.play();
+    })
+}
+
+function reproducirsonidoma10(){
+    let imagen = document.querySelector(".reproductorma10")
+    imagen.addEventListener("click", () => {
+    let etiquetaAudio = document.createElement("audio");
+    etiquetaAudio.setAttribute("src", "assets/sounds/IAMATT/Mattantivirus10.mp3");
+    etiquetaAudio.play();
+    })
+}
