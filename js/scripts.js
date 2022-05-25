@@ -1313,6 +1313,23 @@ function reproducirsonidomk22(){
 
 //SONIDOS BEN EVALUACION KEYLOGGERS
 
+function reproducirsonidobek1(){
+    let imagen = document.querySelector(".reproductorbek1")
+    imagen.addEventListener("click", () => {
+    let etiquetaAudio = document.createElement("audio");
+    etiquetaAudio.setAttribute("src", "assets/sounds/IAMATT/Benevaluacionk1.mp3");
+    etiquetaAudio.play();
+    })
+}
+
+function reproducirsonidobek2(){
+    let imagen = document.querySelector(".reproductorbek2")
+    imagen.addEventListener("click", () => {
+    let etiquetaAudio = document.createElement("audio");
+    etiquetaAudio.setAttribute("src", "assets/sounds/IAMATT/Benevaluacionk2.mp3");
+    etiquetaAudio.play();
+    })
+}
 //SONIDOS MATT EVALUACION KEYLOGGERS
 
 function reproducirsonidomek1(){
