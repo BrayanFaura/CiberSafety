@@ -201,6 +201,11 @@ header {
   transition: width 2s,height 2s,transform 2s;
 }
 
+.botones:hover{
+  background-color: rgb(10, 159, 179);
+  transform:scale(1.4);
+}
+
 .botonback{
   background-color: #34EFA3;
   -moz-border-radius: 50%;
@@ -223,11 +228,6 @@ header {
 .botonback:hover{
   background-color: #F567A0;
   transform:scale(1.1);
-}
-
-.botones:hover{
-  background-color: rgb(10, 159, 179);
-  transform:scale(1.4);
 }
 
 .botones2{
@@ -267,6 +267,26 @@ header {
 
 .botones3:hover{
   background-color: rgb(21, 10, 179);
+  transform:scale(1.4);
+}
+
+.botones4{
+  background-color: blue;
+  border-radius: 8px;
+  width: auto;
+  height:auto;
+  border: none;
+  cursor: pointer;
+  padding-left: 3%;
+  padding-right: 3%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  color: white;
+  transition: width 2s,height 2s,transform 2s;
+}
+
+.botones4:hover{
+  background-color: green;
   transform:scale(1.4);
 }
 
