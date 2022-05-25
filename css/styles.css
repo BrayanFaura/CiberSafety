@@ -222,6 +222,26 @@ header {
   transform:scale(1.4);
 }
 
+.botones3{
+  background-color: #03b5d4;
+  border-radius: 8px;
+  width: auto;
+  height:auto;
+  border: none;
+  cursor: pointer;
+  padding-left: 3%;
+  padding-right: 3%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  color: white;
+  transition: width 2s,height 2s,transform 2s;
+}
+
+.botones3:hover{
+  background-color: rgb(21, 10, 179);
+  transform:scale(1.4);
+}
+
 .conver1{
   color: white;
   font-size:1.5vw;
@@ -341,6 +361,17 @@ header {
   text-align: center;
 }
 
+.cuadradito{
+  background-color: red;
+  border-style: solid;
+  border-color: white;
+  list-style: none;
+}
+
+.nostyle{
+  list-style: none;
+}
+
 .linkse1{
   color: white;
   text-decoration: none;
@@ -373,6 +404,11 @@ header {
 
 .linkse3:hover{
   color: white;
+}
+
+.trofeoCS{
+  width: 100%;
+  height: auto;
 }
 
 .logosintro{
@@ -702,6 +738,13 @@ background-color: #025939;
   padding-left: 0%;
   padding-right: 0%;
   padding-top: 8%;
+  padding-bottom: 0%;
+}
+
+.padev2{
+  padding-left: 0%;
+  padding-right: 0%;
+  padding-top: 4%;
   padding-bottom: 0%;
 }
 
