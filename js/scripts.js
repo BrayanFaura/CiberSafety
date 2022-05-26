@@ -1571,3 +1571,111 @@ function reproducirsonidobea1(){
     etiquetaAudio.play();
     })
 }
+
+function reproducirsonidobea2(){
+    let imagen = document.querySelector(".reproductorbea2")
+    imagen.addEventListener("click", () => {
+    let etiquetaAudio = document.createElement("audio");
+    etiquetaAudio.setAttribute("src", "assets/sounds/IABEN/Benevaluaciona2.mp3");
+    etiquetaAudio.play();
+    })
+}
+
+function reproducirsonidobea3(){
+    let imagen = document.querySelector(".reproductorbea3")
+    imagen.addEventListener("click", () => {
+    let etiquetaAudio = document.createElement("audio");
+    etiquetaAudio.setAttribute("src", "assets/sounds/IABEN/Benevaluaciona3.mp3");
+    etiquetaAudio.play();
+    })
+}
+
+function reproducirsonidobea4(){
+    let imagen = document.querySelector(".reproductorbea4")
+    imagen.addEventListener("click", () => {
+    let etiquetaAudio = document.createElement("audio");
+    etiquetaAudio.setAttribute("src", "assets/sounds/IABEN/Benevaluaciona4.mp3");
+    etiquetaAudio.play();
+    })
+}
+
+function reproducirsonidobea5(){
+    let imagen = document.querySelector(".reproductorbea5")
+    imagen.addEventListener("click", () => {
+    let etiquetaAudio = document.createElement("audio");
+    etiquetaAudio.setAttribute("src", "assets/sounds/IABEN/Benevaluaciona5.mp3");
+    etiquetaAudio.play();
+    })
+}
+
+function reproducirsonidobea6(){
+    let imagen = document.querySelector(".reproductorbea6")
+    imagen.addEventListener("click", () => {
+    let etiquetaAudio = document.createElement("audio");
+    etiquetaAudio.setAttribute("src", "assets/sounds/IABEN/Benevaluaciona6.mp3");
+    etiquetaAudio.play();
+    })
+}
+
+function reproducirsonidobea7(){
+    let imagen = document.querySelector(".reproductorbea7")
+    imagen.addEventListener("click", () => {
+    let etiquetaAudio = document.createElement("audio");
+    etiquetaAudio.setAttribute("src", "assets/sounds/IABEN/Benevaluaciona7.mp3");
+    etiquetaAudio.play();
+    })
+}
+
+function reproducirsonidobea8(){
+    let imagen = document.querySelector(".reproductorbea8")
+    imagen.addEventListener("click", () => {
+    let etiquetaAudio = document.createElement("audio");
+    etiquetaAudio.setAttribute("src", "assets/sounds/IABEN/Benevaluaciona8.mp3");
+    etiquetaAudio.play();
+    })
+}
+
+function reproducirsonidobea9(){
+    let imagen = document.querySelector(".reproductorbea9")
+    imagen.addEventListener("click", () => {
+    let etiquetaAudio = document.createElement("audio");
+    etiquetaAudio.setAttribute("src", "assets/sounds/IABEN/Benevaluaciona9.mp3");
+    etiquetaAudio.play();
+    })
+}
+
+function reproducirsonidobea10(){
+    let imagen = document.querySelector(".reproductorbea10")
+    imagen.addEventListener("click", () => {
+    let etiquetaAudio = document.createElement("audio");
+    etiquetaAudio.setAttribute("src", "assets/sounds/IABEN/Benevaluaciona10.mp3");
+    etiquetaAudio.play();
+    })
+}
+
+function reproducirsonidobea11(){
+    let imagen = document.querySelector(".reproductorbea11")
+    imagen.addEventListener("click", () => {
+    let etiquetaAudio = document.createElement("audio");
+    etiquetaAudio.setAttribute("src", "assets/sounds/IABEN/Benevaluaciona11.mp3");
+    etiquetaAudio.play();
+    })
+}
+
+function reproducirsonidobea12(){
+    let imagen = document.querySelector(".reproductorbea12")
+    imagen.addEventListener("click", () => {
+    let etiquetaAudio = document.createElement("audio");
+    etiquetaAudio.setAttribute("src", "assets/sounds/IABEN/Benevaluaciona12.mp3");
+    etiquetaAudio.play();
+    })
+}
+
+function reproducirsonidobea13(){
+    let imagen = document.querySelector(".reproductorbea13")
+    imagen.addEventListener("click", () => {
+    let etiquetaAudio = document.createElement("audio");
+    etiquetaAudio.setAttribute("src", "assets/sounds/IABEN/Benevaluaciona13.mp3");
+    etiquetaAudio.play();
+    })
+}
