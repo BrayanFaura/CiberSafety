@@ -79,29 +79,29 @@ LottieInteractivity.create({
 //RESPUESTAS EVALUACION PHISHING
 
 function showHide1(){
-    if(document.getElementById('phi1.13').checked || document.getElementById('phi1.23').checked){
-    oImageDiv=document.getElementById('1bien')
-    oImageDiv.style.display =(oImageDiv.style.display=='none')?'inline':'none'
-    oImageDiv=document.getElementById('1mal')
-    oImageDiv.style.display =(oImageDiv.style.display=='none')?'inline':'none'
+    if(document.getElementById('phi1.11').checked || document.getElementById('phi1.21').checked){
+        oImageDiv=document.getElementById('1bien')
+        oImageDiv.style.display =(oImageDiv.style.display=='none')?'inline':'none'
+        oImageDiv=document.getElementById('1mal')
+        oImageDiv.style.display =(oImageDiv.style.display=='none')?'inline':'none'
     }
 }
 
 function showHide21(){
-    if(document.getElementById('phi1.13').checked || document.getElementById('phi1.23').checked){
-    oImageDiv=document.getElementById('21bien')
-    oImageDiv.style.display =(oImageDiv.style.display=='none')?'inline':'none'
-    oImageDiv=document.getElementById('21mal1')
-    oImageDiv.style.display =(oImageDiv.style.display=='none')?'inline':'none'
-    oImageDiv=document.getElementById('21mal2')
-    oImageDiv.style.display =(oImageDiv.style.display=='none')?'inline':'none'
-    oImageDiv=document.getElementById('21mal3')
-    oImageDiv.style.display =(oImageDiv.style.display=='none')?'inline':'none'
+    if(document.getElementById('phi2.11').checked || document.getElementById('phi2.21').checked || document.getElementById('phi2.31').checked || document.getElementById('phi2.41').checked){
+        oImageDiv=document.getElementById('21bien')
+        oImageDiv.style.display =(oImageDiv.style.display=='none')?'inline':'none'
+        oImageDiv=document.getElementById('21mal1')
+        oImageDiv.style.display =(oImageDiv.style.display=='none')?'inline':'none'
+        oImageDiv=document.getElementById('21mal2')
+        oImageDiv.style.display =(oImageDiv.style.display=='none')?'inline':'none'
+        oImageDiv=document.getElementById('21mal3')
+        oImageDiv.style.display =(oImageDiv.style.display=='none')?'inline':'none'
     }
 }
 
 function showHide31(){
-    if(document.getElementById('phi1.13').checked || document.getElementById('phi1.23').checked){
+    if(document.getElementById('phi3.11').checked || document.getElementById('phi3.21').checked || document.getElementById('phi3.31').checked || document.getElementById('phi3.41').checked){
     oImageDiv=document.getElementById('31bien')
     oImageDiv.style.display =(oImageDiv.style.display=='none')?'inline':'none'
     oImageDiv=document.getElementById('31mal1')
@@ -114,7 +114,7 @@ function showHide31(){
 }
 
 function showHide41(){
-    if(document.getElementById('phi1.13').checked || document.getElementById('phi1.23').checked){
+    if(document.getElementById('phi4.11').checked || document.getElementById('phi4.21').checked || document.getElementById('phi4.31').checked || document.getElementById('phi4.41').checked){
     oImageDiv=document.getElementById('41bien')
     oImageDiv.style.display =(oImageDiv.style.display=='none')?'inline':'none'
     oImageDiv=document.getElementById('41mal1')
@@ -127,7 +127,7 @@ function showHide41(){
 }
 
 function showHide2(){
-    if(document.getElementById('phi1.13').checked || document.getElementById('phi1.23').checked){
+    if(document.getElementById('phi1.12').checked || document.getElementById('phi1.22').checked){
     oImageDiv=document.getElementById('2bien')
     oImageDiv.style.display =(oImageDiv.style.display=='none')?'inline':'none'
     oImageDiv=document.getElementById('2mal')
@@ -136,7 +136,7 @@ function showHide2(){
 }
 
 function showHide22(){
-    if(document.getElementById('phi1.13').checked || document.getElementById('phi1.23').checked){
+    if(document.getElementById('phi2.12').checked || document.getElementById('phi2.22').checked || document.getElementById('phi2.32').checked){
     oImageDiv=document.getElementById('22bien')
     oImageDiv.style.display =(oImageDiv.style.display=='none')?'inline':'none'
     oImageDiv=document.getElementById('22mal1')
@@ -147,7 +147,7 @@ function showHide22(){
 }
 
 function showHide32(){
-    if(document.getElementById('phi1.13').checked || document.getElementById('phi1.23').checked){
+    if(document.getElementById('phi3.12').checked || document.getElementById('phi3.22').checked || document.getElementById('phi3.32').checked){
     oImageDiv=document.getElementById('32bien')
     oImageDiv.style.display =(oImageDiv.style.display=='none')?'inline':'none'
     oImageDiv=document.getElementById('32mal1')
@@ -158,12 +158,14 @@ function showHide32(){
 }
     
 function showHide42(){
+    if(document.getElementById('phi4.12').checked || document.getElementById('phi4.22').checked || document.getElementById('phi4.32').checked){
     oImageDiv=document.getElementById('42bien')
     oImageDiv.style.display =(oImageDiv.style.display=='none')?'inline':'none'
     oImageDiv=document.getElementById('42mal1')
     oImageDiv.style.display =(oImageDiv.style.display=='none')?'inline':'none'
     oImageDiv=document.getElementById('42mal2')
     oImageDiv.style.display =(oImageDiv.style.display=='none')?'inline':'none'
+    }
 }
 
 function showHide3(){
@@ -176,7 +178,7 @@ function showHide3(){
 }
     
 function showHide23(){
-    if(document.getElementById('phi1.13').checked || document.getElementById('phi1.23').checked){
+    if(document.getElementById('phi2.13').checked || document.getElementById('phi2.23').checked || document.getElementById('phi2.33').checked){
         oImageDiv=document.getElementById('23bien')
         oImageDiv.style.display =(oImageDiv.style.display=='none')?'inline':'none'
         oImageDiv=document.getElementById('23mal1')
@@ -187,7 +189,7 @@ function showHide23(){
 }
 
 function showHide33(){
-    if(document.getElementById('phi1.13').checked || document.getElementById('phi1.23').checked){
+    if(document.getElementById('phi3.13').checked || document.getElementById('phi3.23').checked || document.getElementById('phi3.33').checked){
     oImageDiv=document.getElementById('33bien')
     oImageDiv.style.display =(oImageDiv.style.display=='none')?'inline':'none'
     oImageDiv=document.getElementById('33mal1')
