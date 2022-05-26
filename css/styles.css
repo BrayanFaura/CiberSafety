@@ -143,6 +143,7 @@ body {
 
 body::-webkit-scrollbar {
   width: 0.6vw;
+  height: 0.6vw;
 }
 
 body::-webkit-scrollbar-track {
