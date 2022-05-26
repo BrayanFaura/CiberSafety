@@ -723,9 +723,21 @@ bg-image{
   height: auto;
 }
 
+.logozonacentralcara{
+  width: 100%;
+  height: auto;
+  border-radius: 50%;
+}
+
 .logomodal{
   width: 30%;
   height: auto;
+}
+
+.logomodalcara{
+  width: 30%;
+  height: auto;
+  border-radius: 50%;
 }
 
 
@@ -6490,6 +6502,20 @@ textarea.form-control-lg {
   width: 100%;
   pointer-events: auto;
   background-color: #00265C;
+  background-clip: padding-box;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 1px;
+  border-color: gray;
+  outline: 0;
+}
+
+.modal-contentinstaladorguilty{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  pointer-events: auto;
+  background-color: rgb(200, 0, 0);
   background-clip: padding-box;
   border: 1px solid rgba(0, 0, 0, 0.2);
   border-radius: 1px;
