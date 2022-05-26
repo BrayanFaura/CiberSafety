@@ -1762,3 +1762,22 @@ function reproducirsonidomea9(){
     etiquetaAudio.play();
     })
 }
+
+//SONIDOS MATT Y BEN FINALES
+
+function reproducirsonidobymf1(){
+    let imagen = document.querySelector(".reproductorbymf1")
+    imagen.addEventListener("click", () => {
+    let etiquetaAudio = document.createElement("audio");
+    etiquetaAudio.setAttribute("src", "assets/sounds/BENYMATT/iajuntasfinal1.mp3");
+    etiquetaAudio.play();
+    })
+}
+function reproducirsonidobymf2(){
+    let imagen = document.querySelector(".reproductorbymf2")
+    imagen.addEventListener("click", () => {
+    let etiquetaAudio = document.createElement("audio");
+    etiquetaAudio.setAttribute("src", "assets/sounds/BENYMATT/iajuntasfinal1.mp3");
+    etiquetaAudio.play();
+    })
+}
