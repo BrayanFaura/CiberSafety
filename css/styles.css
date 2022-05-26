@@ -31,6 +31,7 @@ body {
   margin: 0;
   width: auto;
   height: auto;
+  overflow: overlay;
 }
 
 .blocky{
@@ -141,27 +142,16 @@ body {
 }
 
 body::-webkit-scrollbar {
-  width: 0.8vw;
+  width: 0.6vw;
 }
 
 body::-webkit-scrollbar-track {
-  background: rgb(29,3,89);
-  background: linear-gradient(0deg, rgba(29,3,89,1) 13%, rgba(98,3,68,1) 100%);
+  background: rgba(0, 0, 0, 0.6);
 }
 
 body::-webkit-scrollbar-thumb {
-  background-color: #34EFA3;
-  /* box-shadow: aqui es el neon
-		0 0 5px rgba(0,255,178,1),
-		0 0 10px rgba(0,255,178,1),
-		0 0 20px rgba(0,255,178,1),
-		0 0 40px rgba(38,127,104,1),
-		0 0 80px rgba(38,127,104,1),
-		0 0 90px rgba(38,127,104,1),
-		0 0 100px rgba(38,127,104,1),
-		0 0 140px rgba(38,127,104,1),
-		0 0 180px rgba(38,127,104,1); */
-  border-radius: 50px;  
+  background: rgba(177, 176, 176, 0.6);
+  border-radius: 50px;
 }
 
 .fondoblanco{
