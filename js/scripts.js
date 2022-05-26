@@ -1560,3 +1560,14 @@ function reproducirsonidoma10(){
     etiquetaAudio.play();
     })
 }
+
+//SONIDOS BEN EVALUACION 3 O EVALUACION FINAL
+
+function reproducirsonidobea1(){
+    let imagen = document.querySelector(".reproductorbea1")
+    imagen.addEventListener("click", () => {
+    let etiquetaAudio = document.createElement("audio");
+    etiquetaAudio.setAttribute("src", "assets/sounds/IABEN/Benevaluaciona1.mp3");
+    etiquetaAudio.play();
+    })
+}
