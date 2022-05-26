@@ -2625,6 +2625,21 @@ function reproducirsonidobea6(){
     })
 }
 
+function reproducirsonidobea65(){
+    let imagen = document.querySelector(".reproductorbea65")
+    let etiquetaAudio = document.createElement("audio");
+    etiquetaAudio.setAttribute("src", "assets/sounds/IABEN/Benevaluaciona65.mp3");
+    etiquetaAudio.volume = 0.6;
+    imagen.addEventListener("mouseenter", () => {
+    etiquetaAudio.play();
+    })
+    imagen.addEventListener("mouseleave", () => {
+        etiquetaAudio.pause();
+        etiquetaAudio.currentTime = 0;
+        etiquetaAudio.src = "";
+    })
+}
+
 function reproducirsonidobea7(){
     let imagen = document.querySelector(".reproductorbea7")
     let etiquetaAudio = document.createElement("audio");
