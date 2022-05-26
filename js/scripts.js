@@ -1733,7 +1733,7 @@ function reproducirsonidobk22(){
     let imagen = document.querySelector(".reproductorbk22")
     let etiquetaAudio = document.createElement("audio");
     etiquetaAudio.setAttribute("src", "assets/sounds/IABEN/Benkeyloggers22.mp3");
-    etiquetaAudio.volume = 0.6;
+    etiquetaAudio.volume = 0.5;
     imagen.addEventListener("mouseenter", () => {
     etiquetaAudio.play();
     })
@@ -1748,7 +1748,7 @@ function reproducirsonidobk23(){
     let imagen = document.querySelector(".reproductorbk23")
     let etiquetaAudio = document.createElement("audio");
     etiquetaAudio.setAttribute("src", "assets/sounds/IABEN/Benkeyloggers23.mp3");
-    etiquetaAudio.volume = 0.6;
+    etiquetaAudio.volume = 0.5;
     imagen.addEventListener("mouseenter", () => {
     etiquetaAudio.play();
     })
@@ -1763,7 +1763,7 @@ function reproducirsonidobk24(){
     let imagen = document.querySelector(".reproductorbk24")
     let etiquetaAudio = document.createElement("audio");
     etiquetaAudio.setAttribute("src", "assets/sounds/IABEN/Benkeyloggers24.mp3");
-    etiquetaAudio.volume = 0.6;
+    etiquetaAudio.volume = 0.5;
     imagen.addEventListener("mouseenter", () => {
     etiquetaAudio.play();
     })
@@ -1945,7 +1945,7 @@ function reproducirsonidomk11(){
     let imagen = document.querySelector(".reproductormk11")
     let etiquetaAudio = document.createElement("audio");
     etiquetaAudio.setAttribute("src", "assets/sounds/IAMATT/Mattkeyloggers11.mp3");
-    etiquetaAudio.volume = 0.6;
+    etiquetaAudio.volume = 0.4;
     imagen.addEventListener("mouseenter", () => {
     etiquetaAudio.play();
     })
@@ -1960,7 +1960,7 @@ function reproducirsonidomk12(){
     let imagen = document.querySelector(".reproductormk12")
     let etiquetaAudio = document.createElement("audio");
     etiquetaAudio.setAttribute("src", "assets/sounds/IAMATT/Mattkeyloggers12.mp3");
-    etiquetaAudio.volume = 0.6;
+    etiquetaAudio.volume = 0.5;
     imagen.addEventListener("mouseenter", () => {
     etiquetaAudio.play();
     })
@@ -1975,7 +1975,7 @@ function reproducirsonidomk13(){
     let imagen = document.querySelector(".reproductormk13")
     let etiquetaAudio = document.createElement("audio");
     etiquetaAudio.setAttribute("src", "assets/sounds/IAMATT/Mattkeyloggers13.mp3");
-    etiquetaAudio.volume = 0.6;
+    etiquetaAudio.volume = 0.5;
     imagen.addEventListener("mouseenter", () => {
     etiquetaAudio.play();
     })
@@ -1990,7 +1990,7 @@ function reproducirsonidomk14(){
     let imagen = document.querySelector(".reproductormk14")
     let etiquetaAudio = document.createElement("audio");
     etiquetaAudio.setAttribute("src", "assets/sounds/IAMATT/Mattkeyloggers14.mp3");
-    etiquetaAudio.volume = 0.6;
+    etiquetaAudio.volume = 0.5;
     imagen.addEventListener("mouseenter", () => {
     etiquetaAudio.play();
     })
@@ -2005,7 +2005,7 @@ function reproducirsonidomk15(){
     let imagen = document.querySelector(".reproductormk15")
     let etiquetaAudio = document.createElement("audio");
     etiquetaAudio.setAttribute("src", "assets/sounds/IAMATT/Mattkeyloggers15.mp3");
-    etiquetaAudio.volume = 0.6;
+    etiquetaAudio.volume = 0.5;
     imagen.addEventListener("mouseenter", () => {
     etiquetaAudio.play();
     })
@@ -2020,7 +2020,7 @@ function reproducirsonidomk16(){
     let imagen = document.querySelector(".reproductormk16")
     let etiquetaAudio = document.createElement("audio");
     etiquetaAudio.setAttribute("src", "assets/sounds/IAMATT/Mattkeyloggers16.mp3");
-    etiquetaAudio.volume = 0.6;
+    etiquetaAudio.volume = 0.5;
     imagen.addEventListener("mouseenter", () => {
     etiquetaAudio.play();
     })
@@ -2035,7 +2035,7 @@ function reproducirsonidomk17(){
     let imagen = document.querySelector(".reproductormk17")
     let etiquetaAudio = document.createElement("audio");
     etiquetaAudio.setAttribute("src", "assets/sounds/IAMATT/Mattkeyloggers17.mp3");
-    etiquetaAudio.volume = 0.6;
+    etiquetaAudio.volume = 0.5;
     imagen.addEventListener("mouseenter", () => {
     etiquetaAudio.play();
     })
@@ -2050,7 +2050,7 @@ function reproducirsonidomk18(){
     let imagen = document.querySelector(".reproductormk18")
     let etiquetaAudio = document.createElement("audio");
     etiquetaAudio.setAttribute("src", "assets/sounds/IAMATT/Mattkeyloggers18.mp3");
-    etiquetaAudio.volume = 0.6;
+    etiquetaAudio.volume = 0.5;
     imagen.addEventListener("mouseenter", () => {
     etiquetaAudio.play();
     })
@@ -2065,7 +2065,7 @@ function reproducirsonidomk19(){
     let imagen = document.querySelector(".reproductormk19")
     let etiquetaAudio = document.createElement("audio");
     etiquetaAudio.setAttribute("src", "assets/sounds/IAMATT/Mattkeyloggers19.mp3");
-    etiquetaAudio.volume = 0.6;
+    etiquetaAudio.volume = 0.5;
     imagen.addEventListener("mouseenter", () => {
     etiquetaAudio.play();
     })
@@ -2080,7 +2080,7 @@ function reproducirsonidomk20(){
     let imagen = document.querySelector(".reproductormk20")
     let etiquetaAudio = document.createElement("audio");
     etiquetaAudio.setAttribute("src", "assets/sounds/IAMATT/Mattkeyloggers20.mp3");
-    etiquetaAudio.volume = 0.6;
+    etiquetaAudio.volume = 0.5;
     imagen.addEventListener("mouseenter", () => {
     etiquetaAudio.play();
     })
@@ -2095,7 +2095,7 @@ function reproducirsonidomk21(){
     let imagen = document.querySelector(".reproductormk21")
     let etiquetaAudio = document.createElement("audio");
     etiquetaAudio.setAttribute("src", "assets/sounds/IAMATT/Mattkeyloggers21.mp3");
-    etiquetaAudio.volume = 0.6;
+    etiquetaAudio.volume = 0.5;
     imagen.addEventListener("mouseenter", () => {
     etiquetaAudio.play();
     })
@@ -2110,7 +2110,7 @@ function reproducirsonidomk22(){
     let imagen = document.querySelector(".reproductormk22")
     let etiquetaAudio = document.createElement("audio");
     etiquetaAudio.setAttribute("src", "assets/sounds/IAMATT/Mattkeyloggers22.mp3");
-    etiquetaAudio.volume = 0.6;
+    etiquetaAudio.volume = 0.5;
     imagen.addEventListener("mouseenter", () => {
     etiquetaAudio.play();
     })
@@ -2188,7 +2188,7 @@ function reproducirsonidomek3(){
     let imagen = document.querySelector(".reproductormek3")
     let etiquetaAudio = document.createElement("audio");
     etiquetaAudio.setAttribute("src", "assets/sounds/IAMATT/Mattevaluacionk3.mp3");
-    etiquetaAudio.volume = 0.6;
+    etiquetaAudio.volume = 0.5;
     imagen.addEventListener("mouseenter", () => {
     etiquetaAudio.play();
     })
@@ -2205,8 +2205,14 @@ function reproducirsonidoba1(){
     let imagen = document.querySelector(".reproductorba1")
     let etiquetaAudio = document.createElement("audio");
     etiquetaAudio.setAttribute("src", "assets/sounds/IABEN/Benantivirus1.mp3");
+    etiquetaAudio.volume = 0.6;
     imagen.addEventListener("mouseenter", () => {
     etiquetaAudio.play();
+    })
+    imagen.addEventListener("mouseleave", () => {
+        etiquetaAudio.pause();
+        etiquetaAudio.currentTime = 0;
+        etiquetaAudio.src = "";
     })
 }
 
@@ -2214,8 +2220,14 @@ function reproducirsonidoba2(){
     let imagen = document.querySelector(".reproductorba2")
     let etiquetaAudio = document.createElement("audio");
     etiquetaAudio.setAttribute("src", "assets/sounds/IABEN/Benantivirus2.mp3");
+    etiquetaAudio.volume = 0.6;
     imagen.addEventListener("mouseenter", () => {
     etiquetaAudio.play();
+    })
+    imagen.addEventListener("mouseleave", () => {
+        etiquetaAudio.pause();
+        etiquetaAudio.currentTime = 0;
+        etiquetaAudio.src = "";
     })
 }
 
@@ -2223,8 +2235,14 @@ function reproducirsonidoba3(){
     let imagen = document.querySelector(".reproductorba3")
     let etiquetaAudio = document.createElement("audio");
     etiquetaAudio.setAttribute("src", "assets/sounds/IABEN/Benantivirus3.mp3");
+    etiquetaAudio.volume = 0.6;
     imagen.addEventListener("mouseenter", () => {
     etiquetaAudio.play();
+    })
+    imagen.addEventListener("mouseleave", () => {
+        etiquetaAudio.pause();
+        etiquetaAudio.currentTime = 0;
+        etiquetaAudio.src = "";
     })
 }
 
@@ -2232,8 +2250,14 @@ function reproducirsonidoba4(){
     let imagen = document.querySelector(".reproductorba4")
     let etiquetaAudio = document.createElement("audio");
     etiquetaAudio.setAttribute("src", "assets/sounds/IABEN/Benantivirus4.mp3");
+    etiquetaAudio.volume = 0.6;
     imagen.addEventListener("mouseenter", () => {
     etiquetaAudio.play();
+    })
+    imagen.addEventListener("mouseleave", () => {
+        etiquetaAudio.pause();
+        etiquetaAudio.currentTime = 0;
+        etiquetaAudio.src = "";
     })
 }
 
@@ -2241,8 +2265,14 @@ function reproducirsonidoba5(){
     let imagen = document.querySelector(".reproductorba5")
     let etiquetaAudio = document.createElement("audio");
     etiquetaAudio.setAttribute("src", "assets/sounds/IABEN/Benantivirus5.mp3");
+    etiquetaAudio.volume = 0.6;
     imagen.addEventListener("mouseenter", () => {
     etiquetaAudio.play();
+    })
+    imagen.addEventListener("mouseleave", () => {
+        etiquetaAudio.pause();
+        etiquetaAudio.currentTime = 0;
+        etiquetaAudio.src = "";
     })
 }
 
@@ -2250,8 +2280,14 @@ function reproducirsonidoba6(){
     let imagen = document.querySelector(".reproductorba6")
     let etiquetaAudio = document.createElement("audio");
     etiquetaAudio.setAttribute("src", "assets/sounds/IABEN/Benantivirus6.mp3");
+    etiquetaAudio.volume = 0.6;
     imagen.addEventListener("mouseenter", () => {
     etiquetaAudio.play();
+    })
+    imagen.addEventListener("mouseleave", () => {
+        etiquetaAudio.pause();
+        etiquetaAudio.currentTime = 0;
+        etiquetaAudio.src = "";
     })
 }
 
@@ -2259,8 +2295,14 @@ function reproducirsonidoba7(){
     let imagen = document.querySelector(".reproductorba7")
     let etiquetaAudio = document.createElement("audio");
     etiquetaAudio.setAttribute("src", "assets/sounds/IABEN/Benantivirus7.mp3");
+    etiquetaAudio.volume = 0.6;
     imagen.addEventListener("mouseenter", () => {
     etiquetaAudio.play();
+    })
+    imagen.addEventListener("mouseleave", () => {
+        etiquetaAudio.pause();
+        etiquetaAudio.currentTime = 0;
+        etiquetaAudio.src = "";
     })
 }
 
@@ -2268,8 +2310,14 @@ function reproducirsonidoba8(){
     let imagen = document.querySelector(".reproductorba8")
     let etiquetaAudio = document.createElement("audio");
     etiquetaAudio.setAttribute("src", "assets/sounds/IABEN/Benantivirus8.mp3");
+    etiquetaAudio.volume = 0.6;
     imagen.addEventListener("mouseenter", () => {
     etiquetaAudio.play();
+    })
+    imagen.addEventListener("mouseleave", () => {
+        etiquetaAudio.pause();
+        etiquetaAudio.currentTime = 0;
+        etiquetaAudio.src = "";
     })
 }
 
@@ -2277,8 +2325,14 @@ function reproducirsonidoba9(){
     let imagen = document.querySelector(".reproductorba9")
     let etiquetaAudio = document.createElement("audio");
     etiquetaAudio.setAttribute("src", "assets/sounds/IABEN/Benantivirus9.mp3");
+    etiquetaAudio.volume = 0.6;
     imagen.addEventListener("mouseenter", () => {
     etiquetaAudio.play();
+    })
+    imagen.addEventListener("mouseleave", () => {
+        etiquetaAudio.pause();
+        etiquetaAudio.currentTime = 0;
+        etiquetaAudio.src = "";
     })
 }
 
@@ -2286,8 +2340,14 @@ function reproducirsonidoba10(){
     let imagen = document.querySelector(".reproductorba10")
     let etiquetaAudio = document.createElement("audio");
     etiquetaAudio.setAttribute("src", "assets/sounds/IABEN/Benantivirus10.mp3");
+    etiquetaAudio.volume = 0.6;
     imagen.addEventListener("mouseenter", () => {
     etiquetaAudio.play();
+    })
+    imagen.addEventListener("mouseleave", () => {
+        etiquetaAudio.pause();
+        etiquetaAudio.currentTime = 0;
+        etiquetaAudio.src = "";
     })
 }
 
@@ -2295,8 +2355,14 @@ function reproducirsonidoba11(){
     let imagen = document.querySelector(".reproductorba11")
     let etiquetaAudio = document.createElement("audio");
     etiquetaAudio.setAttribute("src", "assets/sounds/IABEN/Benantivirus11.mp3");
+    etiquetaAudio.volume = 0.6;
     imagen.addEventListener("mouseenter", () => {
     etiquetaAudio.play();
+    })
+    imagen.addEventListener("mouseleave", () => {
+        etiquetaAudio.pause();
+        etiquetaAudio.currentTime = 0;
+        etiquetaAudio.src = "";
     })
 }
 
@@ -2304,8 +2370,14 @@ function reproducirsonidoba12(){
     let imagen = document.querySelector(".reproductorba12")
     let etiquetaAudio = document.createElement("audio");
     etiquetaAudio.setAttribute("src", "assets/sounds/IABEN/Benantivirus12.mp3");
+    etiquetaAudio.volume = 0.6;
     imagen.addEventListener("mouseenter", () => {
     etiquetaAudio.play();
+    })
+    imagen.addEventListener("mouseleave", () => {
+        etiquetaAudio.pause();
+        etiquetaAudio.currentTime = 0;
+        etiquetaAudio.src = "";
     })
 }
 
@@ -2315,8 +2387,14 @@ function reproducirsonidoma1(){
     let imagen = document.querySelector(".reproductorma1")
     let etiquetaAudio = document.createElement("audio");
     etiquetaAudio.setAttribute("src", "assets/sounds/IAMATT/Mattantivirus1.mp3");
+    etiquetaAudio.volume = 0.6;
     imagen.addEventListener("mouseenter", () => {
     etiquetaAudio.play();
+    })
+    imagen.addEventListener("mouseleave", () => {
+        etiquetaAudio.pause();
+        etiquetaAudio.currentTime = 0;
+        etiquetaAudio.src = "";
     })
 }
 
@@ -2324,8 +2402,14 @@ function reproducirsonidoma2(){
     let imagen = document.querySelector(".reproductorma2")
     let etiquetaAudio = document.createElement("audio");
     etiquetaAudio.setAttribute("src", "assets/sounds/IAMATT/Mattantivirus2.mp3");
+    etiquetaAudio.volume = 0.6;
     imagen.addEventListener("mouseenter", () => {
     etiquetaAudio.play();
+    })
+    imagen.addEventListener("mouseleave", () => {
+        etiquetaAudio.pause();
+        etiquetaAudio.currentTime = 0;
+        etiquetaAudio.src = "";
     })
 }
 
@@ -2333,8 +2417,14 @@ function reproducirsonidoma3(){
     let imagen = document.querySelector(".reproductorma3")
     let etiquetaAudio = document.createElement("audio");
     etiquetaAudio.setAttribute("src", "assets/sounds/IAMATT/Mattantivirus3.mp3");
+    etiquetaAudio.volume = 0.6;
     imagen.addEventListener("mouseenter", () => {
     etiquetaAudio.play();
+    })
+    imagen.addEventListener("mouseleave", () => {
+        etiquetaAudio.pause();
+        etiquetaAudio.currentTime = 0;
+        etiquetaAudio.src = "";
     })
 }
 
@@ -2342,8 +2432,14 @@ function reproducirsonidoma4(){
     let imagen = document.querySelector(".reproductorma4")
     let etiquetaAudio = document.createElement("audio");
     etiquetaAudio.setAttribute("src", "assets/sounds/IAMATT/Mattantivirus4.mp3");
+    etiquetaAudio.volume = 0.6;
     imagen.addEventListener("mouseenter", () => {
     etiquetaAudio.play();
+    })
+    imagen.addEventListener("mouseleave", () => {
+        etiquetaAudio.pause();
+        etiquetaAudio.currentTime = 0;
+        etiquetaAudio.src = "";
     })
 }
 
@@ -2351,8 +2447,14 @@ function reproducirsonidoma5(){
     let imagen = document.querySelector(".reproductorma5")
     let etiquetaAudio = document.createElement("audio");
     etiquetaAudio.setAttribute("src", "assets/sounds/IAMATT/Mattantivirus5.mp3");
+    etiquetaAudio.volume = 0.6;
     imagen.addEventListener("mouseenter", () => {
     etiquetaAudio.play();
+    })
+    imagen.addEventListener("mouseleave", () => {
+        etiquetaAudio.pause();
+        etiquetaAudio.currentTime = 0;
+        etiquetaAudio.src = "";
     })
 }
 
@@ -2360,8 +2462,14 @@ function reproducirsonidoma6(){
     let imagen = document.querySelector(".reproductorma6")
     let etiquetaAudio = document.createElement("audio");
     etiquetaAudio.setAttribute("src", "assets/sounds/IAMATT/Mattantivirus6.mp3");
+    etiquetaAudio.volume = 0.6;
     imagen.addEventListener("mouseenter", () => {
     etiquetaAudio.play();
+    })
+    imagen.addEventListener("mouseleave", () => {
+        etiquetaAudio.pause();
+        etiquetaAudio.currentTime = 0;
+        etiquetaAudio.src = "";
     })
 }
 
@@ -2369,8 +2477,14 @@ function reproducirsonidoma7(){
     let imagen = document.querySelector(".reproductorma7")
     let etiquetaAudio = document.createElement("audio");
     etiquetaAudio.setAttribute("src", "assets/sounds/IAMATT/Mattantivirus7.mp3");
+    etiquetaAudio.volume = 0.6;
     imagen.addEventListener("mouseenter", () => {
     etiquetaAudio.play();
+    })
+    imagen.addEventListener("mouseleave", () => {
+        etiquetaAudio.pause();
+        etiquetaAudio.currentTime = 0;
+        etiquetaAudio.src = "";
     })
 }
 
@@ -2378,8 +2492,14 @@ function reproducirsonidoma8(){
     let imagen = document.querySelector(".reproductorma8")
     let etiquetaAudio = document.createElement("audio");
     etiquetaAudio.setAttribute("src", "assets/sounds/IAMATT/Mattantivirus8.mp3");
+    etiquetaAudio.volume = 0.6;
     imagen.addEventListener("mouseenter", () => {
     etiquetaAudio.play();
+    })
+    imagen.addEventListener("mouseleave", () => {
+        etiquetaAudio.pause();
+        etiquetaAudio.currentTime = 0;
+        etiquetaAudio.src = "";
     })
 }
 
@@ -2387,8 +2507,14 @@ function reproducirsonidoma9(){
     let imagen = document.querySelector(".reproductorma9")
     let etiquetaAudio = document.createElement("audio");
     etiquetaAudio.setAttribute("src", "assets/sounds/IAMATT/Mattantivirus9.mp3");
+    etiquetaAudio.volume = 0.6;
     imagen.addEventListener("mouseenter", () => {
     etiquetaAudio.play();
+    })
+    imagen.addEventListener("mouseleave", () => {
+        etiquetaAudio.pause();
+        etiquetaAudio.currentTime = 0;
+        etiquetaAudio.src = "";
     })
 }
 
@@ -2396,8 +2522,14 @@ function reproducirsonidoma10(){
     let imagen = document.querySelector(".reproductorma10")
     let etiquetaAudio = document.createElement("audio");
     etiquetaAudio.setAttribute("src", "assets/sounds/IAMATT/Mattantivirus10.mp3");
+    etiquetaAudio.volume = 0.6;
     imagen.addEventListener("mouseenter", () => {
     etiquetaAudio.play();
+    })
+    imagen.addEventListener("mouseleave", () => {
+        etiquetaAudio.pause();
+        etiquetaAudio.currentTime = 0;
+        etiquetaAudio.src = "";
     })
 }
 
@@ -2407,8 +2539,14 @@ function reproducirsonidobea1(){
     let imagen = document.querySelector(".reproductorbea1")
     let etiquetaAudio = document.createElement("audio");
     etiquetaAudio.setAttribute("src", "assets/sounds/IABEN/Benevaluaciona1.mp3");
+    etiquetaAudio.volume = 0.6;
     imagen.addEventListener("mouseenter", () => {
     etiquetaAudio.play();
+    })
+    imagen.addEventListener("mouseleave", () => {
+        etiquetaAudio.pause();
+        etiquetaAudio.currentTime = 0;
+        etiquetaAudio.src = "";
     })
 }
 
@@ -2416,8 +2554,14 @@ function reproducirsonidobea2(){
     let imagen = document.querySelector(".reproductorbea2")
     let etiquetaAudio = document.createElement("audio");
     etiquetaAudio.setAttribute("src", "assets/sounds/IABEN/Benevaluaciona2.mp3");
+    etiquetaAudio.volume = 0.6;
     imagen.addEventListener("mouseenter", () => {
     etiquetaAudio.play();
+    })
+    imagen.addEventListener("mouseleave", () => {
+        etiquetaAudio.pause();
+        etiquetaAudio.currentTime = 0;
+        etiquetaAudio.src = "";
     })
 }
 
@@ -2425,8 +2569,14 @@ function reproducirsonidobea3(){
     let imagen = document.querySelector(".reproductorbea3")
     let etiquetaAudio = document.createElement("audio");
     etiquetaAudio.setAttribute("src", "assets/sounds/IABEN/Benevaluaciona3.mp3");
+    etiquetaAudio.volume = 0.6;
     imagen.addEventListener("mouseenter", () => {
     etiquetaAudio.play();
+    })
+    imagen.addEventListener("mouseleave", () => {
+        etiquetaAudio.pause();
+        etiquetaAudio.currentTime = 0;
+        etiquetaAudio.src = "";
     })
 }
 
@@ -2434,8 +2584,14 @@ function reproducirsonidobea4(){
     let imagen = document.querySelector(".reproductorbea4")
     let etiquetaAudio = document.createElement("audio");
     etiquetaAudio.setAttribute("src", "assets/sounds/IABEN/Benevaluaciona4.mp3");
+    etiquetaAudio.volume = 0.6;
     imagen.addEventListener("mouseenter", () => {
     etiquetaAudio.play();
+    })
+    imagen.addEventListener("mouseleave", () => {
+        etiquetaAudio.pause();
+        etiquetaAudio.currentTime = 0;
+        etiquetaAudio.src = "";
     })
 }
 
@@ -2443,8 +2599,14 @@ function reproducirsonidobea5(){
     let imagen = document.querySelector(".reproductorbea5")
     let etiquetaAudio = document.createElement("audio");
     etiquetaAudio.setAttribute("src", "assets/sounds/IABEN/Benevaluaciona5.mp3");
+    etiquetaAudio.volume = 0.6;
     imagen.addEventListener("mouseenter", () => {
     etiquetaAudio.play();
+    })
+    imagen.addEventListener("mouseleave", () => {
+        etiquetaAudio.pause();
+        etiquetaAudio.currentTime = 0;
+        etiquetaAudio.src = "";
     })
 }
 
@@ -2452,8 +2614,14 @@ function reproducirsonidobea6(){
     let imagen = document.querySelector(".reproductorbea6")
     let etiquetaAudio = document.createElement("audio");
     etiquetaAudio.setAttribute("src", "assets/sounds/IABEN/Benevaluaciona6.mp3");
+    etiquetaAudio.volume = 0.6;
     imagen.addEventListener("mouseenter", () => {
     etiquetaAudio.play();
+    })
+    imagen.addEventListener("mouseleave", () => {
+        etiquetaAudio.pause();
+        etiquetaAudio.currentTime = 0;
+        etiquetaAudio.src = "";
     })
 }
 
@@ -2461,8 +2629,14 @@ function reproducirsonidobea7(){
     let imagen = document.querySelector(".reproductorbea7")
     let etiquetaAudio = document.createElement("audio");
     etiquetaAudio.setAttribute("src", "assets/sounds/IABEN/Benevaluaciona7.mp3");
+    etiquetaAudio.volume = 0.6;
     imagen.addEventListener("mouseenter", () => {
     etiquetaAudio.play();
+    })
+    imagen.addEventListener("mouseleave", () => {
+        etiquetaAudio.pause();
+        etiquetaAudio.currentTime = 0;
+        etiquetaAudio.src = "";
     })
 }
 
@@ -2470,8 +2644,14 @@ function reproducirsonidobea8(){
     let imagen = document.querySelector(".reproductorbea8")
     let etiquetaAudio = document.createElement("audio");
     etiquetaAudio.setAttribute("src", "assets/sounds/IABEN/Benevaluaciona8.mp3");
+    etiquetaAudio.volume = 0.6;
     imagen.addEventListener("mouseenter", () => {
     etiquetaAudio.play();
+    })
+    imagen.addEventListener("mouseleave", () => {
+        etiquetaAudio.pause();
+        etiquetaAudio.currentTime = 0;
+        etiquetaAudio.src = "";
     })
 }
 
@@ -2479,8 +2659,14 @@ function reproducirsonidobea9(){
     let imagen = document.querySelector(".reproductorbea9")
     let etiquetaAudio = document.createElement("audio");
     etiquetaAudio.setAttribute("src", "assets/sounds/IABEN/Benevaluaciona9.mp3");
+    etiquetaAudio.volume = 0.6;
     imagen.addEventListener("mouseenter", () => {
     etiquetaAudio.play();
+    })
+    imagen.addEventListener("mouseleave", () => {
+        etiquetaAudio.pause();
+        etiquetaAudio.currentTime = 0;
+        etiquetaAudio.src = "";
     })
 }
 
@@ -2488,8 +2674,14 @@ function reproducirsonidobea10(){
     let imagen = document.querySelector(".reproductorbea10")
     let etiquetaAudio = document.createElement("audio");
     etiquetaAudio.setAttribute("src", "assets/sounds/IABEN/Benevaluaciona10.mp3");
+    etiquetaAudio.volume = 0.6;
     imagen.addEventListener("mouseenter", () => {
     etiquetaAudio.play();
+    })
+    imagen.addEventListener("mouseleave", () => {
+        etiquetaAudio.pause();
+        etiquetaAudio.currentTime = 0;
+        etiquetaAudio.src = "";
     })
 }
 
@@ -2497,8 +2689,14 @@ function reproducirsonidobea11(){
     let imagen = document.querySelector(".reproductorbea11")
     let etiquetaAudio = document.createElement("audio");
     etiquetaAudio.setAttribute("src", "assets/sounds/IABEN/Benevaluaciona11.mp3");
+    etiquetaAudio.volume = 0.6;
     imagen.addEventListener("mouseenter", () => {
     etiquetaAudio.play();
+    })
+    imagen.addEventListener("mouseleave", () => {
+        etiquetaAudio.pause();
+        etiquetaAudio.currentTime = 0;
+        etiquetaAudio.src = "";
     })
 }
 
@@ -2506,8 +2704,14 @@ function reproducirsonidobea12(){
     let imagen = document.querySelector(".reproductorbea12")
     let etiquetaAudio = document.createElement("audio");
     etiquetaAudio.setAttribute("src", "assets/sounds/IABEN/Benevaluaciona12.mp3");
+    etiquetaAudio.volume = 0.6;
     imagen.addEventListener("mouseenter", () => {
     etiquetaAudio.play();
+    })
+    imagen.addEventListener("mouseleave", () => {
+        etiquetaAudio.pause();
+        etiquetaAudio.currentTime = 0;
+        etiquetaAudio.src = "";
     })
 }
 
@@ -2515,8 +2719,14 @@ function reproducirsonidobea13(){
     let imagen = document.querySelector(".reproductorbea13")
     let etiquetaAudio = document.createElement("audio");
     etiquetaAudio.setAttribute("src", "assets/sounds/IABEN/Benevaluaciona13.mp3");
+    etiquetaAudio.volume = 0.6;
     imagen.addEventListener("mouseenter", () => {
     etiquetaAudio.play();
+    })
+    imagen.addEventListener("mouseleave", () => {
+        etiquetaAudio.pause();
+        etiquetaAudio.currentTime = 0;
+        etiquetaAudio.src = "";
     })
 }
 
@@ -2526,8 +2736,14 @@ function reproducirsonidomea1(){
     let imagen = document.querySelector(".reproductormea1")
     let etiquetaAudio = document.createElement("audio");
     etiquetaAudio.setAttribute("src", "assets/sounds/IAMATT/Mattevaluaciona1.mp3");
+    etiquetaAudio.volume = 0.6;
     imagen.addEventListener("mouseenter", () => {
     etiquetaAudio.play();
+    })
+    imagen.addEventListener("mouseleave", () => {
+        etiquetaAudio.pause();
+        etiquetaAudio.currentTime = 0;
+        etiquetaAudio.src = "";
     })
 }
 
@@ -2535,8 +2751,14 @@ function reproducirsonidomea2(){
     let imagen = document.querySelector(".reproductormea2")
     let etiquetaAudio = document.createElement("audio");
     etiquetaAudio.setAttribute("src", "assets/sounds/IAMATT/Mattevaluaciona2.mp3");
+    etiquetaAudio.volume = 0.6;
     imagen.addEventListener("mouseenter", () => {
     etiquetaAudio.play();
+    })
+    imagen.addEventListener("mouseleave", () => {
+        etiquetaAudio.pause();
+        etiquetaAudio.currentTime = 0;
+        etiquetaAudio.src = "";
     })
 }
 
@@ -2544,8 +2766,14 @@ function reproducirsonidomea3(){
     let imagen = document.querySelector(".reproductormea3")
     let etiquetaAudio = document.createElement("audio");
     etiquetaAudio.setAttribute("src", "assets/sounds/IAMATT/Mattevaluaciona3.mp3");
+    etiquetaAudio.volume = 0.6;
     imagen.addEventListener("mouseenter", () => {
     etiquetaAudio.play();
+    })
+    imagen.addEventListener("mouseleave", () => {
+        etiquetaAudio.pause();
+        etiquetaAudio.currentTime = 0;
+        etiquetaAudio.src = "";
     })
 }
 
@@ -2553,8 +2781,14 @@ function reproducirsonidomea4(){
     let imagen = document.querySelector(".reproductormea4")
     let etiquetaAudio = document.createElement("audio");
     etiquetaAudio.setAttribute("src", "assets/sounds/IAMATT/Mattevaluaciona4.mp3");
+    etiquetaAudio.volume = 0.6;
     imagen.addEventListener("mouseenter", () => {
     etiquetaAudio.play();
+    })
+    imagen.addEventListener("mouseleave", () => {
+        etiquetaAudio.pause();
+        etiquetaAudio.currentTime = 0;
+        etiquetaAudio.src = "";
     })
 }
 
@@ -2562,8 +2796,14 @@ function reproducirsonidomea5(){
     let imagen = document.querySelector(".reproductormea5")
     let etiquetaAudio = document.createElement("audio");
     etiquetaAudio.setAttribute("src", "assets/sounds/IAMATT/Mattevaluaciona5.mp3");
+    etiquetaAudio.volume = 0.6;
     imagen.addEventListener("mouseenter", () => {
     etiquetaAudio.play();
+    })
+    imagen.addEventListener("mouseleave", () => {
+        etiquetaAudio.pause();
+        etiquetaAudio.currentTime = 0;
+        etiquetaAudio.src = "";
     })
 }
 
@@ -2571,8 +2811,14 @@ function reproducirsonidomea6(){
     let imagen = document.querySelector(".reproductormea6")
     let etiquetaAudio = document.createElement("audio");
     etiquetaAudio.setAttribute("src", "assets/sounds/IAMATT/Mattevaluaciona6.mp3");
+    etiquetaAudio.volume = 0.6;
     imagen.addEventListener("mouseenter", () => {
     etiquetaAudio.play();
+    })
+    imagen.addEventListener("mouseleave", () => {
+        etiquetaAudio.pause();
+        etiquetaAudio.currentTime = 0;
+        etiquetaAudio.src = "";
     })
 }
 
@@ -2580,8 +2826,14 @@ function reproducirsonidomea7(){
     let imagen = document.querySelector(".reproductormea7")
     let etiquetaAudio = document.createElement("audio");
     etiquetaAudio.setAttribute("src", "assets/sounds/IAMATT/Mattevaluaciona7.mp3");
+    etiquetaAudio.volume = 0.6;
     imagen.addEventListener("mouseenter", () => {
     etiquetaAudio.play();
+    })
+    imagen.addEventListener("mouseleave", () => {
+        etiquetaAudio.pause();
+        etiquetaAudio.currentTime = 0;
+        etiquetaAudio.src = "";
     })
 }
 
@@ -2589,8 +2841,14 @@ function reproducirsonidomea8(){
     let imagen = document.querySelector(".reproductormea8")
     let etiquetaAudio = document.createElement("audio");
     etiquetaAudio.setAttribute("src", "assets/sounds/IAMATT/Mattevaluaciona8.mp3");
+    etiquetaAudio.volume = 0.6;
     imagen.addEventListener("mouseenter", () => {
     etiquetaAudio.play();
+    })
+    imagen.addEventListener("mouseleave", () => {
+        etiquetaAudio.pause();
+        etiquetaAudio.currentTime = 0;
+        etiquetaAudio.src = "";
     })
 }
 
@@ -2598,8 +2856,14 @@ function reproducirsonidomea9(){
     let imagen = document.querySelector(".reproductormea9")
     let etiquetaAudio = document.createElement("audio");
     etiquetaAudio.setAttribute("src", "assets/sounds/IAMATT/Mattevaluaciona9.mp3");
+    etiquetaAudio.volume = 0.6;
     imagen.addEventListener("mouseenter", () => {
     etiquetaAudio.play();
+    })
+    imagen.addEventListener("mouseleave", () => {
+        etiquetaAudio.pause();
+        etiquetaAudio.currentTime = 0;
+        etiquetaAudio.src = "";
     })
 }
 
@@ -2609,15 +2873,27 @@ function reproducirsonidobymf1(){
     let imagen = document.querySelector(".reproductorbymf1")
     let etiquetaAudio = document.createElement("audio");
     etiquetaAudio.setAttribute("src", "assets/sounds/BENYMATT/iajuntasfinal1.mp3");
+    etiquetaAudio.volume = 0.6;
     imagen.addEventListener("mouseenter", () => {
     etiquetaAudio.play();
+    })
+    imagen.addEventListener("mouseleave", () => {
+        etiquetaAudio.pause();
+        etiquetaAudio.currentTime = 0;
+        etiquetaAudio.src = "";
     })
 }
 function reproducirsonidobymf2(){
     let imagen = document.querySelector(".reproductorbymf2")
     let etiquetaAudio = document.createElement("audio");
     etiquetaAudio.setAttribute("src", "assets/sounds/BENYMATT/iajuntasfinal1.mp3");
+    etiquetaAudio.volume = 0.6;
     imagen.addEventListener("mouseenter", () => {
     etiquetaAudio.play();
+    })
+    imagen.addEventListener("mouseleave", () => {
+        etiquetaAudio.pause();
+        etiquetaAudio.currentTime = 0;
+        etiquetaAudio.src = "";
     })
 }
