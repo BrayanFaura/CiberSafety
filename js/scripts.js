@@ -1317,7 +1317,7 @@ function reproducirsonidobek1(){
     let imagen = document.querySelector(".reproductorbek1")
     imagen.addEventListener("click", () => {
     let etiquetaAudio = document.createElement("audio");
-    etiquetaAudio.setAttribute("src", "assets/sounds/IAMATT/Benevaluacionk1.mp3");
+    etiquetaAudio.setAttribute("src", "assets/sounds/IABEN/Benevaluacionk1.mp3");
     etiquetaAudio.play();
     })
 }
@@ -1326,7 +1326,7 @@ function reproducirsonidobek2(){
     let imagen = document.querySelector(".reproductorbek2")
     imagen.addEventListener("click", () => {
     let etiquetaAudio = document.createElement("audio");
-    etiquetaAudio.setAttribute("src", "assets/sounds/IAMATT/Benevaluacionk2.mp3");
+    etiquetaAudio.setAttribute("src", "assets/sounds/IABEN/Benevaluacionk2.mp3");
     etiquetaAudio.play();
     })
 }
@@ -1345,7 +1345,7 @@ function reproducirsonidomek2(){
     let imagen = document.querySelector(".reproductormek2")
     imagen.addEventListener("click", () => {
     let etiquetaAudio = document.createElement("audio");
-    etiquetaAudio.setAttribute("src", "assets/sounds/IAMATT/Mattevaluacionk1.mp3");
+    etiquetaAudio.setAttribute("src", "assets/sounds/IAMATT/Mattevaluacionk2.mp3");
     etiquetaAudio.play();
     })
 }
@@ -1354,7 +1354,7 @@ function reproducirsonidomek3(){
     let imagen = document.querySelector(".reproductormek3")
     imagen.addEventListener("click", () => {
     let etiquetaAudio = document.createElement("audio");
-    etiquetaAudio.setAttribute("src", "assets/sounds/IAMATT/Mattevaluacionk1.mp3");
+    etiquetaAudio.setAttribute("src", "assets/sounds/IAMATT/Mattevaluacionk3.mp3");
     etiquetaAudio.play();
     })
 }
@@ -1465,6 +1465,300 @@ function reproducirsonidoba12(){
     imagen.addEventListener("click", () => {
     let etiquetaAudio = document.createElement("audio");
     etiquetaAudio.setAttribute("src", "assets/sounds/IABEN/Benantivirus12.mp3");
+    etiquetaAudio.play();
+    })
+}
+
+//SONIDOS MATT ANTIVIRUS
+
+function reproducirsonidoma1(){
+    let imagen = document.querySelector(".reproductorma1")
+    imagen.addEventListener("click", () => {
+    let etiquetaAudio = document.createElement("audio");
+    etiquetaAudio.setAttribute("src", "assets/sounds/IAMATT/Mattantivirus1.mp3");
+    etiquetaAudio.play();
+    })
+}
+
+function reproducirsonidoma2(){
+    let imagen = document.querySelector(".reproductorma2")
+    imagen.addEventListener("click", () => {
+    let etiquetaAudio = document.createElement("audio");
+    etiquetaAudio.setAttribute("src", "assets/sounds/IAMATT/Mattantivirus2.mp3");
+    etiquetaAudio.play();
+    })
+}
+
+function reproducirsonidoma3(){
+    let imagen = document.querySelector(".reproductorma3")
+    imagen.addEventListener("click", () => {
+    let etiquetaAudio = document.createElement("audio");
+    etiquetaAudio.setAttribute("src", "assets/sounds/IAMATT/Mattantivirus3.mp3");
+    etiquetaAudio.play();
+    })
+}
+
+function reproducirsonidoma4(){
+    let imagen = document.querySelector(".reproductorma4")
+    imagen.addEventListener("click", () => {
+    let etiquetaAudio = document.createElement("audio");
+    etiquetaAudio.setAttribute("src", "assets/sounds/IAMATT/Mattantivirus4.mp3");
+    etiquetaAudio.play();
+    })
+}
+
+function reproducirsonidoma5(){
+    let imagen = document.querySelector(".reproductorma5")
+    imagen.addEventListener("click", () => {
+    let etiquetaAudio = document.createElement("audio");
+    etiquetaAudio.setAttribute("src", "assets/sounds/IAMATT/Mattantivirus5.mp3");
+    etiquetaAudio.play();
+    })
+}
+
+function reproducirsonidoma6(){
+    let imagen = document.querySelector(".reproductorma6")
+    imagen.addEventListener("click", () => {
+    let etiquetaAudio = document.createElement("audio");
+    etiquetaAudio.setAttribute("src", "assets/sounds/IAMATT/Mattantivirus6.mp3");
+    etiquetaAudio.play();
+    })
+}
+
+function reproducirsonidoma7(){
+    let imagen = document.querySelector(".reproductorma7")
+    imagen.addEventListener("click", () => {
+    let etiquetaAudio = document.createElement("audio");
+    etiquetaAudio.setAttribute("src", "assets/sounds/IAMATT/Mattantivirus7.mp3");
+    etiquetaAudio.play();
+    })
+}
+
+function reproducirsonidoma8(){
+    let imagen = document.querySelector(".reproductorma8")
+    imagen.addEventListener("click", () => {
+    let etiquetaAudio = document.createElement("audio");
+    etiquetaAudio.setAttribute("src", "assets/sounds/IAMATT/Mattantivirus8.mp3");
+    etiquetaAudio.play();
+    })
+}
+
+function reproducirsonidoma9(){
+    let imagen = document.querySelector(".reproductorma9")
+    imagen.addEventListener("click", () => {
+    let etiquetaAudio = document.createElement("audio");
+    etiquetaAudio.setAttribute("src", "assets/sounds/IAMATT/Mattantivirus9.mp3");
+    etiquetaAudio.play();
+    })
+}
+
+function reproducirsonidoma10(){
+    let imagen = document.querySelector(".reproductorma10")
+    imagen.addEventListener("click", () => {
+    let etiquetaAudio = document.createElement("audio");
+    etiquetaAudio.setAttribute("src", "assets/sounds/IAMATT/Mattantivirus10.mp3");
+    etiquetaAudio.play();
+    })
+}
+
+//SONIDOS BEN EVALUACION 3 O EVALUACION FINAL
+
+function reproducirsonidobea1(){
+    let imagen = document.querySelector(".reproductorbea1")
+    imagen.addEventListener("click", () => {
+    let etiquetaAudio = document.createElement("audio");
+    etiquetaAudio.setAttribute("src", "assets/sounds/IABEN/Benevaluaciona1.mp3");
+    etiquetaAudio.play();
+    })
+}
+
+function reproducirsonidobea2(){
+    let imagen = document.querySelector(".reproductorbea2")
+    imagen.addEventListener("click", () => {
+    let etiquetaAudio = document.createElement("audio");
+    etiquetaAudio.setAttribute("src", "assets/sounds/IABEN/Benevaluaciona2.mp3");
+    etiquetaAudio.play();
+    })
+}
+
+function reproducirsonidobea3(){
+    let imagen = document.querySelector(".reproductorbea3")
+    imagen.addEventListener("click", () => {
+    let etiquetaAudio = document.createElement("audio");
+    etiquetaAudio.setAttribute("src", "assets/sounds/IABEN/Benevaluaciona3.mp3");
+    etiquetaAudio.play();
+    })
+}
+
+function reproducirsonidobea4(){
+    let imagen = document.querySelector(".reproductorbea4")
+    imagen.addEventListener("click", () => {
+    let etiquetaAudio = document.createElement("audio");
+    etiquetaAudio.setAttribute("src", "assets/sounds/IABEN/Benevaluaciona4.mp3");
+    etiquetaAudio.play();
+    })
+}
+
+function reproducirsonidobea5(){
+    let imagen = document.querySelector(".reproductorbea5")
+    imagen.addEventListener("click", () => {
+    let etiquetaAudio = document.createElement("audio");
+    etiquetaAudio.setAttribute("src", "assets/sounds/IABEN/Benevaluaciona5.mp3");
+    etiquetaAudio.play();
+    })
+}
+
+function reproducirsonidobea6(){
+    let imagen = document.querySelector(".reproductorbea6")
+    imagen.addEventListener("click", () => {
+    let etiquetaAudio = document.createElement("audio");
+    etiquetaAudio.setAttribute("src", "assets/sounds/IABEN/Benevaluaciona6.mp3");
+    etiquetaAudio.play();
+    })
+}
+
+function reproducirsonidobea7(){
+    let imagen = document.querySelector(".reproductorbea7")
+    imagen.addEventListener("click", () => {
+    let etiquetaAudio = document.createElement("audio");
+    etiquetaAudio.setAttribute("src", "assets/sounds/IABEN/Benevaluaciona7.mp3");
+    etiquetaAudio.play();
+    })
+}
+
+function reproducirsonidobea8(){
+    let imagen = document.querySelector(".reproductorbea8")
+    imagen.addEventListener("click", () => {
+    let etiquetaAudio = document.createElement("audio");
+    etiquetaAudio.setAttribute("src", "assets/sounds/IABEN/Benevaluaciona8.mp3");
+    etiquetaAudio.play();
+    })
+}
+
+function reproducirsonidobea9(){
+    let imagen = document.querySelector(".reproductorbea9")
+    imagen.addEventListener("click", () => {
+    let etiquetaAudio = document.createElement("audio");
+    etiquetaAudio.setAttribute("src", "assets/sounds/IABEN/Benevaluaciona9.mp3");
+    etiquetaAudio.play();
+    })
+}
+
+function reproducirsonidobea10(){
+    let imagen = document.querySelector(".reproductorbea10")
+    imagen.addEventListener("click", () => {
+    let etiquetaAudio = document.createElement("audio");
+    etiquetaAudio.setAttribute("src", "assets/sounds/IABEN/Benevaluaciona10.mp3");
+    etiquetaAudio.play();
+    })
+}
+
+function reproducirsonidobea11(){
+    let imagen = document.querySelector(".reproductorbea11")
+    imagen.addEventListener("click", () => {
+    let etiquetaAudio = document.createElement("audio");
+    etiquetaAudio.setAttribute("src", "assets/sounds/IABEN/Benevaluaciona11.mp3");
+    etiquetaAudio.play();
+    })
+}
+
+function reproducirsonidobea12(){
+    let imagen = document.querySelector(".reproductorbea12")
+    imagen.addEventListener("click", () => {
+    let etiquetaAudio = document.createElement("audio");
+    etiquetaAudio.setAttribute("src", "assets/sounds/IABEN/Benevaluaciona12.mp3");
+    etiquetaAudio.play();
+    })
+}
+
+function reproducirsonidobea13(){
+    let imagen = document.querySelector(".reproductorbea13")
+    imagen.addEventListener("click", () => {
+    let etiquetaAudio = document.createElement("audio");
+    etiquetaAudio.setAttribute("src", "assets/sounds/IABEN/Benevaluaciona13.mp3");
+    etiquetaAudio.play();
+    })
+}
+
+//SONIDOS MATT EVALUACION
+
+function reproducirsonidomea1(){
+    let imagen = document.querySelector(".reproductormea1")
+    imagen.addEventListener("click", () => {
+    let etiquetaAudio = document.createElement("audio");
+    etiquetaAudio.setAttribute("src", "assets/sounds/IAMATT/Mattevaluaciona1.mp3");
+    etiquetaAudio.play();
+    })
+}
+
+function reproducirsonidomea2(){
+    let imagen = document.querySelector(".reproductormea2")
+    imagen.addEventListener("click", () => {
+    let etiquetaAudio = document.createElement("audio");
+    etiquetaAudio.setAttribute("src", "assets/sounds/IAMATT/Mattevaluaciona2.mp3");
+    etiquetaAudio.play();
+    })
+}
+
+function reproducirsonidomea3(){
+    let imagen = document.querySelector(".reproductormea3")
+    imagen.addEventListener("click", () => {
+    let etiquetaAudio = document.createElement("audio");
+    etiquetaAudio.setAttribute("src", "assets/sounds/IAMATT/Mattevaluaciona3.mp3");
+    etiquetaAudio.play();
+    })
+}
+
+function reproducirsonidomea4(){
+    let imagen = document.querySelector(".reproductormea4")
+    imagen.addEventListener("click", () => {
+    let etiquetaAudio = document.createElement("audio");
+    etiquetaAudio.setAttribute("src", "assets/sounds/IAMATT/Mattevaluaciona4.mp3");
+    etiquetaAudio.play();
+    })
+}
+
+function reproducirsonidomea5(){
+    let imagen = document.querySelector(".reproductormea5")
+    imagen.addEventListener("click", () => {
+    let etiquetaAudio = document.createElement("audio");
+    etiquetaAudio.setAttribute("src", "assets/sounds/IAMATT/Mattevaluaciona5.mp3");
+    etiquetaAudio.play();
+    })
+}
+
+function reproducirsonidomea6(){
+    let imagen = document.querySelector(".reproductormea6")
+    imagen.addEventListener("click", () => {
+    let etiquetaAudio = document.createElement("audio");
+    etiquetaAudio.setAttribute("src", "assets/sounds/IAMATT/Mattevaluaciona6.mp3");
+    etiquetaAudio.play();
+    })
+}
+
+function reproducirsonidomea7(){
+    let imagen = document.querySelector(".reproductormea7")
+    imagen.addEventListener("click", () => {
+    let etiquetaAudio = document.createElement("audio");
+    etiquetaAudio.setAttribute("src", "assets/sounds/IAMATT/Mattevaluaciona7.mp3");
+    etiquetaAudio.play();
+    })
+}
+
+function reproducirsonidomea8(){
+    let imagen = document.querySelector(".reproductormea8")
+    imagen.addEventListener("click", () => {
+    let etiquetaAudio = document.createElement("audio");
+    etiquetaAudio.setAttribute("src", "assets/sounds/IAMATT/Mattevaluaciona8.mp3");
+    etiquetaAudio.play();
+    })
+}
+
+function reproducirsonidomea9(){
+    let imagen = document.querySelector(".reproductormea9")
+    imagen.addEventListener("click", () => {
+    let etiquetaAudio = document.createElement("audio");
+    etiquetaAudio.setAttribute("src", "assets/sounds/IAMATT/Mattevaluaciona9.mp3");
     etiquetaAudio.play();
     })
 }
