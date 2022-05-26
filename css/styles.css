@@ -29,6 +29,8 @@ body {
   background-attachment: fixed;
   background-size: cover;
   margin: 0;
+  width: auto;
+  height: auto;
 }
 
 .blocky{
