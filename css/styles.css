@@ -29,6 +29,9 @@ body {
   background-attachment: fixed;
   background-size: cover;
   margin: 0;
+  width: auto;
+  height: auto;
+  overflow: overlay;
 }
 
 .blocky{
@@ -138,6 +141,20 @@ body {
   }
 }
 
+body::-webkit-scrollbar {
+  width: 0.6vw;
+  height: 0.6vw;
+}
+
+body::-webkit-scrollbar-track {
+  background: rgba(0, 0, 0, 0.6);
+}
+
+body::-webkit-scrollbar-thumb {
+  background: rgba(177, 176, 176, 0.6);
+  border-radius: 50px;
+}
+
 .fondoblanco{
   background-color: white;
 }
@@ -212,6 +229,11 @@ header {
   font-size: 2vw;
 }
 
+.letrabotones1{
+  font-family: 'Quicksand', sans-serif;
+  font-size: 1vw;
+}
+
 .botones{
   background-color: #ff0400;
   border-radius: 8px;
@@ -230,6 +252,69 @@ header {
 .botones:hover{
   background-color: rgb(10, 159, 179);
   transform:scale(1.4);
+}
+
+.botonesg{
+  background-color: #000000;
+  border-radius: 8px;
+  width: auto;
+  height:auto;
+  border: none;
+  cursor: pointer;
+  padding-left: 3%;
+  padding-right: 3%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  color: white;
+  transition: width 2s,height 2s,transform 2s;
+}
+
+.botonesg:hover{
+  background-color: rgb(255, 255, 255);
+  transform:scale(1.4);
+  color: black;
+}
+
+.botonesv{
+  background-color: #ff0000;
+  border-radius: 8px;
+  width: auto;
+  height:auto;
+  border: none;
+  cursor: pointer;
+  padding-left: 3%;
+  padding-right: 3%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  color: white;
+  transition: width 2s,height 2s,transform 2s;
+}
+
+.botonesv:hover{
+  background-color: rgb(255, 255, 255);
+  transform:scale(1.4);
+  color: black;
+}
+
+.botonesj{
+  background-color: #00ff15;
+  border-radius: 8px;
+  width: auto;
+  height:auto;
+  border: none;
+  cursor: pointer;
+  padding-left: 3%;
+  padding-right: 3%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  color: white;
+  transition: width 2s,height 2s,transform 2s;
+}
+
+.botonesj:hover{
+  background-color: rgb(255, 255, 255);
+  transform:scale(1.4);
+  color: black;
 }
 
 .botonback{
@@ -723,9 +808,21 @@ bg-image{
   height: auto;
 }
 
+.logozonacentralcara{
+  width: 100%;
+  height: auto;
+  border-radius: 50%;
+}
+
 .logomodal{
   width: 30%;
   height: auto;
+}
+
+.logomodalcara{
+  width: 30%;
+  height: auto;
+  border-radius: 50%;
 }
 
 
@@ -944,6 +1041,7 @@ background-color: #025939;
   padding-top: 10%;
   padding-bottom: 0%;
 }
+
 
 .padcuadradito{
   padding-left: 0%;
@@ -6489,6 +6587,62 @@ textarea.form-control-lg {
   width: 100%;
   pointer-events: auto;
   background-color: #00265C;
+  background-clip: padding-box;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 1px;
+  border-color: gray;
+  outline: 0;
+}
+
+.modal-contentinstaladorvalk{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  pointer-events: auto;
+  background-color: #D9416A;
+  background-clip: padding-box;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 1px;
+  border-color: gray;
+  outline: 0;
+}
+
+.modal-contentinstaladorjoa{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  pointer-events: auto;
+  background-color: #F06A30;
+  background-clip: padding-box;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 1px;
+  border-color: gray;
+  outline: 0;
+}
+
+.modal-contentinstaladorspoo{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  pointer-events: auto;
+  background-color: black;
+  background-clip: padding-box;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 1px;
+  border-color: gray;
+  outline: 0;
+}
+
+.modal-contentinstaladorguilty{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  pointer-events: auto;
+  background-color: rgb(200, 0, 0);
   background-clip: padding-box;
   border: 1px solid rgba(0, 0, 0, 0.2);
   border-radius: 1px;

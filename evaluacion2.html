@@ -53,7 +53,7 @@
             
         </header>
 
-        <input type="button" class="botonback letrabotones izquierda" value="<" onClick="history.go(-1);">
+        <input type="button" class="botonback letrabotones izquierda" value="<" onclick="history.go(-1);">
         
         <!--BIENVENIDA CON COSO EN CENTRO-->
         <section>
@@ -63,7 +63,7 @@
             <!--Dialogo Ben-->
             <div class="row container-fluid izquierda" data-aos="fade-right" data-aos-delay="200">
                 <div class="col-2">
-                    <a><img class="nav2 imgnavbar reproductorbek1" src="assets/img/IA Buena/exited.png" onclick="reproducirsonidobek1()"></a><!--Imagen y sonido-->
+                    <a><img class="nav2 imgnavbar reproductorbek1" src="assets/img/IA Buena/exited.png" onmouseover="reproducirsonidobek1()"></a><!--Imagen y sonido-->
                 </div>
                 <div class="col-4 izquierda">
                     <h3 class="conver1">Ahora si que empiece… ¡LA EVALUACIÓN!.</h3><!--Texto-->
@@ -75,7 +75,7 @@
                     <h3 class="conver2">Prepárate, te vamos a presentar 3 procesos de instalación.</h3><!--Texto-->
                 </div>
                 <div class="col-2">
-                    <a><img class="nav2 imgnavbar reproductormek1" src="assets/img/IA Mala/normal.png" onclick="reproducirsonidomek1()"></a><!--Imagen y sonido-->
+                    <a><img class="nav2 imgnavbar reproductormek1" src="assets/img/IA Mala/normal.png" onmouseover="reproducirsonidomek1()"></a><!--Imagen y sonido-->
                 </div>
             </div>
             <!--Dialogo Matt-->
@@ -84,7 +84,7 @@
                     <h3 class="conver2">En cada proceso tendrás que elegir una de las dos imágenes que se presenten.</h3><!--Texto-->
                 </div>
                 <div class="col-2">
-                    <a><img class="nav2 imgnavbar reproductormek2" src="assets/img/IA Mala/normal.png" onclick="reproducirsonidomek2()"></a><!--Imagen y sonido-->
+                    <a><img class="nav2 imgnavbar reproductormek2" src="assets/img/IA Mala/normal.png" onmouseover="reproducirsonidomek2()"></a><!--Imagen y sonido-->
                 </div>
             </div>
             <!--Dialogo Matt-->
@@ -93,14 +93,14 @@
                     <h3 class="conver2">La idea es que identifiques cuales son los procesos que debes realizar para evitar ser víctima de los keyloggers.</h3><!--Texto-->
                 </div>
                 <div class="col-2">
-                    <a><img class="nav2 imgnavbar reproductormek3" src="assets/img/IA Mala/normal.png" onclick="reproducirsonidomek3()"></a><!--Imagen y sonido-->
+                    <a><img class="nav2 imgnavbar reproductormek3" src="assets/img/IA Mala/normal.png" onmouseover="reproducirsonidomek3()"></a><!--Imagen y sonido-->
                 </div>
             </div>
 
             <!--Dialogo Ben-->
             <div class="row container-fluid izquierda" data-aos="fade-right">
                 <div class="col-2">
-                    <a><img class="nav2 imgnavbar reproductorbek2" src="assets/img/IA Buena/sabio.png" onclick="reproducirsonidobek2()"></a><!--Imagen y sonido-->
+                    <a><img class="nav2 imgnavbar reproductorbek2" src="assets/img/IA Buena/sabio.png" onmouseover="reproducirsonidobek2()"></a><!--Imagen y sonido-->
                 </div>
                 <div class="col-4 izquierda">
                     <h3 class="conver1">Preparate amiguito, no nos defraudes.</h3><!--Texto-->
@@ -120,20 +120,32 @@
             </div>
 
             <!--Selecciones-->
-            <div class="row" style="align-items: center; padding-left: 15%;" data-aos="fade-left">
-                <div class="col-4 centrado">
-                    <input type="radio" id="phi1.11" name="phi11"> <label for="phi1.11"><p class="normal2"> OPCIÓN 1</p></label> <!--(correcta)-->
-                    <img class="imgevaluacion2" src="assets/img/spotify falso.png"><!--Imagen-->
-                    <div class="col-4" style="width: 5.5vw; height: 5.5vw;">
-                        <lottie-player src="https://assets9.lottiefiles.com/private_files/lf30_pf700c09.json" id="1bien" background="transparent"  speed="1.3"  style="display:none;" autoplay loop></lottie-player>
-                    </div>
-                </div>
+            <div class="row" style="align-items: center; padding-left: 25%;" data-aos="fade-left">
                 
-                <div class="col-4 centrado">
-                    <input type="radio" id="phi1.21" name="phi11"> <label for="phi1.21"><p class="normal2">OPCIÓN 2</p></label>
-                    <img class="imgevaluacion2" src="assets/img/spotify falso.png"><!--Imagen-->
-                    <div class="col-4" style="width: 5.5vw; height: 5.5vw;">
-                        <lottie-player src="https://assets9.lottiefiles.com/private_files/lf30_w0hvnn0l.json" id="1mal" background="transparent"  speed="1.4"  style="display:none;" autoplay loop></lottie-player>
+                <div class="row" style="align-items: center; padding-left: 15%;" data-aos="fade-left">
+
+                    <div class="col-4">
+                        <img class="imgevaluacion2" src="assets/img/spotify falso.png"><!--Imagen-->
+                        <div class="col-4 centrado" >
+                            <input type="radio" id="phi1.11" name="phi11"> <label for="phi1.11"><p class="normal2"> OPCIÓN 1</p></label> <!--(correcta)--> 
+                            <div class="col-4" style="padding-left: 35%;">
+                                <div class="col-4" style=" width: 5.5vw; height: 5.5vw;">
+                                    <lottie-player src="https://assets9.lottiefiles.com/private_files/lf30_pf700c09.json" id="1bien" background="transparent"  speed="1.3"  style="display:none;" autoplay loop></lottie-player>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-4">
+                        <img class="imgevaluacion2" src="assets/img/spotify falso.png"><!--Imagen-->
+                        <div class="col-4 centrado">
+                            <input type="radio" id="phi1.21" name="phi11"> <label for="phi1.21"><p class="normal2">OPCIÓN 2</p></label>
+                            <div class="col-4" style="padding-left: 35%;">
+                                <div class="col-4" style="align-items: center; padding-left: 15%; width: 5.5vw; height: 5.5vw;">
+                                    <lottie-player src="https://assets9.lottiefiles.com/private_files/lf30_w0hvnn0l.json" id="1mal" background="transparent"  speed="1.4"  style="display:none;" autoplay loop></lottie-player>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -240,19 +252,32 @@
             </div>
 
             <!--Selecciones-->
-            <div class="row" style="align-items: center; padding-left: 15%;" data-aos="fade-left">
-                <div class="col-4 centrado">
-                    <input type="radio" id="phi1.22" name="phi2"> <label for="phi1.22"><p class="normal2">OPCIÓN 1</p></label>
-                    <img class="imgevaluacion2" src="assets/img/spotify falso.png"><!--Imagen-->
-                    <div class="col-4" style="width: 5.5vw; height: 5.5vw;">
-                        <lottie-player src="https://assets9.lottiefiles.com/private_files/lf30_w0hvnn0l.json" id="2mal" background="transparent"  speed="1.4"  style="display:none;" autoplay loop></lottie-player>
+            <div class="row" style="align-items: center; padding-left: 25%;" data-aos="fade-left">
+                
+                <div class="row" style="align-items: center; padding-left: 15%;" data-aos="fade-left">
+
+                    <div class="col-4">
+                        <img class="imgevaluacion2" src="assets/img/spotify falso.png"><!--Imagen-->
+                        <div class="col-4 centrado" >
+                            <input type="radio" id="phi1.11" name="phi11"> <label for="phi1.11"><p class="normal2"> OPCIÓN 1</p></label> 
+                            <div class="col-4" style="padding-left: 35%;">
+                                <div class="col-4" style=" width: 5.5vw; height: 5.5vw;">
+                                    <lottie-player src="https://assets9.lottiefiles.com/private_files/lf30_w0hvnn0l.json" id="1bien" background="transparent"  speed="1.3"  style="display:none;" autoplay loop></lottie-player>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                </div>
-                <div class="col-4 centrado">
-                    <input type="radio" id="phi1.12" name="phi2"> <label for="phi1.12"><p class="normal2"> OPCIÓN 2</p></label> <!--(correcta)-->
-                    <img class="imgevaluacion2" src="assets/img/spotify falso.png"><!--Imagen-->
-                    <div class="col-4" style="width: 5.5vw; height: 5.5vw;">
-                        <lottie-player src="https://assets9.lottiefiles.com/private_files/lf30_pf700c09.json" id="2bien" background="transparent"  speed="1.3"  style="display:none;" autoplay loop></lottie-player>
+
+                    <div class="col-4">
+                        <img class="imgevaluacion2" src="assets/img/spotify falso.png"><!--Imagen-->
+                        <div class="col-4 centrado">
+                            <input type="radio" id="phi1.21" name="phi11"> <label for="phi1.21"><p class="normal2">OPCIÓN 2</p></label> <!--(correcta)--> 
+                            <div class="col-4" style="padding-left: 35%;">
+                                <div class="col-4" style="align-items: center; padding-left: 15%; width: 5.5vw; height: 5.5vw;">
+                                    <lottie-player src="https://assets9.lottiefiles.com/private_files/lf30_pf700c09.json" id="1mal" background="transparent"  speed="1.4"  style="display:none;" autoplay loop></lottie-player>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -271,19 +296,32 @@
             </div>
 
             <!--Selecciones-->
-            <div class="row" style="align-items: center; padding-left: 15%;" data-aos="fade-left">
-                <div class="col-4 centrado">
-                    <input type="radio" id="phi3.22" name="phi32"> <label for="phi3.22"><p class="normal2">OPCIÓN 1</p></label>
-                    <img class="imgevaluacion2" src="assets/img/spotify falso.png"><!--Imagen-->
-                    <div class="col-4" style="width: 5.5vw; height: 5.5vw;">
-                        <lottie-player src="https://assets9.lottiefiles.com/private_files/lf30_w0hvnn0l.json" id="32mal1" background="transparent"  speed="1.4"  style="display:none;" autoplay loop></lottie-player>
+            <div class="row" style="align-items: center; padding-left: 25%;" data-aos="fade-left">
+                
+                <div class="row" style="align-items: center; padding-left: 15%;" data-aos="fade-left">
+
+                    <div class="col-4">
+                        <img class="imgevaluacion2" src="assets/img/spotify falso.png"><!--Imagen-->
+                        <div class="col-4 centrado" >
+                            <input type="radio" id="phi1.11" name="phi11"> <label for="phi1.11"><p class="normal2"> OPCIÓN 1</p></label> 
+                            <div class="col-4" style="padding-left: 35%;">
+                                <div class="col-4" style=" width: 5.5vw; height: 5.5vw;">
+                                    <lottie-player src="https://assets9.lottiefiles.com/private_files/lf30_w0hvnn0l.json" id="1bien" background="transparent"  speed="1.3"  style="display:none;" autoplay loop></lottie-player>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                </div>
-                <div class="col-4 centrado">
-                    <input type="radio" id="phi3.12" name="phi32"> <label for="phi3.12"><p class="normal2"> OPCIÓN 2</p></label> <!--(correcta)-->
-                    <img class="imgevaluacion2" src="assets/img/spotify falso.png"><!--Imagen-->
-                    <div class="col-4" style="width: 5.5vw; height: 5.5vw;">
-                        <lottie-player src="https://assets9.lottiefiles.com/private_files/lf30_pf700c09.json" id="32bien" background="transparent"  speed="1.3"  style="display:none;" autoplay loop></lottie-player>
+
+                    <div class="col-4">
+                        <img class="imgevaluacion2" src="assets/img/spotify falso.png"><!--Imagen-->
+                        <div class="col-4 centrado">
+                            <input type="radio" id="phi1.21" name="phi11"> <label for="phi1.21"><p class="normal2">OPCIÓN 2</p></label> <!--(correcta)--> 
+                            <div class="col-4" style="padding-left: 35%;">
+                                <div class="col-4" style="align-items: center; padding-left: 15%; width: 5.5vw; height: 5.5vw;">
+                                    <lottie-player src="https://assets9.lottiefiles.com/private_files/lf30_pf700c09.json" id="1mal" background="transparent"  speed="1.4"  style="display:none;" autoplay loop></lottie-player>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -346,19 +384,32 @@
             </div>
 
             <!--Selecciones-->
-            <div class="row" style="align-items: center; padding-left: 15%;" data-aos="fade-left">
-                <div class="col-4 centrado">
-                    <input type="radio" id="phi1.23" name="phi3"> <label for="phi1.23"><p class="normal">OPCIÓN 1</p></label>
-                    <img class="imgevaluacion2" src="assets/img/spotify falso.png"><!--Imagen-->
-                    <div class="col-4" style="width: 5.5vw; height: 5.5vw;">
-                        <lottie-player src="https://assets9.lottiefiles.com/private_files/lf30_w0hvnn0l.json" id="3mal" background="transparent"  speed="1.4"  style="display:none;" autoplay loop></lottie-player>
+            <div class="row" style="align-items: center; padding-left: 25%;" data-aos="fade-left">
+                
+                <div class="row" style="align-items: center; padding-left: 15%;" data-aos="fade-left">
+
+                    <div class="col-4">
+                        <img class="imgevaluacion2" src="assets/img/spotify falso.png"><!--Imagen-->
+                        <div class="col-4 centrado" >
+                            <input type="radio" id="phi1.11" name="phi11"> <label for="phi1.11"><p class="normal2"> OPCIÓN 1</p></label> 
+                            <div class="col-4" style="padding-left: 35%;">
+                                <div class="col-4" style=" width: 5.5vw; height: 5.5vw;">
+                                    <lottie-player src="https://assets9.lottiefiles.com/private_files/lf30_w0hvnn0l.json" id="1bien" background="transparent"  speed="1.3"  style="display:none;" autoplay loop></lottie-player>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                </div>
-                <div class="col-4 centrado">
-                    <input type="radio" id="phi1.13" name="phi3"> <label for="phi1.13"><p class="normal"> OPCIÓN 2</p></label> <!--(correcta)-->
-                    <img class="imgevaluacion2" src="assets/img/spotify falso.png"><!--Imagen-->
-                    <div class="col-4" style="width: 5.5vw; height: 5.5vw;">
-                        <lottie-player src="https://assets9.lottiefiles.com/private_files/lf30_pf700c09.json" id="3bien" background="transparent"  speed="1.3"  style="display:none;" autoplay loop></lottie-player>
+
+                    <div class="col-4">
+                        <img class="imgevaluacion2" src="assets/img/spotify falso.png"><!--Imagen-->
+                        <div class="col-4 centrado">
+                            <input type="radio" id="phi1.21" name="phi11"> <label for="phi1.21"><p class="normal2">OPCIÓN 2</p></label> <!--(correcta)--> 
+                            <div class="col-4" style="padding-left: 35%;">
+                                <div class="col-4" style="align-items: center; padding-left: 15%; width: 5.5vw; height: 5.5vw;">
+                                    <lottie-player src="https://assets9.lottiefiles.com/private_files/lf30_pf700c09.json" id="1mal" background="transparent"  speed="1.4"  style="display:none;" autoplay loop></lottie-player>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -413,19 +464,32 @@
             </div>
 
             <!--Selecciones-->
-            <div class="row" style="align-items: center; padding-left: 15%;" data-aos="fade-left">
-                <div class="col-4 centrado">
-                    <input type="radio" id="phi3.13" name="phi33"> <label for="phi3.13"><p class="normal">OPCIÓN 1</p></label>
-                    <img class="imgevaluacion2" src="assets/img/spotify falso.png"><!--Imagen-->
-                    <div class="col-4" style="width: 5.5vw; height: 5.5vw;">
-                        <lottie-player src="https://assets9.lottiefiles.com/private_files/lf30_w0hvnn0l.json" id="33mal1" background="transparent"  speed="1.4"  style="display:none;" autoplay loop></lottie-player>
+            <div class="row" style="align-items: center; padding-left: 25%;" data-aos="fade-left">
+                
+                <div class="row" style="align-items: center; padding-left: 15%;" data-aos="fade-left">
+
+                    <div class="col-4">
+                        <img class="imgevaluacion2" src="assets/img/spotify falso.png"><!--Imagen-->
+                        <div class="col-4 centrado" >
+                            <input type="radio" id="phi1.11" name="phi11"> <label for="phi1.11"><p class="normal2"> OPCIÓN 1</p></label> <!--(correcta)--> 
+                            <div class="col-4" style="padding-left: 35%;">
+                                <div class="col-4" style=" width: 5.5vw; height: 5.5vw;">
+                                    <lottie-player src="https://assets9.lottiefiles.com/private_files/lf30_pf700c09.json" id="1bien" background="transparent"  speed="1.3"  style="display:none;" autoplay loop></lottie-player>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                </div>
-                <div class="col-4 centrado">
-                    <input type="radio" id="phi3.23" name="phi33"> <label for="phi3.23"><p class="normal"> OPCIÓN 2</p></label> <!--(correcta)-->
-                    <img class="imgevaluacion2" src="assets/img/spotify falso.png"><!--Imagen-->
-                    <div class="col-4" style="width: 5.5vw; height: 5.5vw;">
-                        <lottie-player src="https://assets9.lottiefiles.com/private_files/lf30_pf700c09.json" id="33bien" background="transparent"  speed="1.3"  style="display:none;" autoplay loop></lottie-player>
+
+                    <div class="col-4">
+                        <img class="imgevaluacion2" src="assets/img/spotify falso.png"><!--Imagen-->
+                        <div class="col-4 centrado">
+                            <input type="radio" id="phi1.21" name="phi11"> <label for="phi1.21"><p class="normal2">OPCIÓN 2</p></label>
+                            <div class="col-4" style="padding-left: 35%;">
+                                <div class="col-4" style="align-items: center; padding-left: 15%; width: 5.5vw; height: 5.5vw;">
+                                    <lottie-player src="https://assets9.lottiefiles.com/private_files/lf30_w0hvnn0l.json" id="1mal" background="transparent"  speed="1.4"  style="display:none;" autoplay loop></lottie-player>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -443,10 +507,10 @@
                     <a href="antivirus.html"><lottie-player src="https://assets10.lottiefiles.com/packages/lf20_iyqdtgxe.json" background="transparent"  speed="1"  style="width: 300px; height: 100px;" loop autoplay></lottie-player></a>  
                 </div>
             </div>
-            <audio src="assets/sounds/Musica 2.mp3"autoplay loop id="myaudio"></audio>
+            <audio src="assets/sounds/Musica5.mp3"autoplay loop id="myaudio"></audio>
             <script>
                 var audio = document.getElementById("myaudio");
-                audio.volume = 0.01;
+                audio.volume = 0.02;
             </script> 
         </section>
         <!--Footer-->
