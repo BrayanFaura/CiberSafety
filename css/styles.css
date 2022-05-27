@@ -852,8 +852,19 @@ bg-image{
   border-width: 100px;
   border-style: solid;
   border: black;
-  border-radius: 50px;
-  width: 50%;
+  border-radius: 25px;
+  width: 70%;
+  height: auto;
+
+}
+
+.imgevaluacion3{
+  background-color: black;
+  border-width: 100px;
+  border-style: solid;
+  border: black;
+  border-radius: 10px;
+  width: 180%;
   height: auto;
 
 }
