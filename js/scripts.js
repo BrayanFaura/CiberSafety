@@ -2977,5 +2977,40 @@ function reproducirsonidoeeluis(){
         etiquetaAudio.currentTime = 0;
         etiquetaAudio.src = "";
     })
+
+    
 }
 
+function reproducirsonidoeenicolas(){
+    let imagen = document.querySelector(".reproductoreenicolas")
+    let etiquetaAudio = document.createElement("audio");
+    etiquetaAudio.setAttribute("src", "assets/sounds/nicolasee1.mp3");
+    etiquetaAudio.volume = 1;
+    imagen.addEventListener("mouseenter", () => {
+    etiquetaAudio.play();
+    })
+    imagen.addEventListener("mouseleave", () => {
+        etiquetaAudio.pause();
+        etiquetaAudio.currentTime = 0;
+        etiquetaAudio.src = "";
+    })
+
+    
+}
+
+function reproducirsonidoeenicolas2(){
+    let imagen = document.querySelector(".reproductoreenicolas2")
+    let etiquetaAudio = document.createElement("audio");
+    etiquetaAudio.setAttribute("src", "assets/sounds/nicolasee2.mp3");
+    etiquetaAudio.volume = 1;
+    imagen.addEventListener("mouseenter", () => {
+    etiquetaAudio.play();
+    })
+    imagen.addEventListener("mouseleave", () => {
+        etiquetaAudio.pause();
+        etiquetaAudio.currentTime = 0;
+        etiquetaAudio.src = "";
+    })
+
+    
+}
