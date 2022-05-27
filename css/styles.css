@@ -250,6 +250,26 @@ header {
 }
 
 .botones:hover{
+  bbackground-color: rgb(10, 159, 179);
+  transform:scale(1.4);
+}
+
+.botonesee{
+  background-color: #1F7AF0;
+  border-radius: 8px;
+  width: auto;
+  height:auto;
+  border: none;
+  cursor: pointer;
+  padding-left: 3%;
+  padding-right: 3%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  color: white;
+  transition: width 2s,height 2s,transform 2s;
+}
+
+.botonesee:hover{
   background-color: rgb(10, 159, 179);
   transform:scale(1.4);
 }
@@ -276,7 +296,7 @@ header {
 }
 
 .botonesv{
-  background-color: #ff0000;
+  background-color: #EA4D5D;
   border-radius: 8px;
   width: auto;
   height:auto;
@@ -291,7 +311,7 @@ header {
 }
 
 .botonesv:hover{
-  background-color: rgb(255, 255, 255);
+  background-color: #967CEA;
   transform:scale(1.4);
   color: black;
 }
@@ -702,6 +722,10 @@ header {
   color: rgb(255, 255, 255);
   font-size:1vw;
   font-family: 'Quicksand', sans-serif;
+}
+
+.titulo6{
+  color: #50bef1;
 }
 
 .letraexplorador{
@@ -6605,13 +6629,27 @@ textarea.form-control-lg {
   outline: 0;
 }
 
+.modal-contentinstaladoree{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  pointer-events: auto;
+  background-color: #002770;
+  background-clip: padding-box;
+  border-radius: 1px;
+  border-style: solid;
+  border-color: #1F7AF0;
+  outline: 0;
+}
+
 .modal-contentinstaladorvalk{
   position: relative;
   display: flex;
   flex-direction: column;
   width: 100%;
   pointer-events: auto;
-  background-color: #D9416A;
+  background-color: #00326B;
   background-clip: padding-box;
   border: 1px solid rgba(0, 0, 0, 0.2);
   border-radius: 1px;
