@@ -2935,7 +2935,7 @@ function reproducirsonidobymf2(){
     })
 }
 
-//SONIDOS EASTER EGGS
+//SONIDOS EE
 
 function reproducirsonidoee1(){
     let imagen = document.querySelector(".reproductoree1")
@@ -3002,6 +3002,40 @@ function reproducirsonidoeenicolas2(){
     let imagen = document.querySelector(".reproductoreenicolas2")
     let etiquetaAudio = document.createElement("audio");
     etiquetaAudio.setAttribute("src", "assets/sounds/nicolasee2.mp3");
+    etiquetaAudio.volume = 1;
+    imagen.addEventListener("mouseenter", () => {
+    etiquetaAudio.play();
+    })
+    imagen.addEventListener("mouseleave", () => {
+        etiquetaAudio.pause();
+        etiquetaAudio.currentTime = 0;
+        etiquetaAudio.src = "";
+    })
+
+    
+}
+
+function reproducirsonidoeeguilty1(){
+    let imagen = document.querySelector(".reproductoreeguilty1")
+    let etiquetaAudio = document.createElement("audio");
+    etiquetaAudio.setAttribute("src", "assets/sounds/eeguilty1.mp3");
+    etiquetaAudio.volume = 1;
+    imagen.addEventListener("mouseenter", () => {
+    etiquetaAudio.play();
+    })
+    imagen.addEventListener("mouseleave", () => {
+        etiquetaAudio.pause();
+        etiquetaAudio.currentTime = 0;
+        etiquetaAudio.src = "";
+    })
+
+    
+}
+
+function reproducirsonidoeeguilty2(){
+    let imagen = document.querySelector(".reproductoreeguilty2")
+    let etiquetaAudio = document.createElement("audio");
+    etiquetaAudio.setAttribute("src", "assets/sounds/eeguilty.mp3");
     etiquetaAudio.volume = 1;
     imagen.addEventListener("mouseenter", () => {
     etiquetaAudio.play();
