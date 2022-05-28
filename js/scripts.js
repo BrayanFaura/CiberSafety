@@ -2939,6 +2939,21 @@ function reproducirsonidobymf2(){
 
 //SONIDOS VIRUS
 
+function reproducirsonidovj(){
+    let imagen = document.querySelector(".reproductorvj")
+    let etiquetaAudio = document.createElement("audio");
+    etiquetaAudio.setAttribute("src", "assets/sounds/VIRUS/Virusrisa.mp3");
+    etiquetaAudio.volume = 0.6;
+    imagen.addEventListener("mouseenter", () => {
+    etiquetaAudio.play();
+    })
+    imagen.addEventListener("mouseleave", () => {
+        etiquetaAudio.pause();
+        etiquetaAudio.currentTime = 0;
+        etiquetaAudio.src = "";
+    })
+}
+
 function reproducirsonidov1(){
     let imagen = document.querySelector(".reproductorv1")
     let etiquetaAudio = document.createElement("audio");
