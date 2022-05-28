@@ -2934,3 +2934,83 @@ function reproducirsonidobymf2(){
         etiquetaAudio.src = "";
     })
 }
+
+//SONIDOS EASTER EGGS
+
+function reproducirsonidoee1(){
+    let imagen = document.querySelector(".reproductoree1")
+    let etiquetaAudio = document.createElement("audio");
+    etiquetaAudio.setAttribute("src", "assets/sounds/IABEN/Benee.mp3");
+    imagen.addEventListener("mouseenter", () => {
+    etiquetaAudio.play();
+    })
+    imagen.addEventListener("mouseleave", () => {
+        etiquetaAudio.pause();
+        etiquetaAudio.currentTime = 0;
+    })
+}
+function reproducirsonidoee2(){
+    let imagen = document.querySelector(".reproductoree2")
+    let etiquetaAudio = document.createElement("audio");
+    etiquetaAudio.setAttribute("src", "assets/sounds/IAMATT/Mattee.mp3");
+    etiquetaAudio.volume = 1;
+    imagen.addEventListener("mouseenter", () => {
+    etiquetaAudio.play();
+    })
+    imagen.addEventListener("mouseleave", () => {
+        etiquetaAudio.pause();
+        etiquetaAudio.currentTime = 0;
+        etiquetaAudio.src = "";
+    })
+}
+
+function reproducirsonidoeeluis(){
+    let imagen = document.querySelector(".reproductoreeluis")
+    let etiquetaAudio = document.createElement("audio");
+    etiquetaAudio.setAttribute("src", "assets/sounds/luisee.mp3");
+    etiquetaAudio.volume = 1;
+    imagen.addEventListener("mouseenter", () => {
+    etiquetaAudio.play();
+    })
+    imagen.addEventListener("mouseleave", () => {
+        etiquetaAudio.pause();
+        etiquetaAudio.currentTime = 0;
+        etiquetaAudio.src = "";
+    })
+
+    
+}
+
+function reproducirsonidoeenicolas(){
+    let imagen = document.querySelector(".reproductoreenicolas")
+    let etiquetaAudio = document.createElement("audio");
+    etiquetaAudio.setAttribute("src", "assets/sounds/nicolasee1.mp3");
+    etiquetaAudio.volume = 1;
+    imagen.addEventListener("mouseenter", () => {
+    etiquetaAudio.play();
+    })
+    imagen.addEventListener("mouseleave", () => {
+        etiquetaAudio.pause();
+        etiquetaAudio.currentTime = 0;
+        etiquetaAudio.src = "";
+    })
+
+    
+}
+
+function reproducirsonidoeenicolas2(){
+    let imagen = document.querySelector(".reproductoreenicolas2")
+    let etiquetaAudio = document.createElement("audio");
+    etiquetaAudio.setAttribute("src", "assets/sounds/nicolasee2.mp3");
+    etiquetaAudio.volume = 1;
+    imagen.addEventListener("mouseenter", () => {
+    etiquetaAudio.play();
+    })
+    imagen.addEventListener("mouseleave", () => {
+        etiquetaAudio.pause();
+        etiquetaAudio.currentTime = 0;
+        etiquetaAudio.src = "";
+    })
+
+    
+}
