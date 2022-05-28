@@ -194,6 +194,8 @@ function showHide33(){
     oImageDiv.style.display =(oImageDiv.style.display=='none')?'inline':'none'
     oImageDiv=document.getElementById('33mal1')
     oImageDiv.style.display =(oImageDiv.style.display=='none')?'inline':'none'
+    oImageDiv=document.getElementById('eleventhLottie3')
+    oImageDiv.style.display =(oImageDiv.style.display=='none')?'inline':'none'
     oImageDiv=document.getElementById('33mal2')
     oImageDiv.style.display =(oImageDiv.style.display=='none')?'inline':'none'
     }
@@ -2933,4 +2935,194 @@ function reproducirsonidobymf2(){
         etiquetaAudio.currentTime = 0;
         etiquetaAudio.src = "";
     })
+}
+
+//SONIDOS VIRUS
+
+function reproducirsonidovj(){
+    let imagen = document.querySelector(".reproductorvj")
+    let etiquetaAudio = document.createElement("audio");
+    etiquetaAudio.setAttribute("src", "assets/sounds/VIRUS/Virusrisa.mp3");
+    etiquetaAudio.volume = 0.6;
+    imagen.addEventListener("mouseenter", () => {
+    etiquetaAudio.play();
+    })
+    imagen.addEventListener("mouseleave", () => {
+        etiquetaAudio.pause();
+        etiquetaAudio.currentTime = 0;
+        etiquetaAudio.src = "";
+    })
+}
+
+function reproducirsonidov1(){
+    let imagen = document.querySelector(".reproductorv1")
+    let etiquetaAudio = document.createElement("audio");
+    etiquetaAudio.setAttribute("src", "assets/sounds/VIRUS/Virus1.mp3");
+    etiquetaAudio.volume = 0.6;
+    imagen.addEventListener("mouseenter", () => {
+    etiquetaAudio.play();
+    })
+    imagen.addEventListener("mouseleave", () => {
+        etiquetaAudio.pause();
+        etiquetaAudio.currentTime = 0;
+        etiquetaAudio.src = "";
+    })
+}
+
+function reproducirsonidov2(){
+    let imagen = document.querySelector(".reproductorv2")
+    let etiquetaAudio = document.createElement("audio");
+    etiquetaAudio.setAttribute("src", "assets/sounds/VIRUS/Virus2.mp3");
+    etiquetaAudio.volume = 0.6;
+    imagen.addEventListener("mouseenter", () => {
+    etiquetaAudio.play();
+    })
+    imagen.addEventListener("mouseleave", () => {
+        etiquetaAudio.pause();
+        etiquetaAudio.currentTime = 0;
+        etiquetaAudio.src = "";
+    })
+}
+
+function reproducirsonidov3(){
+    let imagen = document.querySelector(".reproductorv3")
+    let etiquetaAudio = document.createElement("audio");
+    etiquetaAudio.setAttribute("src", "assets/sounds/VIRUS/Virus3.mp3");
+    etiquetaAudio.volume = 0.6;
+    imagen.addEventListener("mouseenter", () => {
+    etiquetaAudio.play();
+    })
+    imagen.addEventListener("mouseleave", () => {
+        etiquetaAudio.pause();
+        etiquetaAudio.currentTime = 0;
+        etiquetaAudio.src = "";
+    })
+}
+
+
+//SONIDOS EE
+
+function reproducirsonidoee1(){
+    let imagen = document.querySelector(".reproductoree1")
+    let etiquetaAudio = document.createElement("audio");
+    etiquetaAudio.setAttribute("src", "assets/sounds/IABEN/Benee.mp3");
+    imagen.addEventListener("mouseenter", () => {
+    etiquetaAudio.play();
+    })
+    imagen.addEventListener("mouseleave", () => {
+        etiquetaAudio.pause();
+        etiquetaAudio.currentTime = 0;
+    })
+}
+function reproducirsonidoee2(){
+    let imagen = document.querySelector(".reproductoree2")
+    let etiquetaAudio = document.createElement("audio");
+    etiquetaAudio.setAttribute("src", "assets/sounds/IAMATT/Mattee.mp3");
+    etiquetaAudio.volume = 1;
+    imagen.addEventListener("mouseenter", () => {
+    etiquetaAudio.play();
+    })
+    imagen.addEventListener("mouseleave", () => {
+        etiquetaAudio.pause();
+        etiquetaAudio.currentTime = 0;
+        etiquetaAudio.src = "";
+    })
+}
+
+function reproducirsonidoeeluis(){
+    let imagen = document.querySelector(".reproductoreeluis")
+    let etiquetaAudio = document.createElement("audio");
+    etiquetaAudio.setAttribute("src", "assets/sounds/luisee.mp3");
+    etiquetaAudio.volume = 1;
+    imagen.addEventListener("mouseenter", () => {
+    etiquetaAudio.play();
+    })
+    imagen.addEventListener("mouseleave", () => {
+        etiquetaAudio.pause();
+        etiquetaAudio.currentTime = 0;
+        etiquetaAudio.src = "";
+    }) 
+}
+
+function reproducirsonidoeeluis1(){
+    let imagen = document.querySelector(".reproductoreeluis1")
+    let etiquetaAudio = document.createElement("audio");
+    etiquetaAudio.setAttribute("src", "assets/sounds/luisee1.mp3");
+    etiquetaAudio.volume = 1;
+    imagen.addEventListener("mouseenter", () => {
+    etiquetaAudio.play();
+    })
+    imagen.addEventListener("mouseleave", () => {
+        etiquetaAudio.pause();
+        etiquetaAudio.currentTime = 0;
+        etiquetaAudio.src = "";
+    }) 
+}
+
+function reproducirsonidoeenicolas(){
+    let imagen = document.querySelector(".reproductoreenicolas")
+    let etiquetaAudio = document.createElement("audio");
+    etiquetaAudio.setAttribute("src", "assets/sounds/nicolasee1.mp3");
+    etiquetaAudio.volume = 1;
+    imagen.addEventListener("mouseenter", () => {
+    etiquetaAudio.play();
+    })
+    imagen.addEventListener("mouseleave", () => {
+        etiquetaAudio.pause();
+        etiquetaAudio.currentTime = 0;
+        etiquetaAudio.src = "";
+    })
+
+    
+}
+
+function reproducirsonidoeenicolas2(){
+    let imagen = document.querySelector(".reproductoreenicolas2")
+    let etiquetaAudio = document.createElement("audio");
+    etiquetaAudio.setAttribute("src", "assets/sounds/nicolasee2.mp3");
+    etiquetaAudio.volume = 1;
+    imagen.addEventListener("mouseenter", () => {
+    etiquetaAudio.play();
+    })
+    imagen.addEventListener("mouseleave", () => {
+        etiquetaAudio.pause();
+        etiquetaAudio.currentTime = 0;
+        etiquetaAudio.src = "";
+    })
+
+    
+}
+
+function reproducirsonidoeeguilty1(){
+    let imagen = document.querySelector(".reproductoreeguilty1")
+    let etiquetaAudio = document.createElement("audio");
+    etiquetaAudio.setAttribute("src", "assets/sounds/eeguilty1.mp3");
+    etiquetaAudio.volume = 1;
+    imagen.addEventListener("mouseenter", () => {
+    etiquetaAudio.play();
+    })
+    imagen.addEventListener("mouseleave", () => {
+        etiquetaAudio.pause();
+        etiquetaAudio.currentTime = 0;
+        etiquetaAudio.src = "";
+    })
+
+    
+}
+
+function reproducirsonidoeeguilty2(){
+    let imagen = document.querySelector(".reproductoreeguilty2")
+    let etiquetaAudio = document.createElement("audio");
+    etiquetaAudio.setAttribute("src", "assets/sounds/eeguilty.mp3");
+    etiquetaAudio.volume = 1;
+    imagen.addEventListener("mouseenter", () => {
+    etiquetaAudio.play();
+    })
+    imagen.addEventListener("mouseleave", () => {
+        etiquetaAudio.pause();
+        etiquetaAudio.currentTime = 0;
+        etiquetaAudio.src = "";
+    })
+
+    
 }
