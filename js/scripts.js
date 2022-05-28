@@ -2935,6 +2935,54 @@ function reproducirsonidobymf2(){
     })
 }
 
+//SONIDOS VIRUS
+
+function reproducirsonidov1(){
+    let imagen = document.querySelector(".reproductorv1")
+    let etiquetaAudio = document.createElement("audio");
+    etiquetaAudio.setAttribute("src", "assets/sounds/VIRUS/Virus1.mp3");
+    etiquetaAudio.volume = 0.6;
+    imagen.addEventListener("mouseenter", () => {
+    etiquetaAudio.play();
+    })
+    imagen.addEventListener("mouseleave", () => {
+        etiquetaAudio.pause();
+        etiquetaAudio.currentTime = 0;
+        etiquetaAudio.src = "";
+    })
+}
+
+function reproducirsonidov2(){
+    let imagen = document.querySelector(".reproductorv2")
+    let etiquetaAudio = document.createElement("audio");
+    etiquetaAudio.setAttribute("src", "assets/sounds/VIRUS/Virus2.mp3");
+    etiquetaAudio.volume = 0.6;
+    imagen.addEventListener("mouseenter", () => {
+    etiquetaAudio.play();
+    })
+    imagen.addEventListener("mouseleave", () => {
+        etiquetaAudio.pause();
+        etiquetaAudio.currentTime = 0;
+        etiquetaAudio.src = "";
+    })
+}
+
+function reproducirsonidov3(){
+    let imagen = document.querySelector(".reproductorv3")
+    let etiquetaAudio = document.createElement("audio");
+    etiquetaAudio.setAttribute("src", "assets/sounds/VIRUS/Virus3.mp3");
+    etiquetaAudio.volume = 0.6;
+    imagen.addEventListener("mouseenter", () => {
+    etiquetaAudio.play();
+    })
+    imagen.addEventListener("mouseleave", () => {
+        etiquetaAudio.pause();
+        etiquetaAudio.currentTime = 0;
+        etiquetaAudio.src = "";
+    })
+}
+
+
 //SONIDOS EE
 
 function reproducirsonidoee1(){
