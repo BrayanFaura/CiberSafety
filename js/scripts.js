@@ -3026,9 +3026,22 @@ function reproducirsonidoeeluis(){
         etiquetaAudio.pause();
         etiquetaAudio.currentTime = 0;
         etiquetaAudio.src = "";
-    })
+    }) 
+}
 
-    
+function reproducirsonidoeeluis1(){
+    let imagen = document.querySelector(".reproductoreeluis1")
+    let etiquetaAudio = document.createElement("audio");
+    etiquetaAudio.setAttribute("src", "assets/sounds/luisee1.mp3");
+    etiquetaAudio.volume = 1;
+    imagen.addEventListener("mouseenter", () => {
+    etiquetaAudio.play();
+    })
+    imagen.addEventListener("mouseleave", () => {
+        etiquetaAudio.pause();
+        etiquetaAudio.currentTime = 0;
+        etiquetaAudio.src = "";
+    }) 
 }
 
 function reproducirsonidoeenicolas(){
