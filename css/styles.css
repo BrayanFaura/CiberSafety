@@ -919,6 +919,28 @@ bg-image{
   height: auto;
 }
 
+.imgevaluacion5{
+  background-color: black;
+  border-width: 100px;
+  border-style: solid;
+  border: black;
+  border-radius: 25px;
+  width: 80%;
+  height: auto;
+
+}
+
+.imgevaluacion6{
+  background-color: black;
+  border-width: 100px;
+  border-style: solid;
+  border: black;
+  border-radius: 25px;
+  width: 90%;
+  height: auto;
+
+}
+
 .textoimg{
   text-decoration: none;
   color: white;
