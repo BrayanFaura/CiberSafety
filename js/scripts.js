@@ -3126,3 +3126,20 @@ function reproducirsonidoeeguilty2(){
 
     
 }
+
+function reproducirvagabundo(){
+    let imagen = document.querySelector(".reproductorvagabundo")
+    let etiquetaAudio = document.createElement("audio");
+    etiquetaAudio.setAttribute("src", "assets/sounds/fajardoee1.mp3");
+    etiquetaAudio.volume = 1;
+    imagen.addEventListener("mouseenter", () => {
+    etiquetaAudio.play();
+    })
+    imagen.addEventListener("mouseleave", () => {
+        etiquetaAudio.pause();
+        etiquetaAudio.currentTime = 0;
+        etiquetaAudio.src = "";
+    })
+
+    
+}
